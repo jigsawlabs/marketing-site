@@ -1,0 +1,88 @@
+
+.button_blue {
+	text-align: center;
+	text-transform: uppercase;
+	padding: 10px 30px;
+	text-decoration: none;
+	border-radius: 5px;
+	position: relative;
+	display: inline-block;
+
+ 	/* Colors */
+ 	background:transparent;
+ 	border:1px solid #5189B4;
+ 	color: #5189B4;
+
+	-o-transition: all .3s ease-out;
+	-ms-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-webkit-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+}
+	.button_blue:hover {
+		color: #fcfcfc;
+    text-decoration: none;
+		background: #5189B4;
+		-o-transition: all .3s ease-out;
+		-ms-transition: all .3s ease-out;
+		-moz-transition: all .3s ease-out;
+		-webkit-transition: all .3s ease-out;
+		transition: all .3s ease-out;
+
+		-webkit-transform: scale(1.05, 1.05);
+		-moz-transform: scale(1.05, 1.05);
+		-ms-transform: scale(1.05, 1.05);
+		-o-transform: scale(1.05, 1.05);
+		transform: scale(1.05, 1.05);
+	}
+	.button_blue:active, .button_blue:focus {
+		-webkit-transform: scale(1.1, 1.1);
+		-moz-transform: scale(1.1, 1.1);
+		-ms-transform: scale(1.1, 1.1);
+		-o-transform: scale(1.1, 1.1);
+		transform: scale(1.1, 1.1);
+	}
+
+.button_blue_solid {
+	text-align: center;
+	text-transform: uppercase;
+	padding: 10px 30px;
+	text-decoration: none;
+	border-radius: 5px;
+	position: relative;
+	display: inline-block;
+
+ 	/* Colors */
+ 	background: #5189B4;
+ 	border:1px solid #5189B4;
+ 	color: #fcfcfc;
+
+	-o-transition: all .3s ease-out;
+	-ms-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-webkit-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+}
+	.button_blue_solid:hover {
+		color: #fcfcfc;
+		background: #5189b4;
+		-o-transition: all .3s ease-out;
+		-ms-transition: all .3s ease-out;
+		-moz-transition: all .3s ease-out;
+		-webkit-transition: all .3s ease-out;
+		transition: all .3s ease-out;
+
+		-webkit-transform: scale(1.05, 1.05);
+		-moz-transform: scale(1.05, 1.05);
+		-ms-transform: scale(1.05, 1.05);
+		-o-transform: scale(1.05, 1.05);
+		transform: scale(1.05, 1.05);
+	}
+	.button_blue_solid:active, .button_blue_solid:focus {
+		-webkit-transform: scale(1.1, 1.1);
+		-moz-transform: scale(1.1, 1.1);
+		-ms-transform: scale(1.1, 1.1);
+		-o-transform: scale(1.1, 1.1);
+		transform: scale(1.1, 1.1);
+	}
+
