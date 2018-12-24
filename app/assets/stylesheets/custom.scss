@@ -1,6 +1,11 @@
   body, html {
     height: 100%;
   }
+
+  body {
+    font-family: Roboto,Helvetica Neue,Helvetica,Arial,Sans-Serif;
+  }
+
 .bg {
   /* The image used */
   background-image: url("bg-class.jpg");
@@ -14,6 +19,10 @@
   background-size: cover;
 }
 
+.font-small {
+  font-size: 12px;
+}
+
 .letter-spaced {
   letter-spacing: 2px;
 }
@@ -24,6 +33,10 @@
       background-image:none;
       box-shadow:none;
  }
+
+.no-text-decoration {
+  text-decoration: none;
+}
 
 
 
