@@ -1,35 +1,5 @@
 <div class="jumbotron jumbotron-fluid bg h-50 p-0">
-  <nav class="navbar navbar-expand-lg navbar-dark transparent-background bg-light">
-    <a class="navbar-brand px-3" href="#">JIGSAW</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+  <%= render 'navbar' %>
   <div class="container h-50 letter-spaced p-4 text-light">
       <h1 class="display-4 text-center justify-content-center row">Knock it out</h1>
       <p class="lead text-center font-italic font-weight-bold row p-4 justify-content-center">  Construct your next chapter.</p>
@@ -39,36 +9,10 @@
       </div>
     </div>
   </div>
-  <div id="footer_temp_wrapper" class="font-small">
-    <div id="footer_temp" style="text-align: center; position: fixed; bottom: 0; width: 100%;">
-      <span class="footer_element footer_element_temporary px-2" style="color: #a7a7a7">
-        JIGSAW Labs © 2018
-      </span>
-      <a href="about_us" class="footer_element footer_element_temporary no-text-decoration" onclick="ga('send', 'event', 'href', 'About Us', 'About Us footer link on homepage');">
-        About Us
-      </a>
-      <a href="faq" class="footer_element footer_element_temporary no-text-decoration" onclick="ga('send', 'event', 'href', 'FAQ', 'FAQ footer link on homepage');">
-        FAQ
-      </a>
+</div>
+<div id="experience" class="container">
+  <div class="row">
 
-      <!-- Add Twitter and Facebook Pages -->
-    </div>
   </div>
 </div>
-<div class="row">
-  <div class="col-4">
-    <div class="list-group" id="list-tab" role="tablist">
-      <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
-      <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
-      <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
-      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
-    </div>
-  </div>
-  <div class="col-8">
-    <div class="tab-content" id="nav-tabContent">
-      <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">...</div>
-      <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">...</div>
-      <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...</div>
-      <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
-    </div>
-  </div>
+<%= render 'footer' %>

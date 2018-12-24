@@ -1,35 +1,5 @@
 <div class="bg">
-  <nav class="navbar navbar-expand-lg navbar-dark transparent-background bg-light">
-    <a class="navbar-brand px-3" href="#">JIGSAW</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+  <%= render 'navbar' %>
   <div class="container h-100 letter-spaced">
     <div class="row h-50 justify-content-center">
       <div class="jumbotron px-10 text-white transparent-background">
@@ -43,18 +13,4 @@
       </div>
     </div>
   </div>
-  <div id="footer_temp_wrapper" class="font-small">
-    <div id="footer_temp" style="text-align: center; position: fixed; bottom: 0; width: 100%;">
-      <span class="footer_element footer_element_temporary px-2" style="color: #a7a7a7">
-        JIGSAW Labs © 2018
-      </span>
-      <a href="about_us" class="footer_element footer_element_temporary no-text-decoration" onclick="ga('send', 'event', 'href', 'About Us', 'About Us footer link on homepage');">
-        About Us
-      </a>
-      <a href="faq" class="footer_element footer_element_temporary no-text-decoration" onclick="ga('send', 'event', 'href', 'FAQ', 'FAQ footer link on homepage');">
-        FAQ
-      </a>
-
-      <!-- Add Twitter and Facebook Pages -->
-    </div>
-  </div>
+  <%= render 'footer' %>
