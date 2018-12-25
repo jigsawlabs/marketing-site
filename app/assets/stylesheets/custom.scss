@@ -38,5 +38,43 @@
   text-decoration: none;
 }
 
+#syllabus .list-group {
+  flex-direction: row;
+}
+
+#syllabus .list-group-item {
+  border: none;
+}
+
+
+#syllabus a {
+  text-decoration: none;
+}
+
+
+#syllabus .list-group-item.active {
+  background-color: transparent;
+  color: #5189B4;
+}
+
+#syllabus .list-group-item:hover {
+  background-color: transparent;
+  color: #00b3e6;
+}
+
+a[data-toggle="collapse"] {
+  @extend .text-muted;
+}
+
+
+.progress-bar.active {
+  background-color: #007bff;
+}
+
+
+.progress-bar.first {
+  background-color: #e9ecef;
+}
+
 
 

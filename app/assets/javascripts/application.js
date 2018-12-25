@@ -16,5 +16,6 @@
 //= require jquery3
 //= require popper
 //= require bootstrap-sprockets
+//= require custom
 // can change bootstrap-sprockets to bootstrap for faster compilation
 //= require_tree .
