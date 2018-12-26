@@ -16,6 +16,7 @@
 //= require jquery3
 //= require popper
 //= require bootstrap-sprockets
+//= require now-ui-kit
 //= require custom
 // can change bootstrap-sprockets to bootstrap for faster compilation
 //= require_tree .
