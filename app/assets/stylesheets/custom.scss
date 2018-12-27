@@ -19,6 +19,30 @@
   background-size: cover;
 }
 
+.neg-margin {
+  margin-top: -55px;
+}
+
+.bg-shrunk {
+  /* The image used */
+  background-image: url("bg-class.jpg");
+
+  /* Full height */
+  height: 450px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-light-blue {
+  background-color: #0080d9;
+}
+
+.bg-light-blue:hover {
+  background-color: #0090d9;
+}
 .font-small {
   font-size: 12px;
 }
