@@ -6,6 +6,33 @@
     font-family: Roboto,Helvetica Neue,Helvetica,Arial,Sans-Serif;
   }
 
+  h1 {
+    font-size: 3.4vw;
+  }
+
+  .lead {
+    font-size: 2.3 vw;
+  }
+
+.font-medium {
+    font-size: calc(6px + .8vw);
+
+  }
+
+.font-large {
+  font-size: 2.3vw;
+}
+
+.font-small {
+  font-size: .85vw;
+}
+
+.letter-spaced {
+  letter-spacing: 2px;
+}
+
+
+
 .bg {
   /* The image used */
   background-image: url("bg-class.jpg");
@@ -36,13 +63,6 @@
   background-size: cover;
 }
 
-.font-medium {
-  font-size: 16px;
-}
-
-.font-large {
-  font-size: 35px;
-}
 
 .bg-light-blue {
   background-color: #0080d9;
@@ -51,13 +71,7 @@
 .bg-light-blue:hover {
   background-color: #0090d9;
 }
-.font-small {
-  font-size: 12px;
-}
 
-.letter-spaced {
-  letter-spacing: 2px;
-}
 
  .transparent-background {
       background-color:transparent !important;
