@@ -32,10 +32,26 @@
   letter-spacing: 2px;
 }
 
+.footer-bottom {
+   z-index:99;
+   position:relative;
+   left:0;
+   right:0;
+   bottom:0;
+}
+
+
 @media screen and (min-width: 575px){
   .extra-large {
     width: 135%;
   }
+
+  .position-bottom {
+    position: absolute;
+    bottom: 15%;
+    width: 100%;
+  }
+
 }
 
 .fp-tableCell {
