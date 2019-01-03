@@ -12,13 +12,11 @@
 
   <body>
     <%= yield %>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init();
       new fullpage('#fullpage', {
         //options here
         autoScrolling:true,
-        scrollHorizontally: true,
+        licenseKey: '38A933F0-C03C4181-B3D1F094-321CA1B4',
         anchors:['lead-photo', 'experience', 'curriculum', 'admissions']
       });
     </script>
