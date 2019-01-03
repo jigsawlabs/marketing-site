@@ -60,7 +60,7 @@
 
 .bg {
   /* The image used */
-  background-image: url("bg-class.jpg");
+  background-image: image-url("bg-class.jpg");
 
   /* Full height */
   height: 100%;
@@ -81,7 +81,7 @@
 
 .bg-shrunk {
   /* The image used */
-  background-image: url("class4(1440).jpg");
+  background-image: image-url("class4(1440).jpg");
 
   /* Full height */
   height: 620px;
