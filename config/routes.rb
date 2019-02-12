@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   root to: 'pages#index'
+  resources :events
   get 'about', to: 'pages#about'
   get 'practice', to: 'pages#practice'
 

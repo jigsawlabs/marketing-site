@@ -1,0 +1,56 @@
+<style>
+.event-date-block {
+  padding-left: 0;
+  padding-right: 0;
+  border: 3px solid #FE685C;
+  float: none;
+  width: 70%;
+}
+
+.bkgd-primary {
+  background-color: #FE685C;
+  color: #fff;
+}
+
+.event-date-block div.event-month, .event-date-block div.event-day {
+    padding: 10px 4px;
+    text-align: center;
+    display: block;
+}
+
+.event-date-block div.event-day {
+    padding: 10px 4px;
+    text-align: center;
+    color: #FE685C;
+    display: block;
+}
+</style>
+
+<div class="row">
+  <div class="card mb-3" style="max-width: 1040px;">
+  <div class="row no-gutters">
+    <div class='col-md-2'>
+      <div class="align-middle p-4">
+        <button class="btn btn-primary" style=" position: absolute; top: 55%; transform: translateY(-50%);"> Add to Calendar </button>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card-body">
+        <h5 class="card-title"><%= event.title %></h5>
+        <p class="meta">
+        <i class="far fa-calendar-alt"></i> Tue, Feb 12 &nbsp;
+        <i class="far fa-clock"></i> 2:00 pm to 4:00 pm &nbsp;
+        <i class="far fa-map"></i> Homecrest Library
+        </p>
+        <p> </p>
+        <p class="card-text"><%= event.description %> </p>
+      </div>
+    </div>
+    <div class="col-md-4 p-2">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96860.26136239586!2d-74.01968012111587!3d40.65450572658527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5b6c5e44eb578313!2sBrooklyn+Public+Library+-+Brooklyn+Heights+Branch!5e0!3m2!1sen!2smx!4v1550011628562" width="300" height="225" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
