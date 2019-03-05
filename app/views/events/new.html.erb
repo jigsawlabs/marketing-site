@@ -1,23 +1,57 @@
-Create an Event
+
+<div class="container">
+<h1> Create an Event </h1>
 
 <%= form_for(@event) do |f| %>
 
-  <%= f.label :title %>
-  <%= f.text_field :title %>
+  <div class="row p-2">
 
-  <%= f.label :description %>
-  <%= f.text_field :description %>
+  <%= f.label :title, class: "p-2"%>
+  <%= f.text_field :title, size: '50'%>
 
-  <%= f.label :location %>
-  <%= f.text_field :location %>
+  </div>
+  <div class="row">
+  <%= f.label :description, class: "p-2"%>
+  <%= f.text_area :description, size: "70x6" %>
+  </div>
 
-  <%= f.label :day %>
-  <%= f.text_field :day %>
 
-  <%= f.label :hours %>
-  <%= f.text_field :hours %>
+  <div class="row p-2">
+  <%= f.label :begin_time , class: "p-2"%>
+  <%= f.datetime_field :begin_time %>
+  </div>
 
-  <%= f.label :time %>
-  <%= f.datetime_field :time %>
+  <div class="row p-2">
+  <%= f.label :end_time, class: "p-2" %>
+  <%= f.datetime_field :end_time %>
+  </div>
+
+  <%= fields_for @event.location do |event_location_form| %>
+    <p> Add Location </p>
+  <div class="row p-2">
+    <%= event_location_form.label :name, class: "p-2" %>
+    <%= event_location_form.text_field :name %>
+  </div>
+
+  <div class="row p-2">
+    <%= event_location_form.label :address, class: "p-2" %>
+    <%= event_location_form.text_field :address %>
+
+  </div>
+
+  <div class="row p-2">
+    <%= event_location_form.label :city, class: "p-2" %>
+    <%= event_location_form.text_field :city %>
+  </div>
+  <div class="row p-2">
+    <%= event_location_form.label :state, class: "p-2" %>
+    <%= event_location_form.text_field :state %>
+  </div>
+  <div class="row p-2">
+    <%= event_location_form.label :zip, class: "p-2" %>
+    <%= event_location_form.text_field :zip %>
+  </div>
+  <% end %>
   <%= f.submit %>
+</div>
 <% end %>

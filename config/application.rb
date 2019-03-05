@@ -11,6 +11,7 @@ module Jigsaw
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.2
     config.assets.paths << Rails.root.join("app", "assets", "fonts")
+    config.time_zone = 'Eastern Time (US & Canada)'
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration can go into files in config/initializers

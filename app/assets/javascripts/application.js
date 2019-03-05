@@ -14,10 +14,5 @@
 //= require activestorage
 //= require turbolinks
 //= require jquery3
-//= require popper
-//= require bootstrap-sprockets
-//= require now-ui-kit
-//= require fullpage
-//= require custom
+//= require index
 // can change bootstrap-sprockets to bootstrap for faster compilation
-//= require_tree .

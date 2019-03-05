@@ -1,16 +1,211 @@
-<div class="bg">
-  <%= render 'navbar' %>
-  <div class="container h-100 letter-spaced">
-    <div class="row h-50 justify-content-center">
-      <div class="jumbotron px-10 text-white transparent-background">
-        <h1 class="display-4 text-center">JIGSAW Labs</h1>
-        <p class="lead text-center font-italic font-weight-bold">  Construct your next chapter.</p>
-      </div>
-    </div>
-    <div class="row justify-content-center">
-      <div class="row justify-content-center">
-        <a class="btn btn-info btn-lg button_blue font-weight-bold" href="<%= about_path %>" role="button">Learn more</a>
-      </div>
-    </div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Jigsaw Labs - Data Science Classes Part-Time and In Person.  </title>
+    <meta name="theme-color" content="#caccf1" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">
+    <meta name="author" content="Curology" />
+    <meta name="description" content="Learn data science and machine learning in our ten week class." />
+    <meta name="keywords" content="data science, machine learning, python, statistics, coding, bootcamp, course, programming, big data, deep learning" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta itemprop="description" content="Learn data science and machine learning in our ten week class." />
+    <meta name="application-name" content="Jigsaw Labs" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta http-equiv="X-UA-Compatible" content="IE=11">
+    <link rel="stylesheet" href="./index.css">
+    <style>
+@font-face {
+  font-family: 'nocturno';
+  src: url("https://s3-us-west-1.amazonaws.com/fonts-california.typotheque.com/WF-029669-009918-001560-fa6dd062b0c32d6d9a297bd175bb0381.eot");
+  src: url("https://s3-us-west-1.amazonaws.com/fonts-california.typotheque.com/WF-029669-009918-001560-fa6dd062b0c32d6d9a297bd175bb0381.eot?#iefix") format("embedded-opentype"), url("https://s3-us-west-1.amazonaws.com/fonts-california.typotheque.com/WF-029669-009918-001560-fa6dd062b0c32d6d9a297bd175bb0381.woff2") format("woff2"), url("https://s3-us-west-1.amazonaws.com/fonts-california.typotheque.com/WF-029669-009918-001560-fa6dd062b0c32d6d9a297bd175bb0381.woff") format("woff"), url("https://s3-us-west-1.amazonaws.com/fonts-california.typotheque.com/WF-029669-009918-001560-fa6dd062b0c32d6d9a297bd175bb0381.svg#Typotheque_webfonts_service") format("svg");
+}
+    </style>
+  </head>
+  <body class=" ">
+<div class="Nav__wrapper   Nav__wrapper--opaque ">
+<nav class="Nav">
+  <a href="/" class="Nav__logo">
+    <svg class="Nav__logo__svg">
+      <use xlink:href=/svg/e5113084e568b4ba3c77db92c01f9076.svg#logo></use>
+    </svg>
+  </a>
+  <label class="NavMenu">
+    <a class="NavMenu__cta js--signup-modal-trigger" href="/auth/welcome">Start Trial</a>
+    <input type="checkbox" id="menu-toggle" class="MenuToggle">
+    <svg class="MenuToggle__svg" width="18" height="16">
+      <use xlink:href=/svg/e5113084e568b4ba3c77db92c01f9076.svg#menu></use>
+    </svg>
+    <svg class="CloseToggle__svg" width="16" height="16">
+      <use xlink:href=/svg/e5113084e568b4ba3c77db92c01f9076.svg#cross></use>
+    </svg>
+  </label>
+  <div class="Nav__pullout">
+    <a href="/" class="Nav__logo">
+      <svg class="Nav__logo__svg">
+        <use xlink:href=/svg/e5113084e568b4ba3c77db92c01f9076.svg#logo></use>
+      </svg>
+    </a>
+    <ul class="Nav__links" style="left: 55%;">
+      <li class="Nav__item">
+        <a class="Nav__link" href="./why-apply.html">
+          Why Apply
+        </a>
+      </li>
+      <li class="Nav__item">
+        <a class="Nav__link" href="./course-details.html">
+          Course Details
+        </a>
+      </li>
+      <li class="Nav__item">
+        <a class="Nav__link" href="/community">
+          Upcoming Events
+        </a>
+      </li>
+    </ul>
+    <ul class="Nav__app-links">
+      <li class="Nav__item"><a class="Nav__link Nav__log-in" href="/auth/login">Log in</a></li>
+      <li class="Nav__item Nav__trial-wrapper"><a class="Nav__link Nav__start-trial js--signup-modal-trigger" href="/auth/welcome">Apply</a></li>
+    </ul>
   </div>
-  <%= render 'footer' %>
+</nav>
+</div>
+<div class="SiteContent">
+  <section class="Intro--new">
+    <div class="row">
+      <div class="col Intro__content">
+        <div class="Section--even">
+          <h1 class="Intro__title">
+            In the future, decisions<br /><span class="Intro__words">will be made by those <br/> who know <span class="typed"> probability. </span> </span> </h1>
+          <div class="Intro__body">
+            <p>
+            Learn data science in our ten week course, <br /> and upgrade your skillset.
+            </p>
+          </div>
+          <div class="Intro__cta">
+            <div class="Button Button__purple">
+              <a href="/auth/welcome">Start Learning For Free </a>
+            </div>
+              <a class="title-link" href="/auth/welcome">Why Data Science </a>
+          </div>
+        </div>
+      </div>
+      <div class="col"></div>
+    </div>
+  </section>
+  <section class="Solutions">
+    <div class="row">
+      <div class="col flex-centered" style="">
+        <div class="Section__content">
+          <img src="./venn.svg" alt="">
+        </div>
+      </div>
+      <div class="col flex-centered">
+        <div class="Section__content">
+          <h2>A comprehensive approach to data science</h2>
+          <p>Data science blends coding, business analysis, and statistics to diagnose problems and recommend action.</p>
+          <p>You'll join a community of learners, bringing their perspective and passions to exploring these subjects.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="Solutions">
+    <div class="row">
+      <div class="col flex-centered" style="">
+        <div class="Section__content">
+          <img src="./women-presenting.svg" alt="">
+        </div>
+      </div>
+      <div class="col flex-centered">
+        <div class="Section__content">
+          <h2>A student driven community</h2>
+          <p>Data scientists are expected to be core members of their organization -- drawing insights, and facilitating discussions.</p>
+          <p>Members of our community do the same.  Group projects, blogs, and code exchanges ask individuals to bring their own backgrounds and ideas to explore data science. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="Solutions">
+    <div class="row">
+      <div class="col flex-centered" style="">
+        <div class="Section__content">
+          <img src="./man-thinking.svg" alt="">
+        </div>
+      </div>
+      <div class="col flex-centered">
+        <div class="Section__content">
+          <h2>Own an immediate skillset</h2>
+          <p>Whether coding, statistics, or analysis, each topic we cover brings new tools to solve problems.</p>
+          <p>With labs and projects, you'll own each skill.  And we focus on the fundamentals to give you a solid foundation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="HomeEfficacy Section--inverted">
+    <div class="HomeEfficacy__otc"></div>
+    <div class="HomeEfficacy__text Section__content">
+      <h2>Possibility and passion in your new career.</h2>
+      <p> Welcome to a student-driven classroom that explores rich topics, <br/> whether in coding, statistics, or business analysis. </p>
+      <div class="cta-wrapper cta-spacing-top">
+        <div class="cta-divider "></div>
+        <div class="Button ">
+          <a class="js--signup-modal-trigger" href="/auth/welcome">Start free course</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script>
+    window.__LANDING_VARIANT__ = 'default';
+  </script>
+
+
+  <footer class="Footer Section Section--even">
+    <div class="Footer__container">
+      <a href="/" class="Footer__logo">
+        <svg width="102" height="24" fill="#332e56">
+          <use xlink:href=/svg/e5113084e568b4ba3c77db92c01f9076.svg#logo>
+        </svg>
+      </a>
+      <div class="Footer__links-container">
+        <div class="Footer__links">
+          <div class="Footer__links-main">
+            <a class="Footer__link" href="/apply">Apply</a>
+            <a class="Footer__link" href="./login">Free Course</a>
+          </div>
+          <div class="Footer__links-secondary">
+            <a class="Footer__link" href="./why-apply">Why Apply</a>
+            <a class="Footer__link" href="./course-details">Course Details</a>
+            <a class="Footer__link" href="./events">Upcoming Events</a>
+          </div>
+        </div>
+        </div>
+        <ul class="Footer__legal-list">
+          <li class="Footer__legal-item">
+            © 2019 Jigsaw Labs
+          </li>
+          <li class="Footer__legal-item">
+            <a class="Footer__legal-link" href="/terms">Terms of Service</a>
+          </li>
+          <li class="Footer__legal-item">
+            <a class="Footer__legal-link" href="/privacy">Privacy</a>
+          </li>
+        </ul>
+      </div>
+  </footer>
+    </div>
+
+<script src="./index-1.js" />
+
+<script data-obct type="text/javascript">
+ /** DO NOT MODIFY THIS CODE**/
+ !function(_window, _document) {
+var OB_ADV_ID='00e9961d0fe20437c6831f642f4106600f';
+if (_window.obApi) {var toArray = function(object) {return Object.prototype.toString.call(object) === '[object Array]' ? object : [object];};_window.obApi.marketerId = toArray(_window.obApi.marketerId).concat(toArray(OB_ADV_ID));return;}
+var api = _window.obApi = function() {api.dispatch ? api.dispatch.apply(api, arguments) : api.queue.push(arguments);};api.version = '1.1';api.loaded = true;api.marketerId = OB_ADV_ID;api.queue = [];var tag = _document.createElement('script');tag.async = true;tag.src = '//amplify.outbrain.com/cp/obtp.js';tag.type = 'text/javascript';var script = _document.getElementsByTagName('script')[0];script.parentNode.insertBefore(tag, script);}(window, document);
+
+obApi('track', 'PAGE_VIEW');
+</script>
+</body>
+</html>
+

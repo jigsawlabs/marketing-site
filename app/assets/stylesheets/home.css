@@ -1,0 +1,433 @@
+.Persona,
+.RealProviders__video {
+    max-width: 100%
+}
+
+.Persona {
+    margin-top: -38px;
+    position: relative
+}
+
+@media(min-width:768px) {
+    .Persona {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+        height: 800px;
+        margin-top: 0
+    }
+}
+
+@media(min-width:992px) {
+    .Persona {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+        height: 892px
+    }
+}
+
+.RealStories {
+    background-color: #fff
+}
+
+@media(min-width:768px) {
+    .RealStories {
+        padding-bottom: 50px
+    }
+}
+
+.RealStories__title {
+    text-align: center
+}
+
+@media(min-width:768px) {
+    .RealStories__title {
+        font-size: 40px;
+        margin-top: 40px;
+        text-align: center;
+        white-space: nowrap;
+        width: 100%
+    }
+}
+
+.RealStories__content {
+    max-width: 750px;
+    margin: auto
+}
+
+.Persona:nth-child(odd) {
+    -ms-flex-direction: row;
+    flex-direction: row
+}
+
+.Persona__attributes {
+    overflow: hidden;
+    text-align: center
+}
+
+@media(min-width:768px) {
+    .Persona__attributes {
+        padding-top: 133px;
+        text-align: left
+    }
+}
+
+@media(min-width:768px) {
+    .Persona:nth-child(odd) .Persona__attributes {
+        text-align: right
+    }
+}
+
+@media(min-width:768px) {
+    .Persona__attributes .Persona__mixcard__attrs {
+        transform: translateY(-25%) translateX(-50%)
+    }
+}
+
+@media(min-width:768px) {
+    .Persona:nth-child(odd) .Persona__mixcard__attrs {
+        transform: translateY(-25%) translateX(50%)
+    }
+}
+
+.Persona__card {
+    -ms-flex-align: center;
+    align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 25px 25px 0
+}
+
+.Persona__portrait__container {
+    overflow: hidden;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    z-index: 2;
+    height: 435px;
+    width: 309px
+}
+
+@media(min-width:992px) {
+    .Persona__portrait__container {
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        height: 696px;
+        width: 497px
+    }
+}
+
+.Persona__portrait__container img {
+    max-width: none;
+    position: absolute
+}
+
+@media(min-width:992px) {
+    .Persona__portrait__container--justine {
+        -ms-flex-pack: end;
+        justify-content: flex-end
+    }
+}
+
+.Persona__portrait__container--justine img {
+    height: 548px;
+    width: 412px
+}
+
+@media(min-width:992px) {
+    .Persona__portrait__container--justine img {
+        height: 747px;
+        width: 560px
+    }
+}
+
+.Persona__portrait__container--nyle {
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.Persona__portrait__container--nyle img {
+    height: 478px;
+    width: 452px
+}
+
+@media(min-width:992px) {
+    .Persona__portrait__container--nyle img {
+        height: 696px;
+        width: 657px
+    }
+}
+
+.Persona__portrait__container--sun {
+    -ms-flex-align: center;
+    align-items: center
+}
+
+@media(min-width:992px) {
+    .Persona__portrait__container--sun {
+        -ms-flex-pack: end;
+        justify-content: flex-end
+    }
+}
+
+.Persona__portrait__container--sun img {
+    height: 479px;
+    width: 340px
+}
+
+@media(min-width:992px) {
+    .Persona__portrait__container--sun img {
+        height: 766px;
+        width: 547px
+    }
+}
+
+.Persona__portrait__container--ariel {
+    -ms-flex-pack: end;
+    justify-content: flex-end
+}
+
+@media(min-width:992px) {
+    .Persona__portrait__container--ariel {
+        margin-left: 75px
+    }
+}
+
+.Persona__portrait__container--ariel img {
+    height: 522px;
+    width: 452px
+}
+
+@media(min-width:992px) {
+    .Persona__portrait__container--ariel img {
+        height: 696px;
+        width: 603px
+    }
+}
+
+.Persona__portrait__container--ariel-m {
+    -ms-flex-pack: end;
+    justify-content: flex-end
+}
+
+@media(min-width:992px) {
+    .Persona__portrait__container--ariel-m {
+        margin-left: 75px
+    }
+}
+
+.Persona__portrait__container--ariel-m img {
+    height: 522px;
+    width: 452px
+}
+
+@media(min-width:992px) {
+    .Persona__portrait__container--ariel-m img {
+        height: 696px;
+        width: 603px
+    }
+}
+
+.Persona__portrait-bg {
+    position: absolute;
+    top: -39px;
+    width: 500px;
+    z-index: -1
+}
+
+@media(min-width:768px) {
+    .Persona__portrait-bg {
+        top: 205px
+    }
+}
+
+.Persona:nth-of-type(odd) .Persona__portrait-bg {
+    left: auto;
+    right: -35px
+}
+
+@media(min-width:768px) {
+    .Persona:nth-of-type(odd) .Persona__portrait-bg {
+        left: 20px;
+        top: 250px
+    }
+}
+
+.Persona:nth-of-type(2n) .Persona__portrait-bg {
+    left: -35px;
+    top: -39px
+}
+
+@media(min-width:768px) {
+    .Persona:nth-of-type(2n) .Persona__portrait-bg {
+        left: 60px;
+        top: 205px
+    }
+}
+
+.Persona__inner {
+    padding: 52px;
+    position: relative
+}
+
+@media(min-width:768px) {
+    .Persona__inner {
+        margin-top: 60%
+    }
+}
+
+.Persona__states {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    top: 20px;
+    transition: .35s
+}
+
+.Persona__disclaimer,
+.Persona__states {
+    left: 20px;
+    position: absolute;
+    right: 20px;
+    text-align: center
+}
+
+.Persona__disclaimer {
+    bottom: 10px;
+    font-size: 17px
+}
+
+.Persona__state-label {
+    transition: .35s
+}
+
+.after .Persona__state-label--before,
+.Persona__state-label--after {
+    opacity: .25
+}
+
+.after .Persona__state-label--after {
+    opacity: 1
+}
+
+.Persona__image-container {
+    height: 220px;
+    position: relative;
+    width: 220px
+}
+
+.Persona__image-after,
+.Persona__image-before {
+    height: 220px;
+    position: absolute;
+    width: 220px
+}
+
+.Persona__image-after img,
+.Persona__image-before img {
+    height: 220px;
+    max-width: none;
+    width: 220px
+}
+
+.Persona__image-before {
+    clip: rect(-150px, 350px, 350px, -350px);
+    display: -ms-flexbox;
+    display: flex;
+    transform: rotate(-45deg);
+    transition: 1s
+}
+
+.after .Persona__image-before {
+    clip: rect(350px, 350px, 350px, -350px);
+    transition: 1s
+}
+
+.Persona__image-before img {
+    margin: auto;
+    transform: rotate(45deg)
+}
+
+.Persona .MixCard__name-badge {
+    display: -ms-flexbox;
+    display: flex;
+    left: 50%;
+    right: auto;
+    top: 10%;
+    transform: translateX(-50%)
+}
+
+@media(min-width:768px) {
+    .Persona .MixCard__name-badge {
+        left: 100%;
+        top: 30%
+    }
+}
+
+@media(min-width:992px) {
+    .Persona .MixCard__name-badge {
+        left: 0;
+        top: 35%
+    }
+}
+
+.Persona__mixcard__attrs {
+    color: #332e56;
+    font-size: 22px;
+    font-weight: 700;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3;
+    padding: 20px
+}
+
+.Persona__mixcard__attrs span {
+    text-shadow: none
+}
+
+@media(min-width:768px) {
+    .Persona__mixcard__attrs {
+        font-size: 30px
+    }
+}
+
+.Persona__mixcard__attrs--first {
+    text-align: left
+}
+
+@media(min-width:768px) {
+    .Persona__mixcard__attrs--first {
+        text-align: center
+    }
+}
+
+.Persona__mixcard__attrs--second {
+    text-align: right
+}
+
+@media(min-width:768px) {
+    .Persona__mixcard__attrs--second {
+        text-align: center
+    }
+}
+
+@media(min-width:992px) {
+    .Persona+.Persona .MixCard__name-badge {
+        left: 100%
+    }
+}
