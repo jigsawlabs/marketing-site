@@ -1,24 +1,99 @@
-<div id="fullpage">
-  <div data-anchor="lead-photo" class="section fp-auto-height pt-0">
-    <div class="container-fluid text-light bg-shrunk">
-      <%= render 'about_navbar' %>
-    <div class="container">
-      <div class="lead text-center font-italic font-weight-bold row p-4 justify-content-center" style="top: 130px;
-      position: relative;">
-        See what's next.
+<%= render 'navbar' %>
+<section class="Intro--new">
+    <div class="row">
+      <div class="col Intro__content">
+        <div class="Section--even">
+          <h1 class="Intro__title">
+            Data Science by the numbers.
+          <div class="Intro__body">
+            <p>
+              Just some of the statistics behind the profession.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col"></div>
+    </div>
+  </section>
+  <section class="Solutions">
+    <div class="row">
+      <div class="col flex-centered" style="">
+          <img src="./amount-data-2.svg" style="max-width: 141%">
+      </div>
+      <div class="col flex-centered">
+        <div class="Section__content">
+          <h2>The emergence of data</h2>
+          <p>In the past three years alone, the amount of digital data created or captured online has doubled in size.  In three years, it will double again.</p>
+          <p>The changes are not only in the of quantity but in the kind of data captured digitally -- as audio, video, images have become ubiquitous in our online world.</p>
+        </div>
       </div>
     </div>
-  </div>
-  </div>
+  </section>
+  <section class="Solutions">
+    <div class="row">
+      <div class="col flex-centered" style="max-width: 150%">
+          <img src="./ds-job-postings.svg" alt="">
+      </div>
+      <div class="col flex-centered">
+        <div class="Section__content">
+          <h2> Increased demand for data science</h2>
+          <p> The amount of data captured already exceeds the capacity of those in business or government to properly utilize it.
+          Data scientists fill this gap by identifying the critical subset of data that drives meaningful impact.  </p>
+          <p> The market has responded accordingly.  December 2018 saw a 31% increase in data science job postings from one year earlier.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="Solutions">
+    <div class="RealStories__title">
+      <h2> Data Analyst vs Data Scientist</h2> <h2>  What's the difference? </h2>
+    </div>
+    <div class="row">
+      <div class="col" >
+        <h2> About $60,000. </h2>
+      <p> On average, data scientists command 60k more than data analysts nationwide.  Data scientists in NYC earned an average of 146k in 2018. <p>
+          <img src="./avg-salary-2019.svg" alt="">
+      </div>
+      <div class="col ">
+          <h2> Also Python and statistics skills.</h2>
+          <p> Most data scientist positions require coding skills in Python as well as statistics skills. Most data analyst positions do not.</p>
 
-  <div  data-anchor="experience" class="section pt-4">
-    <%= render 'experience' %>
-  </div>
-  <div  data-anchor="curriculum" class="section pt-2">
-    <%= render 'syllabus' %>
-  </div>
-  <div  data-anchor="admissions" class="section pt-4">
-    <%= render 'admissions' %>
-    <%= render 'footer' %>
-  </div>
-</div>
+          <p style="text-align: center;"> Job Postings Requesting Each Skill </p>
+          <div style="text-align: center;">
+          <img src="./skills-table-2.svg" style="width: 60%;">
+          </div>
+      </div>
+    </div>
+  </section>
+  <section class="Solutions">
+    <div class="row">
+      <div class="col flex-centered" style="">
+        <div class="Section__content">
+          <img src="./version-control.svg" alt="">
+        </div>
+      </div>
+      <div class="col flex-centered">
+        <div class="Section__content">
+          <h2> Learn the concepts and skills to take action</h2>
+          <p> The demand for data science speaks to the potential impact of those with the proper skillset.  Our course reflects this. We focus on the Python and statistics skills you can directly apply to a career.</p>
+          <p> We also explore the broader themes behind these skills.  This allows you to better organize concepts and develop your skillset going forward.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="HomeEfficacy Section--inverted">
+    <div class="HomeEfficacy__otc"></div>
+    <div class="HomeEfficacy__text Section__content">
+      <h2>Take the next step.</h2>
+      <div class="cta-wrapper cta-spacing-top">
+        <div class="Button " >
+          <a class="js--signup-modal-trigger" href="/auth/welcome">Start free course</a>
+        </div>
+        <div class="Button " style="background: #706c87">
+          <a class="js--signup-modal-trigger" href="/auth/welcome">Attend an Event</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <%= render 'footer' %>
