@@ -7,7 +7,4 @@ class PagesController < ApplicationController
 
   end
 
-  def practice
-
-  end
 end
