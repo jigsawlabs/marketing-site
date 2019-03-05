@@ -18,7 +18,7 @@
   <section class="Solutions">
     <div class="row">
       <div class="col flex-centered" style="">
-          <img src="./amount-data-2.svg" style="max-width: 141%">
+        <%= image_tag 'about/amount-data.svg', style: 'max-width: 141%' %>
       </div>
       <div class="col flex-centered">
         <div class="Section__content">
@@ -32,7 +32,7 @@
   <section class="Solutions">
     <div class="row">
       <div class="col flex-centered" style="max-width: 150%">
-          <img src="./ds-job-postings.svg" alt="">
+        <%= image_tag 'about/ds-job-postings.svg', style: 'max-width: 141%' %>
       </div>
       <div class="col flex-centered">
         <div class="Section__content">
@@ -49,19 +49,19 @@
       <h2> Data Analyst vs Data Scientist</h2> <h2>  What's the difference? </h2>
     </div>
     <div class="row">
-      <div class="col" >
-        <h2> About $60,000. </h2>
-      <p> On average, data scientists command 60k more than data analysts nationwide.  Data scientists in NYC earned an average of 146k in 2018. <p>
-          <img src="./avg-salary-2019.svg" alt="">
-      </div>
       <div class="col ">
-          <h2> Also Python and statistics skills.</h2>
+          <h2> Python and statistics skills.</h2>
           <p> Most data scientist positions require coding skills in Python as well as statistics skills. Most data analyst positions do not.</p>
 
           <p style="text-align: center;"> Job Postings Requesting Each Skill </p>
           <div style="text-align: center;">
-          <img src="./skills-table-2.svg" style="width: 60%;">
+            <%= image_tag 'about/skills-table.svg', style: 'width: 60%;' %>
           </div>
+      </div>
+      <div class="col" >
+        <h2> Also about $60,000. </h2>
+      <p> On average, data scientists command 60k more than data analysts nationwide.  Data scientists in NYC earned an average of 146k in 2018. <p>
+        <%= image_tag 'about/avg-salary-2019.svg'  %>
       </div>
     </div>
   </section>
@@ -69,7 +69,7 @@
     <div class="row">
       <div class="col flex-centered" style="">
         <div class="Section__content">
-          <img src="./version-control.svg" alt="">
+            <%= image_tag 'about/version-control.svg' %>
         </div>
       </div>
       <div class="col flex-centered">
@@ -87,10 +87,10 @@
       <h2>Take the next step.</h2>
       <div class="cta-wrapper cta-spacing-top">
         <div class="Button " >
-          <a class="js--signup-modal-trigger" href="/auth/welcome">Start free course</a>
+          <%= link_to 'Start Learning Online', login_path %>
         </div>
         <div class="Button " style="background: #706c87">
-          <a class="js--signup-modal-trigger" href="/auth/welcome">Attend an Event</a>
+          <%= link_to 'Attend a Free Event', about_path %>
         </div>
       </div>
     </div>
