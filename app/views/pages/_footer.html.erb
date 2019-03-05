@@ -1,17 +1,48 @@
-<div class="row justify-content-center footer-bottom" >
-  <div id="footer_temp_wrapper" class="">
-    <div id="footer_temp" style="text-align: center;  width: 100%;">
-      <span class="footer_element footer_element_temporary px-2" style="color: #a7a7a7">
-        JIGSAW Labs © 2018
-      </span>
-  <a href="about_us" class="footer_element footer_element_temporary no-text-decoration" onclick="ga('send', 'event', 'href', 'About Us', 'About Us footer link on homepage');">
-    About Us
-  </a>
-  <a href="faq" class="footer_element footer_element_temporary no-text-decoration" onclick="ga('send', 'event', 'href', 'FAQ', 'FAQ footer link on homepage');">
-    FAQ
-  </a>
-
-  <!-- Add Twitter and Facebook Pages -->
+<footer class="Footer Section Section--even">
+  <div class="Footer__container">
+    <a href="/" class="Footer__logo">
+      <svg width="102" height="24" fill="#332e56">
+        <use xlink:href=/svg/e5113084e568b4ba3c77db92c01f9076.svg#logo>
+      </svg>
+    </a>
+    <div class="Footer__links-container">
+      <div class="Footer__links">
+        <div class="Footer__links-main">
+          <a class="Footer__link" href="/apply">Apply</a>
+          <a class="Footer__link" href="./login">Free Course</a>
+        </div>
+        <div class="Footer__links-secondary">
+          <a class="Footer__link" href="./why-apply">Why Apply</a>
+          <a class="Footer__link" href="./course-details">Course Details</a>
+          <a class="Footer__link" href="./events">Upcoming Events</a>
+        </div>
+      </div>
     </div>
+    <ul class="Footer__legal-list">
+      <li class="Footer__legal-item">
+        © 2019 Jigsaw Labs
+      </li>
+      <li class="Footer__legal-item">
+        <a class="Footer__legal-link" href="/terms">Terms of Service</a>
+      </li>
+      <li class="Footer__legal-item">
+        <a class="Footer__legal-link" href="/privacy">Privacy</a>
+      </li>
+    </ul>
   </div>
+</footer>
 </div>
+
+
+<script data-obct type="text/javascript">
+  /** DO NOT MODIFY THIS CODE**/
+  !function(_window, _document) {
+    var OB_ADV_ID='00e9961d0fe20437c6831f642f4106600f';
+    if (_window.obApi) {var toArray = function(object) {return Object.prototype.toString.call(object) === '[object Array]' ? object : [object];};_window.obApi.marketerId = toArray(_window.obApi.marketerId).concat(toArray(OB_ADV_ID));return;}
+    var api = _window.obApi = function() {api.dispatch ? api.dispatch.apply(api, arguments) : api.queue.push(arguments);};api.version = '1.1';api.loaded = true;api.marketerId = OB_ADV_ID;api.queue = [];var tag = _document.createElement('script');tag.async = true;tag.src = '//amplify.outbrain.com/cp/obtp.js';tag.type = 'text/javascript';var script = _document.getElementsByTagName('script')[0];script.parentNode.insertBefore(tag, script);}(window, document);
+
+  obApi('track', 'PAGE_VIEW');
+</script>
+</body>
+</html>
+
