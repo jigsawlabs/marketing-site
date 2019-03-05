@@ -7,4 +7,8 @@ class PagesController < ApplicationController
 
   end
 
+  def course_details
+
+  end
+
 end
