@@ -5,7 +5,7 @@
     <meta name="theme-color" content="#caccf1" />
     <meta charset="utf-8" />
     <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">
-    <meta name="author" content="Curology" />
+    <meta name="author" content="Jigsaw Labs" />
     <meta name="description" content="Learn data science and machine learning in our ten week class." />
     <meta name="keywords" content="data science, machine learning, python, statistics, coding, bootcamp, course, programming, big data, deep learning" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -48,28 +48,23 @@
           </a>
           <ul class="Nav__links" style="left: 55%;">
             <li class="Nav__item">
-              <a class="Nav__link" href="./why-apply.html">
-                Why Apply
-              </a>
+              <%= link_to 'Why Apply', about_path, class: 'Nav__link' %>
             </li>
             <li class="Nav__item">
-              <a class="Nav__link" href="./course-details.html">
-                Course Details
-              </a>
+              <%= link_to 'Course Details', course_details_path, class: 'Nav__link' %>
             </li>
             <li class="Nav__item">
-              <a class="Nav__link" href="/community">
-                Upcoming Events
-              </a>
+              <%= link_to 'Upcoming Events', events_path, class: 'Nav__link' %>
             </li>
           </ul>
           <ul class="Nav__app-links">
-            <li class="Nav__item"><a class="Nav__link Nav__log-in" href="/auth/login">Log in</a></li>
-            <li class="Nav__item Nav__trial-wrapper"><a class="Nav__link Nav__start-trial js--signup-modal-trigger" href="/auth/welcome">Apply</a></li>
+            <li class="Nav__item">
+              <%= link_to 'Log in', login_path, class: 'Nav__link Nav__log' %>
+            </li>
+            <li class="Nav__item Nav__trial-wrapper">
+              <%= link_to 'Apply', new_application_path, class: 'Nav__link Nav__start-trial js--signup-modal-trigger' %>
+            </li>
           </ul>
         </div>
       </nav>
     </div>
-
-
-
