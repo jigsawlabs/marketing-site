@@ -2672,11 +2672,11 @@ a:focus,a:hover{
 }
 .Persona__portrait__container--ariel{
     -ms-flex-pack:end;
-    justify-content:flex-end
+    justify-content:flex-end;
 }
 @media(min-width:992px){
     .Persona__portrait__container--ariel{
-        margin-left:75px
+        margin-left:0px;
     }
 }
 @media(max-width:767px){
@@ -2687,18 +2687,32 @@ a:focus,a:hover{
   }
 }
 .Persona__portrait__container--ariel img{
-      height: 460px;
-    width: 670px;
-    left: -3%;
+  height: 346px;
+  width: 166%;
+  left: -37%;
 }
 @media(min-width:992px){
     .Persona__portrait__container--ariel img{
-        height: 62%;
-        width: 120%;
-        top: -9%;
-        left: -27%;
+        height: 67%;
+        width: 170%;
+        top: -17%;
+        left: -38%;
     }
 }
+
+@media(max-width: 992px){
+  .stats-column {
+    left: 13px;
+  }
+}
+
+
+@media(min-width: 992px){
+  .stats-column {
+    left: 75px;
+  }
+}
+
 .Persona__portrait__container--ariel-m{
     -ms-flex-pack:end;
     justify-content:flex-end
