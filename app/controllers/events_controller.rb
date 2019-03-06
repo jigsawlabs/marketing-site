@@ -1,6 +1,6 @@
 class EventsController < ApplicationController
   def index
-#    @events = Event.future.earliest.includes(:location).limit(10)
+    @events = Event.future.earliest.includes(:location).limit(10)
   end
 
   def new
