@@ -2629,7 +2629,7 @@ a:focus,a:hover{
 .Persona__portrait__container--justine img{
     height: 64%;
     width: 75%;
-    right: 18%;
+    right: 8%;
 }
 @media(min-width:992px){
     .Persona__portrait__container--justine img{
@@ -2850,10 +2850,12 @@ a:focus,a:hover{
 .Persona__mixcard__attrs span{
     text-shadow:none
 }
+
+
 @media(max-width:768px){
   .Section--first .Persona__mixcard__attrs{
     left: 9%;
-    bottom: -20%;
+    bottom: 20%;
   }
 
   .Persona__portrait__container--justine img {
@@ -2875,6 +2877,19 @@ a:focus,a:hover{
 @media(max-width:768px){
   .Section--third .Persona__mixcard__attrs{
     left: -40%;
+  }
+}
+@media(max-width:468px){
+  .Section--first .Persona__mixcard__attrs{
+    left: -9%;
+    bottom: -10%;
+  }
+
+  .Persona__portrait__container--justine img {
+    height: 36%;
+    width: 88%;
+    right: -10%;
+    top: 26%;
   }
 }
 
