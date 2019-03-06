@@ -1,55 +1,21 @@
-<style>
-.event-date-block {
-  padding-left: 0;
-  padding-right: 0;
-  border: 3px solid #FE685C;
-  float: none;
-  width: 70%;
-}
-
-.bkgd-primary {
-  background-color: #FE685C;
-  color: #fff;
-}
-
-.event-date-block div.event-month, .event-date-block div.event-day {
-    padding: 10px 4px;
-    text-align: center;
-    display: block;
-}
-
-.event-date-block div.event-day {
-    padding: 10px 4px;
-    text-align: center;
-    color: #FE685C;
-    display: block;
-}
-</style>
-
 <div class="row">
-  <div class="card mb-3" style="max-width: 1040px;">
-  <div class="row no-gutters">
-    <div class='col-md-2 pl-3'>
-      <a class="btn btn-primary p-2" target="_blank" style=" position: absolute; top: 55%; transform: translateY(-50%);" href="<%= google_calendar_string(event) %>"> Add to Google Calendar </a>
-    </div>
-    <div class="col-md-6">
-      <div class="card-body">
-        <h5 class="card-title"><%= event.title %></h5>
-        <p class="meta">
-        <i class="far fa-calendar-alt"></i> <%= event.begin_time.strftime("%a, %b %e") %> &nbsp;
-        <i class="far fa-clock"></i> <%= event.begin_time.strftime("%l:%M %p").squish %> to <%= event.end_time.strftime("%l:%M %p").squish %> &nbsp;
-        <i class="far fa-map"></i> <%= event.location.name %>
-        </p>
-        <p> </p>
-        <p class="card-text"><%= event.description %> </p>
-      </div>
-    </div>
-    <div class="col-md-4 p-2">
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe src="https://www.google.com/maps/embed/v1/place?key=<%= Rails.application.credentials.google_maps_api_key %>&q=<%=event.location.full_address%>&zoom=16"></iframe>
-      </div>
-      <div class="pt-2"> <%= event.location.full_address %> </div>
+  <div class="col flex-centered" style="">
+    <div class="Button">
+      <a href="./register">Add to Google Calendar</a>
     </div>
   </div>
-</div>
+  <div class="col-size-3 flex-centered">
+    <div class="Section__content">
+      <h2><%= event.title %> </h2>
+      <p class="meta">
+      <i class="far fa-calendar-alt"></i> <%= event.begin_time.strftime("%a, %b %e") %> &nbsp;
+      <i class="far fa-clock"></i> <%= event.begin_time.strftime("%l:%M %p").squish %> to <%= event.end_time.strftime("%l:%M %p").squish %> &nbsp;
+      <br/>
+      <i class="far fa-map"></i> <%= event.location.name %>
+    <p><%= event.description %> </p>
+    </div>
+  </div>
+  <div class="col">
+    Google Map
+  </div>
 </div>
