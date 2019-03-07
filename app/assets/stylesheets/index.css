@@ -2619,6 +2619,23 @@ a:focus,a:hover{
         justify-content:flex-end
     }
 }
+.Persona__portrait__container--business img {
+  width: 67%;
+  left: 30%;
+}
+
+@media(min-width:768px){
+  .statistics-text-col {
+    left: 13%;
+    top: 43px;
+    max-width: 48%;
+  }
+
+  .text-box {
+    width: 76%;
+  }
+}
+
 @media(max-width:767px){
   .Persona__portrait__container--business img {
     left: 26%;
@@ -2628,7 +2645,7 @@ a:focus,a:hover{
 }
 .Persona__portrait__container--justine img{
     height: 64%;
-    width: 75%;
+    width: 64%;
     right: 8%;
 }
 @media(min-width:992px){
@@ -2702,14 +2719,14 @@ a:focus,a:hover{
 
 @media(max-width: 992px){
   .stats-column {
-    left: 13px;
+    left: 3%;
   }
 }
 
 
 @media(min-width: 992px){
   .stats-column {
-    left: 75px;
+    left: 59px;
   }
 }
 
