@@ -2620,6 +2620,10 @@ a:focus,a:hover{
         justify-content:flex-end
     }
 }
+
+.HomeEfficacy__text {
+  text-align: center;
+}
 .Persona__portrait__container--business img {
   width: 68%;
   left: 40%;
