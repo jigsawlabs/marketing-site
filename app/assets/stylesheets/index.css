@@ -2613,6 +2613,7 @@ a:focus,a:hover{
     max-width:none;
     position:absolute
 }
+
 @media(min-width:992px){
     .Persona__portrait__container--justine{
         -ms-flex-pack:end;
@@ -2620,8 +2621,9 @@ a:focus,a:hover{
     }
 }
 .Persona__portrait__container--business img {
-  width: 67%;
-  left: 30%;
+  width: 68%;
+  left: 40%;
+  bottom: 25%;
 }
 
 @media(min-width:768px){
@@ -2638,15 +2640,26 @@ a:focus,a:hover{
 
 @media(max-width:767px){
   .Persona__portrait__container--business img {
-    left: 26%;
-    width: 85%;
-    top: 18%;
+    left: 43%;
+    width: 55%;
+    top: 13%;
+  }
+  .Section--third .Persona__second_col {
+    right: 5%;
+  }
+
+  .Persona__card h1 {
+    text-align: center;
   }
 }
 .Persona__portrait__container--justine img{
     height: 64%;
     width: 64%;
     right: 8%;
+}
+
+
+@media(max-width:992px){
 }
 @media(min-width:992px){
     .Persona__portrait__container--justine img{
