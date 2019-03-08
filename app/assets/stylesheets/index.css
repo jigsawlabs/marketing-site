@@ -1880,6 +1880,14 @@ a:focus,a:hover{
         top:35%
     }
 }
+
+
+@media(max-width:992px){
+  .Intro__cta .Button span {
+    display: none;
+  }
+}
+
 @media(min-width:768px){
     .Persona.Section--first .Persona__mixcard-name-badge-wrapper{
         left: 0px;
