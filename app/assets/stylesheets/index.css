@@ -199,20 +199,8 @@ output{
     overflow:hidden
 }
 @font-face{
-    font-family:nocturno;
-    src:url(https://s3-us-west-1.amazonaws.com/fonts-california.typotheque.com/WF-029669-009918-001560-fa6dd062b0c32d6d9a297bd175bb0381.eot);
-    src:url(https://s3-us-west-1.amazonaws.com/fonts-california.typotheque.com/WF-029669-009918-001560-fa6dd062b0c32d6d9a297bd175bb0381.eot?#iefix) format("embedded-opentype"),url(https://s3-us-west-1.amazonaws.com/fonts-california.typotheque.com/WF-029669-009918-001560-fa6dd062b0c32d6d9a297bd175bb0381.woff2) format("woff2"),url(https://s3-us-west-1.amazonaws.com/fonts-california.typotheque.com/WF-029669-009918-001560-fa6dd062b0c32d6d9a297bd175bb0381.woff) format("woff"),url(https://s3-us-west-1.amazonaws.com/fonts-california.typotheque.com/WF-029669-009918-001560-fa6dd062b0c32d6d9a297bd175bb0381.svg#Typotheque_webfonts_service) format("svg")
-}
-@font-face{
     font-family:larssiet;
-    src:url(https://assets.curology.com/fonts/larssiet/34535B_1_0.eot);
-    src:url(https://assets.curology.com/fonts/larssiet/34535B_1_0.eot?#iefix) format("embedded-opentype"),url(https://assets.curology.com/fonts/larssiet/34535B_1_0.woff2) format("woff2"),url(https://assets.curology.com/fonts/larssiet/34535B_1_0.woff) format("woff"),url(https://assets.curology.com/fonts/larssiet/34535B_1_0.ttf) format("truetype")
-}
-@font-face{
-    font-family:larssiet;
-    font-weight:700;
-    src:url(https://assets.curology.com/fonts/larssiet/34535B_0_0.eot);
-    src:url(https://assets.curology.com/fonts/larssiet/34535B_0_0.eot?#iefix) format("embedded-opentype"),url(https://assets.curology.com/fonts/larssiet/34535B_0_0.woff2) format("woff2"),url(https://assets.curology.com/fonts/larssiet/34535B_0_0.woff) format("woff"),url(https://assets.curology.com/fonts/larssiet/34535B_0_0.ttf) format("truetype")
+    src: url('larsseit-medium.otf') format("truetype");
 }
 .Button,.Intro__title .typed{
     font-family:larssiet,Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,Verdana,sans-serif
@@ -226,7 +214,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .heading-lg,h1{
     color:#332e56;
-    font-family:nocturno,Georgia,TimesNewRoman,Times New Roman,Times,Baskerville,serif;
+    font-family: Georgia,TimesNewRoman,Times New Roman,Times,Baskerville,serif;
     font-size:40px;
     line-height:1.2
 }
@@ -5073,7 +5061,7 @@ a:focus,a:hover{
     text-transform:uppercase
 }
 .CustomizedCard__name{
-    font-family:nocturno,Georgia,TimesNewRoman,Times New Roman,Times,Baskerville,serif;
+    font-family: Georgia,TimesNewRoman,Times New Roman,Times,Baskerville,serif;
     font-size:17px
 }
 .CustomizedCard__icon{
@@ -5873,7 +5861,7 @@ ul.GuideSection__list li:before{
     }
 }
 .birth-control-guide-header-title{
-    font-family:nocturno,Georgia,TimesNewRoman,Times New Roman,Times,Baskerville,serif;
+    font-family: Georgia,TimesNewRoman,Times New Roman,Times,Baskerville,serif;
     font-size:45px;
     margin-bottom:2.5rem;
     text-transform:none
@@ -6494,7 +6482,7 @@ ul.GuideSection__list li:before{
     margin-bottom:5px
 }
 .bar-graph-item-info-bar-fill{
-    font-family:nocturno,Georgia,TimesNewRoman,Times New Roman,Times,Baskerville,serif;
+    font-family: Georgia,TimesNewRoman,Times New Roman,Times,Baskerville,serif;
     -ms-flex-align:center;
     align-items:center;
     background:#ccc;
@@ -6522,7 +6510,7 @@ ul.GuideSection__list li:before{
     flex-direction:column
 }
 .bc-guide-faq-container h2{
-    font-family:nocturno,Georgia,TimesNewRoman,Times New Roman,Times,Baskerville,serif;
+    font-family: Georgia,TimesNewRoman,Times New Roman,Times,Baskerville,serif;
     width:100%
 }
 .bc-guide-faq-item{
@@ -6632,7 +6620,7 @@ ul.GuideSection__list li:before{
     margin:0 auto 20px
 }
 .mc-guide-modal-effects-number{
-    font-family:nocturno,Georgia,TimesNewRoman,Times New Roman,Times,Baskerville,serif;
+    font-family: Georgia,TimesNewRoman,Times New Roman,Times,Baskerville,serif;
     color:#706c87;
     font-size:14px;
     margin-bottom:0
