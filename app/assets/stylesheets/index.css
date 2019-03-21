@@ -1415,7 +1415,8 @@ span.hr.purple{
     fill:#332e56;
     height:21px;
     transition:fill .5s;
-    width:94px
+    width:94px;
+    overflow: visible;
 }
 .Nav--inverted .Nav__logo__svg{
     fill:#fff
