@@ -202,6 +202,7 @@ output{
     font-family:larssiet;
     src: url('larsseit-medium.otf') format("truetype");
 }
+
 .Button,.Intro__title .typed{
     font-family:larssiet,Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,Verdana,sans-serif
 }
@@ -1831,10 +1832,25 @@ a:focus,a:hover{
     color: #706c87;
 }
 
+@media(max-width:550px){
+  .title-link{
+    font-size: 14px;
+    padding-left: 16px;
+  }
+}
+
+
+
+@media(min-width:450px){
+  br.responsive-show {
+    display: none;
+  }
+}
 @media(min-width:330px){
     .Intro__words{
         white-space:nowrap
     }
+
 }
 .Persona__first_col{
     z-index:1
@@ -2297,7 +2313,8 @@ a:focus,a:hover{
     }
 }
 .Intro__cta{
-    display:inline-block
+    display: flex;
+    align-items: center;
 }
 .Intro__cta-disclaimer{
     text-align:center;
