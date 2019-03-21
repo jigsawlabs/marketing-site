@@ -1436,7 +1436,7 @@ span.hr.purple{
     margin-bottom: 17px;
 }
 
-@media(max-width:576px){
+@media(max-width:768px){
   a.Nav__logo:after {
     content: 'Jigsaw Labs';
     font-size: 16px;
