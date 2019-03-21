@@ -1425,12 +1425,12 @@ span.hr.purple{
     display:block;
     min-height: 37px;
     background: url(asset_path("general/jigsaw-labs-hz.svg")) no-repeat;
-    height: 85px;
+    height: 63px;
     width: 80px;
     background-size: 68px 109px;
     left: 40px;
     margin-left: 30px;
-    margin-bottom: 17px;
+    margin-bottom: 10px;
   }
 }
 .Nav__logo__svg{
