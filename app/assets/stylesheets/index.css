@@ -1378,6 +1378,7 @@ span.hr.purple{
 }
 .Nav__wrapper{
     height: 10%;
+    min-height: 75px;
     position:fixed;
     transition:background .3s,box-shadow .3s;
     width:100%;
@@ -1401,7 +1402,7 @@ span.hr.purple{
     -ms-flex-pack:justify;
     justify-content:space-between;
     width: 100%;
-    width: 100%;
+    min-height: 75px;
 }
 @media(min-width:768px){
     .Nav{
@@ -1410,13 +1411,22 @@ span.hr.purple{
 }
 .Nav__logo{
     display:block;
+    min-height: 37px;
+    background: url(asset_path("general/jigsaw-logo-text.svg")) no-repeat;
+    height: 100px;
+    width: 50px;
+    background-size: 50px 109px;
+    left: 40px;
+    margin-left: 30px;
+    margin-bottom: 17px;
 }
 .Nav__logo__svg{
     fill:#332e56;
     transition:fill .5s;
     width:94px;
     overflow: visible;
-    max-height: 36px;
+    max-height: 40px;
+    min-height: 36px;
 }
 .Nav--inverted .Nav__logo__svg{
     fill:#fff
@@ -1483,7 +1493,8 @@ span.hr.purple{
 }
 .Nav__app-links{
     display:-ms-flexbox;
-    display:flex
+    display:flex;
+    padding-bottom: 11px;
 }
 @media(min-width:768px){
     .Nav__app-links{
