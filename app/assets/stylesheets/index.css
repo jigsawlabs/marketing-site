@@ -203,6 +203,20 @@ output{
     src: url('larsseit-medium.otf') format("truetype");
 }
 
+/* actor-regular - latin */
+@font-face {
+  font-family: 'Actor';
+  font-style: normal;
+  font-weight: 400;
+  src: url('actor-v8-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Actor Regular'), local('Actor-Regular'),
+       url('actor-v8-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('actor-v8-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('actor-v8-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('actor-v8-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('actor-v8-latin-regular.svg#Actor') format('svg'); /* Legacy iOS */
+}
+
 .Button,.Intro__title .typed{
     font-family:larssiet,Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,Verdana,sans-serif
 }
@@ -1378,12 +1392,13 @@ span.hr.purple{
 }
 .Nav__wrapper{
     height: 10%;
-    min-height: 75px;
+    min-height: 65px;
     position:fixed;
     transition:background .3s,box-shadow .3s;
     width:100%;
     z-index:1000;
     display: flex;
+    align-items: center;
 }
 @media(min-width:768px){
     .Nav__wrapper{
@@ -1420,17 +1435,27 @@ span.hr.purple{
     margin-left: 30px;
     margin-bottom: 17px;
 }
+
 @media(max-width:576px){
+  a.Nav__logo:after {
+    content: 'Jigsaw Labs';
+    font-size: 16px;
+    color: #332e56;
+    font-family: actor;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    line-height: 1.1;
+  }
   .Nav__logo{
     display:block;
     min-height: 37px;
-    background: url(asset_path("general/jigsaw-labs-hz.svg")) no-repeat;
-    height: 63px;
+    background: none;
+    height: 30px;
     width: 80px;
     background-size: 68px 109px;
     left: 40px;
     margin-left: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
 }
 .Nav__logo__svg{
