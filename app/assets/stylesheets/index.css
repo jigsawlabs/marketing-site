@@ -699,6 +699,10 @@ input::-webkit-calendar-picker-indicator,input::-webkit-clear-button,input::-web
 .Section__text{
     max-width:290px
 }
+
+.inline-block {
+  display: inline;
+}
 @media(min-width:768px){
     .Section__text{
         margin-bottom:150px
@@ -1373,11 +1377,12 @@ span.hr.purple{
     background:#332e56
 }
 .Nav__wrapper{
-    padding:20px;
+    height: 10%;
     position:fixed;
     transition:background .3s,box-shadow .3s;
     width:100%;
-    z-index:1000
+    z-index:1000;
+    display: flex;
 }
 @media(min-width:768px){
     .Nav__wrapper{
@@ -1395,8 +1400,8 @@ span.hr.purple{
     display:flex;
     -ms-flex-pack:justify;
     justify-content:space-between;
-    margin:0 auto;
-    max-width:1440px
+    width: 100%;
+    width: 100%;
 }
 @media(min-width:768px){
     .Nav{
@@ -1405,19 +1410,13 @@ span.hr.purple{
 }
 .Nav__logo{
     display:block;
-    height:21px
-}
-@media(min-width:768px){
-    .Nav__logo{
-        height:28px
-    }
 }
 .Nav__logo__svg{
     fill:#332e56;
-    height:21px;
     transition:fill .5s;
     width:94px;
     overflow: visible;
+    max-height: 36px;
 }
 .Nav--inverted .Nav__logo__svg{
     fill:#fff
@@ -1427,7 +1426,6 @@ span.hr.purple{
 }
 @media(min-width:768px){
     .Nav__logo__svg{
-        height:28px;
         width:120px
     }
 }
@@ -1837,6 +1835,10 @@ a:focus,a:hover{
     font-size: 14px;
     padding-left: 16px;
   }
+
+  .intro-image{
+    visibility: none;
+  }
 }
 
 
@@ -2124,9 +2126,11 @@ a:focus,a:hover{
     background-repeat:no-repeat;
     background-position:50%;
     height:735px;
-    padding-top:300px;
     background-size:550px;
+    display: flex;
+    align-items: center;
 }
+
 @media(-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){
     .Intro--new{
         background-size:550px;
@@ -2137,10 +2141,12 @@ a:focus,a:hover{
     .Intro--new{
         background-size:768px
     }
+    .break-words {
+      display: none;
+    }
 }
 @media(min-width:576px) and (-webkit-min-device-pixel-ratio:2),(min-width:576px) and (min-resolution:192dpi){
     .Intro--new{
-
         background-size:768px
     }
 }
@@ -2149,6 +2155,18 @@ a:focus,a:hover{
         padding-top:187px;
         background-size:cover;
         background-position:50%;
+    }
+
+    .Intro--new .Intro__content {
+      max-width: none;
+      margin: 0;
+      padding-left: 53px;
+      padding-top: 25px;
+      width: 1000px;
+    }
+
+    .Intro__content {
+      flex: 2.5;
     }
 }
 @media(min-width:768px) and (-webkit-min-device-pixel-ratio:2),(min-width:768px) and (min-resolution:192dpi){
