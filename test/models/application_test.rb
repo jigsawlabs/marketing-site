@@ -14,6 +14,7 @@
 #  interested_field      :string
 #  created_at            :datetime         not null
 #  updated_at            :datetime         not null
+#  zipcode               :string
 #
 
 require 'test_helper'
