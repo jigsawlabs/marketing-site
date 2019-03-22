@@ -1,0 +1,96 @@
+<%= render 'layouts/navbar' %>
+<div class="SiteContent">
+  <section class="Intro--new">
+    <div class="row">
+      <div class="col Intro__content">
+        <div class="Section--even">
+          <h1 class="Intro__title">
+            <span class="inline-block"> In the future, decisions</span>
+            <span class="inline-block"> will be made by those </span>
+            <span class="inline-block"> who know </span> <br/>
+             <span class="inline-block typed"> business analytics. </span>
+          </h1>
+
+          <div class="Intro__body">
+            <p>
+            <span class="inline-block"> Learn data science </span> <span class="inline-block"> in our ten week course, <span/> <span class="inline-block"> and upgrade your skillset. </span>
+            </p>
+          </div>
+          <div class="Intro__cta">
+            <div class="Button Button__purple">
+              <a href="#">Start Learning <span> For Free </span></a>
+            </div>
+            <a class="title-link" href="<%= about_path %>">Why Data Science </a>
+          </div>
+        </div>
+      </div>
+      <div class="col intro-image"></div>
+    </div>
+  </section>
+  <section class="Solutions">
+    <div class="row">
+      <div class="col flex-centered" style="">
+        <div class="Section__content">
+          <%= image_tag "venn.svg", alt: 'Jigsaw Labs Data Science Venn Diagram' %>
+        </div>
+      </div>
+      <div class="col flex-centered">
+        <div class="Section__content">
+          <h2>A comprehensive approach to data science</h2>
+          <p>Data science blends coding, business analysis, and statistics to diagnose problems and recommend action.</p>
+          <p>You'll join a community of learners, bringing their perspective and passions to exploring these subjects.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="Solutions">
+    <div class="row">
+      <div class="col flex-centered" style="">
+        <div class="Section__content">
+          <%= image_tag "women-presenting.svg", alt: 'Data Science Presentation at Jigsaw Labs'%>
+        </div>
+      </div>
+      <div class="col flex-centered">
+        <div class="Section__content">
+          <h2>A student driven community</h2>
+          <p>Data scientists are expected to be core members of their organization -- drawing insights, and facilitating discussions.</p>
+          <p>Members of our community do the same.  Group projects, blogs, and code exchanges ask individuals to bring their own backgrounds and ideas to explore data science. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="Solutions">
+    <div class="row">
+      <div class="col flex-centered" style="">
+        <div class="Section__content">
+          <%= image_tag "man-thinking.svg", alt: 'Dreaming Machine Learning at Jigsaw Labs' %>
+        </div>
+      </div>
+      <div class="col flex-centered">
+        <div class="Section__content">
+          <h2>Own an immediate skillset</h2>
+          <p>Whether coding, statistics, or analysis, each topic we cover brings new tools to solve problems.</p>
+          <p>With labs and projects, you'll own each skill.  And we focus on the fundamentals to give you a solid foundation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="HomeEfficacy Section--inverted">
+    <div class="HomeEfficacy__otc"></div>
+    <div class="HomeEfficacy__text Section__content">
+      <h2>Possibility and passion in your new career.</h2>
+      <p> Welcome to a student-driven classroom that explores rich topics, <br/> whether in coding, statistics, or business analysis. </p>
+      <div class="cta-wrapper cta-spacing-top cta-spacing-bottom">
+        <div class="cta-divider "></div>
+        <div class="Button ">
+          <a class="js--signup-modal-trigger" href="/auth/welcome">Start free course</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script>
+    window.__LANDING_VARIANT__ = 'default';
+  </script>
+  <%= render 'layouts/footer' %>
+
+

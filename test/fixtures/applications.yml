@@ -1,0 +1,41 @@
+# == Schema Information
+#
+# Table name: applications
+#
+#  id                    :bigint(8)        not null, primary key
+#  first_name            :string
+#  last_name             :string
+#  email                 :string
+#  phone_number          :string
+#  preferred_course_date :date
+#  date_of_birth         :date
+#  linkedin              :string
+#  github                :string
+#  interested_field      :string
+#  created_at            :datetime         not null
+#  updated_at            :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  first_name: MyString
+  last_name: MyString
+  email: MyString
+  phone_number: MyString
+  preferred_course_data: 2019-03-21
+  date_of_birth: 2019-03-21
+  linkedin: MyString
+  github: MyString
+  interested_field: MyString
+
+two:
+  first_name: MyString
+  last_name: MyString
+  email: MyString
+  phone_number: MyString
+  preferred_course_data: 2019-03-21
+  date_of_birth: 2019-03-21
+  linkedin: MyString
+  github: MyString
+  interested_field: MyString
