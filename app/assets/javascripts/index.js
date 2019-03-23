@@ -9,3 +9,6 @@ setInterval(function() {
     v === f.length - 1 ? v = 0 : v++
   }
 }, 1e3);
+
+
+
