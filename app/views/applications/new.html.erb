@@ -48,8 +48,9 @@
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="logo__hz"> </div>
-            <h2> Start your Application</h2>
             <p> Part Time Data Science Classes</p>
+            <%= image_tag "women-presenting.svg", alt: 'Data Science Presentation at Jigsaw Labs'%>
+
             <%= form_with(model: @application, id: 'new_application') do |f| %>
               <div class="form-row">
                 <div class="form-group col-md-6">

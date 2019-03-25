@@ -1441,9 +1441,9 @@ span.hr.purple{
     display:block;
     min-height: 37px;
     background: url(asset_path("general/jigsaw-labs-hz.svg")) no-repeat;
-    height: 150px;
+    height: 200px;
     width: 200px;
-    background-size: 200px 200px;
+    background-size: 200px 130px;
     left: 40px;
     margin: 0px auto;
 }
@@ -7212,10 +7212,16 @@ ul.GuideSection__list li:before{
   height: 100vh;
   padding: 0px 40px 40px 40px;
   border-top: none;
+  background: #f1f2f7;
 }
 
 .modal-content h2, p {
-  margin: 5px auto;
+  margin: -45px auto 22px auto;
+}
+
+.modal-content img {
+  margin: 0 auto;
+  max-width: 35%;
 }
 
 /*Sets the maximum height of the modal body to 90% of the screen height*/
@@ -7237,7 +7243,7 @@ ul.GuideSection__list li:before{
  font-size: 18px;
  line-height: 1.5;
  font-family: larssiet;
- margin-top: 50px;
+ margin-top: 23px;
 }
 
 
@@ -7247,7 +7253,7 @@ ul.GuideSection__list li:before{
 }
 
 .modal-content .logo__hz {
-  margin-bottom: 30px;
+  margin-bottom: -45px;
 }
 
 @media(max-height: 890px){
