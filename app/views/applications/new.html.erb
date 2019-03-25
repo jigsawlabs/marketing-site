@@ -1,45 +1,50 @@
 <%= render 'layouts/navbar' %>
-<div class="SiteContent">
-  <section class="Solutions">
+<div class="SiteContent" >
+  <section class="Solutions application_form_2 no_opacity" >
     <div class="row">
       <div class="col flex-centered">
-        <div class="Section__content">
-            <h2> Complete your Application</h2>
+        <div class="Section__content" id="application_page_2">
+            <h2> Course Preference & Profile Info</h2>
             <%= form_with(model: @application, id: 'new_application') do |f| %>
               <div class="form-row">
                 <div class="form-group col-md-6">
-                  <%= f.label :first_name %>
-                  <%= f.email_field :email, placeholder: 'First Name', class: 'form-control' %>
+                  <%= f.label :Linkedin_profile %>
+                  <%= f.email_field :linkedin, placeholder: '', class: 'form-control' %>
                 </div>
                 <div class="form-group col-md-6">
-                  <%= f.label :last_name %>
-                  <%= f.text_field :last_name, placeholder: 'Last Name', class: 'form-control' %>
-                </div>
-              </div>
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <%= f.label :email %>
-                  <%= f.text_field :email, placeholder: 'Email', class: 'form-control' %>
-                </div>
-                <div class="form-group col-md-6">
-                  <%= f.label :phone_number %>
-                  <%= f.telephone_field :phone_number, placeholder: '111-111-1111', class: 'form-control' %>
+                  <%= f.label :Github_profile %>
+                  <%= f.text_field :github, placeholder: '', class: 'form-control' %>
                 </div>
               </div>
               <div class="form-row">
-                <div class="form-group col-md-6">
-                  <%= f.label :zip_code %>
-                  <%= f.text_field :zip_code, placeholder: '11111', class: 'form-control' %>
+                <div class="form-group col-md-7">
+                  <%= f.label 'preferred course start date:' %>
+                  <%= f.select :preferred_course_date, ['June 2019', 'September 2019']%>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-12">
+                  <%= f.label 'most interested in applying data science to:' %>
+                  <%= f.select :interested_field, ['marketing', 'business analysis', 'finance', 'economics/policy', 'social enterprise', 'biology', 'other'] %>
                 </div>
               </div>
 
-              <%=f.submit 'Continue', class: 'btn btn-primary' %>
+              <%=f.submit 'Apply', class: 'Button' %>
             <% end %>
         </div>
       </div>
       <div class="col flex-centered" style="">
         <div class="Section__content">
-          <%= image_tag "women-presenting.svg", alt: 'Data Science Presentation at Jigsaw Labs'%>
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <p class="card-text">
+              This is the first step in applying for our Part Time Data Science Course.
+              </p>
+              <p class="card-text">
+              After submitting your application, our admissions department will contact you about next steps.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -84,38 +89,6 @@
           </div>
         </div>
       </div>
-  <section class="Solutions">
-    <div class="row">
-      <div class="col flex-centered" style="">
-        <div class="Section__content">
-          <%= image_tag "man-thinking.svg", alt: 'Dreaming Machine Learning at Jigsaw Labs' %>
-        </div>
-      </div>
-      <div class="col flex-centered">
-        <div class="Section__content">
-          <h2>Own an immediate skillset</h2>
-          <p>Whether coding, statistics, or analysis, each topic we cover brings new tools to solve problems.</p>
-          <p>With labs and projects, you'll own each skill.  And we focus on the fundamentals to give you a solid foundation.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="HomeEfficacy Section--inverted">
-    <div class="HomeEfficacy__otc"></div>
-    <div class="HomeEfficacy__text Section__content">
-      <h2>Possibility and passion in your new career.</h2>
-      <p> Welcome to a student-driven classroom that explores rich topics, <br/> whether in coding, statistics, or business analysis. </p>
-      <div class="cta-wrapper cta-spacing-top cta-spacing-bottom">
-        <div class="cta-divider "></div>
-        <div class="Button ">
-          <a class="js--signup-modal-trigger" href="/auth/welcome">Start free course</a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <script>
-    window.__LANDING_VARIANT__ = 'default';
-  </script>
   <%= render 'layouts/footer' %>
 
 

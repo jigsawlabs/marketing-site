@@ -7215,9 +7215,6 @@ ul.GuideSection__list li:before{
   background: #f1f2f7;
 }
 
-.modal-content h2, p {
-  margin: -45px auto 22px auto;
-}
 
 .modal-content img {
   margin: 0 auto;
@@ -7236,6 +7233,7 @@ ul.GuideSection__list li:before{
 .modal-open {
     overflow: hidden;
     position: fixed;
+    padding-right: 0 !important;
 }
 
 #new_application {
@@ -7280,6 +7278,7 @@ input[list], input[type=text], input[type=email], input[type=password], input[ty
     background-color: #fff;
     border-radius: 3px;
     border: 1px solid #E1E1E1;
+    color: #4A4A4A;
 }
 
 button, fieldset, input, legend, optgroup, option, select, textarea {
