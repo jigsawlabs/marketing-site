@@ -7289,3 +7289,25 @@ button, fieldset, input, legend, optgroup, option, select, textarea {
     display: block;
     transition: border-color .5s ease,box-shadow .5s ease;
 }
+
+section.no_opacity {
+  opacity:0;
+  }
+
+section#add_opacity {
+  opacity:1;
+  transition:opacity .5s .3s ease;
+  }
+  body {
+    // STOP MOVING AROUND!
+    overflow-x: hidden;
+    overflow-y: scroll !important;
+}
+
+.application_form_2 .row {
+  margin-top: 130px;
+}
+
+.application_form_2 .card {
+  background: #f1f2f7;
+}
