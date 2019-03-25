@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get 'practice', to: 'pages#practice'
   get 'login', to: 'pages#login'
   get 'course_details', to: 'pages#course_details'
+  post 'update_application', to: 'applications#update_app', as: 'update_app'
   resources :events
   resources :applications
 

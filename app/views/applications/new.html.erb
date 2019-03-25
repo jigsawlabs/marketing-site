@@ -5,7 +5,7 @@
       <div class="col flex-centered">
         <div class="Section__content" id="application_page_2">
             <h2> Course Preference & Profile Info</h2>
-            <%= form_with(model: @application, id: 'new_application') do |f| %>
+            <%= form_with(model: @application, id: 'new_application', url: update_app_path) do |f| %>
               <div class="form-row">
                 <div class="form-group col-md-6">
                   <%= f.label :Linkedin_profile %>
@@ -28,7 +28,7 @@
                   <%= f.select :interested_field, ['marketing', 'business analysis', 'finance', 'economics/policy', 'social enterprise', 'biology', 'other'] %>
                 </div>
               </div>
-
+              <%= hidden_field_tag 'application[number]', '' %>
               <%=f.submit 'Apply', class: 'Button' %>
             <% end %>
         </div>
