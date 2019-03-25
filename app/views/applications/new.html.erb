@@ -47,7 +47,9 @@
       <div class="modal fade bd-example-modal-lg" id="application_modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" data-show="true" data-backdrop="static">
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
+            <div class="logo__hz"> </div>
             <h2> Start your Application</h2>
+            <p> Part Time Data Science Classes</p>
             <%= form_with(model: @application, id: 'new_application') do |f| %>
               <div class="form-row">
                 <div class="form-group col-md-6">
@@ -76,7 +78,7 @@
                 </div>
               </div>
 
-              <%=f.submit 'Continue', class: 'btn btn-primary' %>
+              <%=f.submit 'Continue', class: 'Button Button__purple' %>
             <% end %>
           </div>
         </div>

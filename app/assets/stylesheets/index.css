@@ -1435,6 +1435,18 @@ span.hr.purple{
     margin-bottom: 17px;
 }
 
+
+
+.logo__hz{
+    display:block;
+    min-height: 37px;
+    background: url(asset_path("general/jigsaw-labs-hz.svg")) no-repeat;
+    height: 150px;
+    width: 200px;
+    background-size: 200px 200px;
+    left: 40px;
+    margin: 0px auto;
+}
 @media(max-width:768px){
   a.Nav__logo:after {
     content: 'Jigsaw Labs';
@@ -7183,7 +7195,91 @@ ul.GuideSection__list li:before{
 
 @media (min-width: 576px) {
   .modal-dialog {
-    max-width: 500px;
+    max-width: 700px;
     margin: 7.75rem auto;
   }
+}
+
+
+/*When the modal fills the screen it has an even 2.5% on top and bottom*/
+/*Centers the modal*/
+.modal-dialog {
+  margin: 0vh auto;
+}
+
+/*Sets the maximum height of the entire modal to 95% of the screen height*/
+.modal-content {
+  height: 100vh;
+  padding: 0px 40px 40px 40px;
+  border-top: none;
+}
+
+.modal-content h2, p {
+  margin: 5px auto;
+}
+
+/*Sets the maximum height of the modal body to 90% of the screen height*/
+.modal-body {
+  max-height: 100vh;
+}
+/*Sets the maximum height of the modal image to 69% of the screen height*/
+.modal-body img {
+  max-height: 69vh;
+}
+
+.modal-open {
+    overflow: hidden;
+    position: fixed;
+}
+
+#new_application {
+ color: #4A4A4A;
+ font-size: 18px;
+ line-height: 1.5;
+ font-family: larssiet;
+ margin-top: 50px;
+}
+
+
+#new_application .Button {
+  padding: 13px 17px;
+  float: right;
+}
+
+.modal-content .logo__hz {
+  margin-bottom: 30px;
+}
+
+@media(max-height: 890px){
+  .modal-content:after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    height: 50px;
+    opacity: 1;
+    background: linear-gradient(180deg,transparent 0,rgba(0,0,0,.35));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#59000000', GradientType=0);
+    transition: height .3s ease-in-out,opacity .3s ease-in-out;
+    pointer-events: none;
+  }
+}
+
+input[list], input[type=text], input[type=email], input[type=password], input[type=search], input[type=date], input[type=datetime-local], input[type=month], input[type=number], input[type=tel], input[type=time], input[type=url], input[type=week], input[type=file], select, textarea {
+    width: 100%;
+    max-width: none;
+    padding: .4rem .8rem;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #E1E1E1;
+}
+
+button, fieldset, input, legend, optgroup, option, select, textarea {
+    box-sizing: border-box;
+    outline: 0;
+    vertical-align: top;
+    display: block;
+    transition: border-color .5s ease,box-shadow .5s ease;
 }
