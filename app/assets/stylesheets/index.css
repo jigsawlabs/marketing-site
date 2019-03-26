@@ -7323,3 +7323,8 @@ section#add_opacity {
   margin: 38px auto 18px auto;
 }
 
+footer p a {
+  text-decoration: none;
+  color: #706c87;
+}
+
