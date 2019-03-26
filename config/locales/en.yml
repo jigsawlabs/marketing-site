@@ -30,4 +30,21 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  activerecord:
+    attributes:
+      user:
+        email: "E-mail address"
+    errors:
+      models:
+        application:
+          attributes:
+            first_name:
+              blank: "Please fill in your first name."
+            last_name:
+              blank: "Please fill in your last name."
+            email:
+              blank: "Please fill in your email."
+            phone_number:
+              blank: "Please fill in your phone number."
+            zipcode:
+              blank: "Please fill in your zip code."

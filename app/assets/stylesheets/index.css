@@ -7334,3 +7334,7 @@ footer p a {
     font-weight: 200;
 }
 
+.message {
+  font-size: 16px;
+  color: #706c87;
+}

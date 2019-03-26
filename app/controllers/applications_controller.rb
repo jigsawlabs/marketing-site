@@ -4,7 +4,7 @@ class ApplicationsController < ApplicationController
   end
 
   def create
-    @application = Application.new(params.require(:application).permit(:first_name, :last_name, :email, :phone, :zipcode))
+    @application = Application.new(params.require(:application).permit(:first_name, :last_name, :email, :phone, :zipcode, :phone_number))
     @application.save
     render json: {id: @application.id}
   end

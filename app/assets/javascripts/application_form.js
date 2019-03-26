@@ -12,6 +12,10 @@ $(document).on('turbolinks:load', function(){
     thank_application.modal('show')
   })
 
+  $(document).on('shown.bs.modal', '.modal', function() {
+    $('form[data-client-side-validations]').enableClientSideValidations();
+  });
+
 
 
   $(form).on("ajax:success", function(event){

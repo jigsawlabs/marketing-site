@@ -16,5 +16,6 @@
 //= require jquery3
 //= require bootstrap-sprockets
 //= require index
+//= require rails.validations
 //= require application_form
 // can change bootstrap-sprockets to bootstrap for faster compilation

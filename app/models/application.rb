@@ -18,4 +18,5 @@
 #
 
 class Application < ApplicationRecord
+  validates :first_name, :last_name, :email, :phone_number, :zipcode, presence: true
 end

@@ -5,27 +5,30 @@
       <div class="col flex-centered">
         <div class="Section__content" id="application_page_2">
             <h2> Course Preference & Profile Info</h2>
-            <%= form_with(model: @application, id: 'new_application', url: update_app_path) do |f| %>
+            <%= form_with(model: @application, id: 'new_application', url: update_app_path, validate: true) do |f| %>
               <div class="form-row">
                 <div class="form-group col-md-6">
-                  <%= f.label :Linkedin_profile %>
+
+                  <label for="application_linkedin_profile">Linkedin profile
+                    <span> <small id="emailHelp" class=" text-muted">(optional)</small></span> </label>
                   <%= f.email_field :linkedin, placeholder: '', class: 'form-control' %>
                 </div>
                 <div class="form-group col-md-6">
-                  <%= f.label :Github_profile %>
+                  <label for="application_Github_profile">Github profile
+                    <span> <small id="emailHelp" class=" text-muted">(optional)</small></span> </label>
                   <%= f.text_field :github, placeholder: '', class: 'form-control' %>
                 </div>
               </div>
               <div class="form-row">
                 <div class="form-group col-md-7">
                   <%= f.label 'preferred course start date:' %>
-                  <%= f.select :preferred_course_date, ['June 2019', 'September 2019']%>
+                  <%= f.select :preferred_course_date, ['Select one', 'June 2019', 'September 2019']%>
                 </div>
               </div>
               <div class="form-row">
                 <div class="form-group col-md-12">
                   <%= f.label 'most interested in applying data science to:' %>
-                  <%= f.select :interested_field, ['marketing', 'business analysis', 'finance', 'economics/policy', 'social enterprise', 'biology', 'other'] %>
+                  <%= f.select :interested_field, ['Select one', 'marketing', 'business analysis', 'finance', 'economics/policy', 'social enterprise', 'biology', 'other'] %>
                 </div>
               </div>
               <%= hidden_field_tag 'application[number]', '' %>
@@ -56,11 +59,11 @@
             <p class="modal-p"> Part Time Data Science Classes</p>
             <%= image_tag "women-presenting.svg", alt: 'Data Science Presentation at Jigsaw Labs'%>
 
-            <%= form_with(model: @application, id: 'new_application') do |f| %>
+            <%= form_for(@application, id: 'new_application', validate: true, remote: true) do |f| %>
               <div class="form-row">
                 <div class="form-group col-md-6">
                   <%= f.label :first_name %>
-                  <%= f.email_field :email, placeholder: 'First Name', class: 'form-control' %>
+                  <%= f.text_field :first_name, placeholder: 'First Name', validate: {presence: true}, class: 'form-control' %>
                 </div>
                 <div class="form-group col-md-6">
                   <%= f.label :last_name %>
@@ -70,7 +73,7 @@
               <div class="form-row">
                 <div class="form-group col-md-6">
                   <%= f.label :email %>
-                  <%= f.text_field :email, placeholder: 'Email', class: 'form-control' %>
+                  <%= f.email_field :email, placeholder: 'Email', class: 'form-control' %>
                 </div>
                 <div class="form-group col-md-6">
                   <%= f.label :phone_number %>
@@ -80,7 +83,7 @@
               <div class="form-row">
                 <div class="form-group col-md-6">
                   <%= f.label :zip_code %>
-                  <%= f.text_field :zip_code, placeholder: '11111', class: 'form-control' %>
+                  <%= f.text_field :zipcode, placeholder: '11111', class: 'form-control' %>
                 </div>
               </div>
 
@@ -100,14 +103,15 @@
             <p class="modal-meantime-p"> In the meantime, get to know us a little better. </p>
 
             <div class="Intro__cta" style="margin: 0 auto;">
+              <div class="Button" style="margin: 0px 9px;">
               <a class="Button" href="<%= events_path %>" style="
-              padding: 20px;
-              margin: 5px;
               ">Attend an Event</a>
+              </div>
               <div class="Button Button__purple">
                 <a href="#"> Free Course </a>
               </div>
             </div>
+            <p class="modal-meantime-p"> Or return to the <%= link_to 'home page.', root_path, style: 'text-decoration: none; color: #706c87' %> </p>
           </div>
         </div>
       </div>
