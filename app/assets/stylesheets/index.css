@@ -160,7 +160,8 @@ output{
     -ms-flex:1;
     flex:1;
     padding:0;
-    position:relative
+    position:relative;
+    min-width: 400px
 }
 @media(min-width:768px){
     .col{
