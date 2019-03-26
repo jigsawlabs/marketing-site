@@ -49,11 +49,11 @@
       </div>
     </div>
   </section>
-      <div class="modal fade bd-example-modal-lg" id="application_modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" data-show="true" data-backdrop="static">
+      <div class="modal fade bd-example-modal-lg" id="application_modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" data-keyboard="false" data-show="true" data-backdrop="static">
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="logo__hz"> </div>
-            <p> Part Time Data Science Classes</p>
+            <p class="modal-p"> Part Time Data Science Classes</p>
             <%= image_tag "women-presenting.svg", alt: 'Data Science Presentation at Jigsaw Labs'%>
 
             <%= form_with(model: @application, id: 'new_application') do |f| %>
@@ -86,6 +86,28 @@
 
               <%=f.submit 'Continue', class: 'Button Button__purple' %>
             <% end %>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade bd-example-modal-lg" id="thank_application" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" data-keyboard="false" data-show="true" data-backdrop="static">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="logo__hz"> </div>
+            <p class="thanks-modal-p"> Your application has been submitted! </p>
+            <p class="thanks-modal-p"> Someone from admissions will reach out to you shortly. </p>
+            <%= image_tag "about/version-control.svg", alt: 'Data Science Presentation at Jigsaw Labs'%>
+            <p class="modal-meantime-p"> In the meantime, get to know us a little better. </p>
+
+            <div class="Intro__cta" style="margin: 0 auto;">
+              <a class="Button" href="<%= events_path %>" style="
+              padding: 20px;
+              margin: 5px;
+              ">Attend an Event</a>
+              <div class="Button Button__purple">
+                <a href="#"> Free Course </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -3,7 +3,18 @@ $(document).on('turbolinks:load', function(){
   let form = $('form#new_application')
   var application_modal = $('#application_modal')
   application_modal.modal('show')
-  $('form#new_application').on("ajax:success", function(event){
+  var thank_application = $('#thank_application')
+  var second_application = $('#application_page_2')
+
+
+  $(second_application).on("ajax:success", function(event){
+    $('section.Solutions.application_form_2').attr('id', '')
+    thank_application.modal('show')
+  })
+
+
+
+  $(form).on("ajax:success", function(event){
     application_modal.modal('hide')
     $('section.Solutions.application_form_2').attr('id', 'add_opacity')
     let id = event.detail[0]['id']

@@ -10,7 +10,8 @@ class ApplicationsController < ApplicationController
   end
 
   def update_app
-    byebug
-
+    number = params.require(:application).permit(:number)[:number]
+    @application = Application.find(number)
+    @application.update_attributes(params.require(:application).permit(:linkedin, :github, :preferred_course_date, :interested_field))
   end
 end
