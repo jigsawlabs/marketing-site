@@ -1426,14 +1426,15 @@ span.hr.purple{
 }
 .Nav__logo{
     display:block;
-    min-height: 37px;
-    background: url(asset_path("general/jigsaw-logo-text.svg")) no-repeat;
-    height: 85px;
-    width: 50px;
-    background-size: 50px 109px;
-    left: 40px;
+    width: 7%;
+    min-width: 100px;
+    max-width: 150px;
     margin-left: 30px;
-    margin-bottom: 17px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    line-height: 1.1;
 }
 
 
@@ -1449,12 +1450,6 @@ span.hr.purple{
     margin: 0px auto;
 }
 @media(max-width:768px){
-  a.Nav__logo:after {
-    content: 'Jigsaw Labs';
-    font-size: 16px;
-    color: #332e56;
-    font-family: actor;
-  }
   .Nav__logo{
     display:block;
     min-height: 37px;
