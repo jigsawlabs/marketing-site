@@ -1427,8 +1427,7 @@ span.hr.purple{
 .Nav__logo{
     display:block;
     width: 7%;
-    min-width: 100px;
-    max-width: 150px;
+    max-width: 100px;
     margin-left: 30px;
     margin-left: 30px;
     margin-bottom: 0px;
@@ -1448,17 +1447,6 @@ span.hr.purple{
     background-size: 200px 130px;
     left: 40px;
     margin: 0px auto;
-}
-.Nav--inverted .Nav__logo__svg{
-    fill:#fff
-}
-.Nav__wrapper--opaque .Nav__logo__svg{
-    fill:#332e56
-}
-@media(min-width:768px){
-    .Nav__logo__svg{
-        width:120px
-    }
 }
 .Nav__pullout{
     background:#fff;
