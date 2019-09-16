@@ -1449,30 +1449,6 @@ span.hr.purple{
     left: 40px;
     margin: 0px auto;
 }
-@media(max-width:768px){
-  .Nav__logo{
-    display:block;
-    min-height: 37px;
-    background: none;
-    height: 30px;
-    width: 80px;
-    background-size: 68px 109px;
-    left: 40px;
-    margin-left: 30px;
-    margin-bottom: 0px;
-    font-weight: 500;
-    letter-spacing: 0.3px;
-    line-height: 1.1;
-  }
-}
-.Nav__logo__svg{
-    fill:#332e56;
-    transition:fill .5s;
-    width:94px;
-    overflow: visible;
-    max-height: 40px;
-    min-height: 36px;
-}
 .Nav--inverted .Nav__logo__svg{
     fill:#fff
 }
@@ -1514,11 +1490,6 @@ span.hr.purple{
 @media(min-width:992px){
     .Nav__pullout{
         margin-left:20px
-    }
-}
-@media(min-width:768px){
-    .Nav__pullout .Nav__logo{
-        display:none
     }
 }
 .NavOpen .Nav__pullout{
