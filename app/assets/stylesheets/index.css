@@ -1428,6 +1428,7 @@ span.hr.purple{
     display:block;
     width: 7%;
     max-width: 100px;
+    min-width: 85px;
     margin-left: 30px;
     margin-left: 30px;
     margin-bottom: 0px;
