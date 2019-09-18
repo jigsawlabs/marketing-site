@@ -2596,7 +2596,7 @@ a:focus,a:hover{
 }
 @media(min-width:768px){
     .Persona:nth-child(odd) .Persona__attributes{
-        text-align:right
+        text-align: center;
     }
 }
 @media(min-width:768px){
@@ -2767,18 +2767,26 @@ a:focus,a:hover{
     left: -13%;
   }
 }
-.Persona__portrait__container--ariel img{
-  height: 346px;
-  width: 166%;
-  left: -37%;
+.ariel-image {
+    height: 67%;
+    width: 89%;
+    top: -10%;
+    left: 2%;
 }
+
+.Persona__portrait__container--ariel img{
+  height: 420px;
+    width: 40%;
+    left: 0%;
+}
+
 @media(min-width:992px){
-    .Persona__portrait__container--ariel img{
-        height: 67%;
-        width: 170%;
-        top: -17%;
-        left: -38%;
-    }
+  .Persona__portrait__container--ariel img{
+    height: 63%;
+    width: 48%;
+    top: -7%;
+    left: 16%;
+  }
 }
 
 @media(max-width: 992px){
@@ -2793,6 +2801,52 @@ a:focus,a:hover{
     left: 59px;
   }
 }
+
+
+
+
+
+.Persona__portrait__container--math{
+    -ms-flex-pack:end;
+    justify-content:flex-end;
+}
+@media(min-width:992px){
+    .Persona__portrait__container--math{
+        margin-left:0px;
+    }
+}
+@media(max-width:767px){
+  .Persona__portrait__container--math img{
+    height: 460px;
+    width: 670px;
+    left: -13%;
+  }
+}
+
+.Persona__portrait__container--math img{
+  height: 242px;
+  width: 87%;
+  left: 20%;
+  top: 20%;
+}
+@media(min-width:992px){
+    .Persona__portrait__container--math img{
+      height: 48%;
+    width: 172%;
+    top: 2%;
+    left: -48%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
 .Persona__portrait__container--ariel-m{
     -ms-flex-pack:end;

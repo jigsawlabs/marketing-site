@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="310px" height="348px" viewBox="0 0 310 348" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>rubix</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-6" transform="translate(0.049000, 0.050000)" fill-rule="nonzero">
+            <polygon id="Path" fill="#FFD740" points="305.859 266.393 305.826 266.41 161.152 346.969 2.73 267.758 0 266.393 8.222 101.953 151.285 0 152.864 0.987 300.926 93.731"></polygon>
+            <g id="Group-2" transform="translate(156.951000, 103.950000)" fill="#EA6148">
+                <g id="Group" transform="translate(15.000000, 0.000000)">
+                    <ellipse id="Oval" cx="13" cy="95" rx="13" ry="11"></ellipse>
+                    <ellipse id="Oval" cx="46" cy="65" rx="13" ry="11"></ellipse>
+                    <ellipse id="Oval" cx="92" cy="54" rx="13" ry="11"></ellipse>
+                    <ellipse id="Oval" cx="85" cy="10.5" rx="13" ry="10.5"></ellipse>
+                    <ellipse id="Oval" cx="59" cy="34" rx="13" ry="11"></ellipse>
+                    <ellipse id="Oval" cx="13" cy="70" rx="13" ry="11"></ellipse>
+                </g>
+                <g id="Group" transform="translate(0.000000, 76.000000)">
+                    <ellipse id="Oval" cx="13" cy="95" rx="13" ry="11"></ellipse>
+                    <ellipse id="Oval" cx="46" cy="65" rx="13" ry="11"></ellipse>
+                    <ellipse id="Oval" cx="92" cy="54" rx="13" ry="11"></ellipse>
+                    <ellipse id="Oval" cx="85" cy="10.5" rx="13" ry="10.5"></ellipse>
+                    <ellipse id="Oval" cx="59" cy="34" rx="13" ry="11"></ellipse>
+                    <ellipse id="Oval" cx="13" cy="70" rx="13" ry="11"></ellipse>
+                </g>
+            </g>
+            <g id="Group-4" transform="translate(51.951000, 84.950000)" fill="#40C4FF">
+                <ellipse id="Oval" cx="80" cy="72" rx="13" ry="11"></ellipse>
+                <g id="Group-3" transform="translate(0.000000, 58.000000)">
+                    <ellipse id="Oval" cx="15" cy="11" rx="13" ry="11"></ellipse>
+                    <ellipse id="Oval" cx="39" cy="32.5" rx="13" ry="10.5"></ellipse>
+                    <ellipse id="Oval" cx="13" cy="56" rx="13" ry="11"></ellipse>
+                </g>
+                <ellipse id="Oval" cx="139" cy="50" rx="13" ry="11"></ellipse>
+                <ellipse id="Oval" cx="113" cy="46.5" rx="13" ry="10.5"></ellipse>
+                <ellipse id="Oval" cx="126" cy="11" rx="13" ry="11"></ellipse>
+                <ellipse id="Oval" cx="80" cy="47" rx="13" ry="11"></ellipse>
+                <ellipse id="Oval" cx="65" cy="148" rx="13" ry="11"></ellipse>
+                <ellipse id="Oval" cx="113" cy="83" rx="13" ry="11"></ellipse>
+                <ellipse id="Oval" cx="144" cy="107" rx="13" ry="11"></ellipse>
+                <ellipse id="Oval" cx="82" cy="114" rx="13" ry="11"></ellipse>
+            </g>
+            <polygon id="Path" fill="#000000" opacity="0.3" points="308.047 265.986 163.373 346.545 4.951 267.334 145.284 168.95"></polygon>
+            <polygon id="Path" fill="#000000" opacity="0.3" points="308.047 181.986 163.373 262.545 4.951 183.334 145.284 84.95"></polygon>
+            <polygon id="Path" fill="#000000" opacity="0.1" points="305.859 266.393 143.063 169.374 152.864 0.987 300.926 93.731"></polygon>
+            <polygon id="Path" fill="#F2F2F2" points="6.116 152.695 5.312 151.557 149.972 49.45 302.785 145.259 302.045 146.44 150.017 51.123"></polygon>
+            <polygon id="Path" fill="#F2F2F2" points="3.312 208.56 2.53 207.408 146.456 109.693 146.833 109.907 302.914 198.367 302.226 199.579 146.522 111.332"></polygon>
+            <polygon id="Path" fill="#F2F2F2" points="58.227 295.915 57.493 294.731 202.546 204.85 202.546 32.544 203.939 32.544 203.939 205.626"></polygon>
+            <polygon id="Path" fill="#F2F2F2" points="115.16 324.378 114.42 323.198 254.089 235.595 254.089 64.829 255.482 64.829 255.482 236.366"></polygon>
+            <polygon id="Path" fill="#F2F2F2" points="253.563 295.932 91.127 205.68 91.15 205.246 99.701 36.231 101.092 36.302 92.563 204.883 254.24 294.714"></polygon>
+            <polygon id="Path" fill="#F2F2F2" points="202.458 324.405 41.846 240.238 41.871 239.791 51.339 70.692 52.73 70.77 43.288 239.421 203.105 323.171"></polygon>
+        </g>
+    </g>
+</svg>
