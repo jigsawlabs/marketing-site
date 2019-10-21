@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   root to: 'pages#index'
   resources :events
   get 'about', to: 'pages#about'
+  get 'tos', to: 'pages#tos'
   get 'practice', to: 'pages#practice'
   get 'login', to: 'pages#login'
   get 'course_details', to: 'pages#course_details'
