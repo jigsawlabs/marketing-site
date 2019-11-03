@@ -1,6 +1,6 @@
 class EventsController < ApplicationController
   def index
-    @events = Event.future.earliest.includes(:location).limit(10)
+    redirect_to 'https://www.meetup.com/Data-Workshops/events/'
   end
 
   def new
