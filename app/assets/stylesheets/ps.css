@@ -1,0 +1,2570 @@
+
+.ps-upcoming-courses__content {
+  margin-top: 3.125rem
+}
+
+.ps-upcoming-courses__empty {
+  margin-top: 3.125rem;
+  text-align: center
+}
+
+.ps-upcoming-courses__empty__description {
+  color: #ECC249
+}
+
+.ps-upcoming-courses__empty__cta {
+  margin-top: 2.5rem
+}
+
+.ps-upcoming-courses__empty__footer {
+  margin-top: 3.125rem;
+  font-size: .875rem;
+  line-height: 1.28571;
+  color: #fff
+}
+
+.ps-upcoming-courses .ps-card-course-upcoming+.ps-card-course-upcoming {
+  margin-top: 1.25rem
+}
+
+.ps-upcoming-courses .ps-spinner--xl {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 0;
+  right: 0
+}
+
+.ps-upcoming-courses .no-upcoming-courses {
+  text-align: center;
+  max-width: 560px;
+  margin: 60px auto 0
+}
+
+.ps-upcoming-courses .no-upcoming-courses h3 {
+  color: #ECC249;
+  font-size: 18.6px;
+  line-height: 1.3
+}
+
+.ps-upcoming-courses .no-upcoming-courses button {
+  width: 350px;
+  max-width: 100%
+}
+
+.ps-upcoming-courses .no-upcoming-courses p {
+  font-size: 14px;
+  font-weight: 600
+}
+
+.ps-block--alternative .ps-upcoming-courses .no-upcoming-courses p {
+  color: #fff
+}
+
+@media all and (min-width: 992px) and (max-width: 1116px) {
+  .ps-upcoming-courses .vc_column_container.vc_col-md-10 {
+    margin-left: 3%;
+    width: 94%
+  }
+}
+
+
+.ps-card-bio__header__content {
+	margin-top: 2.25rem
+}
+
+.ps-card-bio__header__content__name {
+	color: #4C4E72
+}
+
+.ps-card-bio__header__content__role {
+	margin-top: 1.25rem;
+	color: #4C4E72
+}
+
+.ps-card-bio__header__content__social {
+	list-style: none;
+	margin-top: 1.25rem;
+	padding-left: 0
+}
+
+.ps-card-bio__header__content__social__item {
+	display: inline-block;
+	vertical-align: middle
+}
+
+.ps-card-bio__header__content__social__item a {
+	display: block
+}
+
+.ps-card-bio__header__content__social__item .ps-icon,
+.ps-card-bio__header__content__social__item div.gform_confirmation_message .button-check,
+div.gform_confirmation_message .ps-card-bio__header__content__social__item .button-check,
+.ps-card-bio__header__content__social__item div.salesforce_w2l_lead .success_message:before,
+div.salesforce_w2l_lead .ps-card-bio__header__content__social__item .success_message:before,
+.ps-card-bio__header__content__social__item .ps-speech__item__profile__name__rating,
+.ps-card-bio__header__content__social__item .ps-reviews__item__header__name__rating {
+	display: block;
+	font-size: 1.5625rem
+}
+
+.ps-card-bio__header__content__social__item+.ps-card-bio__header__content__social__item {
+	margin-left: 1.5625rem
+}
+
+.ps-card-bio__content {
+	margin-top: 1.875rem;
+	border-top: 0.0625rem dashed #C1C0CE;
+	padding-top: 1.875rem;
+	color: #121E48;
+	text-align: left
+}
+
+.ps-card-bio__content p+p {
+	margin-top: 1.125rem
+}
+
+.ps-card-bio--l .ps-card__wrapper {
+	padding: 3.125rem 1.25rem
+}
+
+.ps-card-bio--l .ps-card-bio__header {
+	display: table;
+	width: 100%;
+	padding-right: 5rem;
+	padding-left: 5rem
+}
+
+.ps-card-bio--l .ps-card-bio__header__avatar {
+	display: table-cell;
+	vertical-align: middle;
+	padding-right: 2.8125rem
+}
+
+.ps-card-bio--l .ps-card-bio__header__content {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	margin-top: 0
+}
+
+.ps-card-bio--l .ps-card-bio__content {
+	padding-right: 5rem;
+	padding-left: 5rem
+}
+
+.ps-card-bio--l+.ps-card-bio--l {
+	margin-top: 1.25rem
+}
+
+@media only screen and (max-width: 768px) {
+	.ps-card-bio--l .ps-card__wrapper {
+		padding: 1.875rem 0.75rem
+	}
+	.ps-card-bio--l .ps-card-bio__header {
+		display: block;
+		padding-right: 0;
+		padding-left: 0;
+		text-align: center
+	}
+	.ps-card-bio--l .ps-card-bio__header__avatar {
+		display: block;
+		padding-right: 0
+	}
+	.ps-card-bio--l .ps-card-bio__header__content {
+		display: block;
+		margin-top: 20px
+	}
+	.ps-card-bio--l .ps-card-bio__content {
+		display: none
+	}
+}
+
+.ps-card-blog-post {
+	height: 100%;
+	border-radius: 3px;
+	overflow: hidden
+}
+
+.ps-card-blog-post .ps-card__wrapper {
+	padding: 15px 15px 30px
+}
+
+.ps-card-blog-post h5 {
+	text-align: left
+}
+
+.ps-card-campus {
+	border-radius: 3px;
+	overflow: hidden
+}
+
+.ps-card-campus img {
+	width: 100%;
+	max-width: 100%
+}
+
+.ps-card-campus__simple .ps-card__wrapper {
+	padding: 20px
+}
+
+.ps-card-campus__simple h5 {
+	font-size: 22px;
+	color: #4C4E72
+}
+
+.ps-card-campus__simple img {
+	width: 100%;
+	max-width: inherit;
+	height: 150px;
+	-o-object-fit: cover;
+	object-fit: cover
+}
+
+.ps-card-campus__anim {
+	display: block;
+	-webkit-box-shadow: 0 0.6875rem 0.9375rem 0 rgba(18, 30, 72, 0.2);
+	box-shadow: 0 0.6875rem 0.9375rem 0 rgba(18, 30, 72, 0.2);
+	text-align: center
+}
+
+.ps-card-campus__anim__header {
+	background-color: transparent;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover
+}
+
+.ps-card-campus__anim__header__wrapper {
+	border-top-right-radius: .125rem;
+	border-top-left-radius: .125rem;
+	padding: 2.5rem 2.6rem 3.75rem;
+	background-color: rgba(18, 30, 72, 0.4)
+}
+
+.ps-card-campus__anim__header__marker {
+	font-size: 2.75rem;
+	color: #fff
+}
+
+.ps-card-campus__anim__header__title {
+	margin-top: 1rem;
+	color: #fff
+}
+
+.ps-card-campus__anim__header__address {
+	margin-top: 0.4375rem;
+	font-size: .875rem;
+	line-height: 1.28571;
+	font-style: normal;
+	color: #fff
+}
+
+.ps-card-campus__anim__header__action {
+	margin-top: 2.5rem;
+	text-align: center
+}
+
+.ps-card-campus__anim__footer {
+	padding: 0.9375rem;
+	text-align: center;
+	min-height: 61px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center
+}
+
+.ps-card-campus__container .ps-card-campus {
+	margin-bottom: 60px
+}
+
+.ps-card-campus__container .ps-locations-nav__dropdown {
+	margin-bottom: 1.5rem
+}
+
+.ps-card-campus__container .vc_column_container {
+	margin-top: 0
+}
+
+.ps-location-home {
+	margin-top: 70px;
+	background-color: #fff;
+	border-radius: .25rem;
+	padding: 1.8rem 0 0 0;
+	width: 100%;
+	float: left
+}
+
+.ps-location-home .ps-locations-menu__item__cities__item__link {
+	width: 90%;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: padding-left 1s;
+	transition: padding-left 1s
+}
+
+.ps-location-home .ps-location-home__campus {
+	opacity: 1;
+	visibility: visible;
+	position: relative;
+	width: 100%;
+	left: auto;
+	top: auto;
+	margin: 0;
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	float: left;
+	border-radius: 0;
+	background-color: transparent;
+	background-image: none;
+	padding: 0;
+	-webkit-box-shadow: 0 0 0 0 rgba(18, 30, 72, 0);
+	box-shadow: 0 0 0 0 rgba(18, 30, 72, 0);
+	padding: 0 0 1.8rem 0
+}
+
+.ps-location-home .ps-card_home {
+	width: 100%;
+	float: left;
+	-webkit-box-shadow: 0 0.6875rem 0.9375rem 0 rgba(18, 30, 72, 0.2);
+	box-shadow: 0 0.6875rem 0.9375rem 0 rgba(18, 30, 72, 0.2)
+}
+
+.ps-location-home .ps-card_home .ps-card-campus__container .ps-card-campus {
+	margin-bottom: 0
+}
+
+.ps-location-home .ps-card-campus__anim {
+	border-radius: 0;
+	-webkit-box-shadow: 0 0 0 0 rgba(18, 30, 72, 0);
+	box-shadow: 0 0 0 0 rgba(18, 30, 72, 0)
+}
+
+.ps-location-home .ps-locations-nav__cities__item--active a,
+.ps-location-home .ps-locations-nav__cities__item--active a strong,
+.ps-location-home .ps-locations-menu__item__cities__item__link:hover {
+	color: #1CD2AD;
+	background-color: transparent
+}
+
+.ps-location-home .ps-locations-nav__cities__item--active a:after,
+.ps-location-home .ps-locations-nav__cities__item--active a strong:after,
+.ps-location-home .ps-locations-menu__item__cities__item__link:hover:after {
+	opacity: 1;
+	right: 0.75rem;
+	width: 50%
+}
+
+.ps-location-home .ps-card-campus__anim__header__title {
+	font-size: 1rem
+}
+
+.ps-card-campus__container .ps-card_home .ps-card-campus {
+	margin-bottom: 0
+}
+
+@media only screen and (max-width: 992px) {
+	.ps-card-campus__container .ps-block__title--m {
+		margin: 100px 0 0
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.ps-locations-menu__item:first-child {
+		width: 100%;
+		padding: 0;
+		margin-bottom: 15px
+	}
+	.ps-locations-menu__item:nth-child(2),
+	.ps-locations-menu__item:last-child {
+		width: 33%;
+		padding-right: 1rem
+	}
+	.ps-location-home .ps-locations-menu__item__cities {
+		width: 100%
+	}
+	.ps-location-home .ps-locations-menu__item:first-child {
+		width: 100%;
+		padding: 0;
+		margin-bottom: 15px
+	}
+	.ps-location-home .ps-locations-menu__item:nth-child(3) {
+		float: right
+	}
+	.ps-location-home-mobile .ps-location-selector__popup__header__legend,
+	.ps-location-home-mobile .ps-location-selector__popup__header__selected,
+	.ps-location-home-mobile .ps-location-selector__popup__header__selected::after {
+		color: #85859F
+	}
+	.ps-location-home-mobile {
+		display: none
+	}
+}
+
+@media only screen and (max-width: 576px) {
+	.ps-location-home-mobile {
+		display: block
+	}
+	.ps-location-home {
+		margin-top: 30px;
+		padding-top: 0
+	}
+	.ps-location-home .ps-location-home .ps-locations-menu__item__cities__item__link {
+		width: 100%
+	}
+	.ps-location-home .ps-header__nav__sublist.ps-locations-menu.active:before {
+		content: " ";
+		bottom: 100%;
+		left: 50%;
+		border: solid transparent;
+		height: 0;
+		width: 0;
+		position: absolute;
+		pointer-events: none;
+		border-color: rgba(255, 255, 255, 0);
+		border-bottom-color: #fff;
+		border-width: 15px;
+		margin-left: -15px
+	}
+	.ps-location-home-container .vc_col-sm-12,
+	.ps-location-home-container .vc_col-md-10 {
+		padding: 0;
+		min-height: 0
+	}
+	.ps-location-home-mobile {
+		margin-top: 60px
+	}
+	.ps-location-home .ps-header__nav__sublist.ps-locations-menu {
+		left: 0;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		z-index: 8;
+		background-color: #fff;
+		border-radius: .25rem;
+		min-width: 100%;
+		padding: 0.75rem 1.85rem
+	}
+	.ps-location-home .ps-header__nav__sublist.ps-locations-menu.active {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		-ms-flex-wrap: wrap;
+		display: flex;
+		-webkit-box-shadow: 0 0.6875rem 0.9375rem 0 rgba(18, 30, 72, 0.2);
+		box-shadow: 0 0.6875rem 0.9375rem 0 rgba(18, 30, 72, 0.2)
+	}
+}
+
+.ps-card-certification {
+	padding: 30px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.ps-card-certification .wpb_single_image {
+	margin-bottom: 0px
+}
+
+.ps-card-certification .ps-block__description {
+	margin-top: 1rem;
+	text-align: left
+}
+
+@media only screen and (max-width: 768px) {
+	.ps-card-certification {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		padding: 40px;
+		text-align: center
+	}
+	.ps-card-certification .ps-block__title {
+		margin-top: 1rem
+	}
+	.ps-card-certification .ps-block__title,
+	.ps-card-certification .ps-block__description {
+		text-align: center
+	}
+	.ps-card-certification .wpb_single_image img {
+		width: 150px
+	}
+}
+
+.ps-card-course {
+	position: relative;
+	height: 100%;
+	-webkit-transition: background-color .25s, -webkit-box-shadow .25s;
+	transition: background-color .25s, -webkit-box-shadow .25s;
+	transition: background-color .25s, box-shadow .25s;
+	transition: background-color .25s, box-shadow .25s, -webkit-box-shadow .25s
+}
+
+.ps-card-course:before {
+	content: "";
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 0;
+	border-radius: .125rem;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#E2F9F4), to(#fff));
+	background-image: linear-gradient(to bottom, #E2F9F4, #fff);
+	-webkit-transition: opacity .25s;
+	transition: opacity .25s
+}
+
+.ps-card-course .ps-card__wrapper {
+	position: relative;
+	z-index: 1
+}
+
+.ps-card-course__illustration {
+	display: table;
+	height: 5.375rem;
+	width: 100%
+}
+
+.ps-card-course__illustration__wrapper {
+	position: relative;
+	display: table-cell;
+	vertical-align: middle
+}
+
+.ps-card-course__illustration__wrapper .animation {
+	opacity: 0;
+	position: absolute;
+	top: -30px;
+	right: 0;
+	bottom: -30px;
+	left: 0;
+	z-index: -1;
+	-webkit-transition: opacity .25s;
+	transition: opacity .25s
+}
+
+.ps-card-course__illustration__wrapper .animation__item {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	height: 1.75rem;
+	width: .0625rem;
+	background-color: #1CD2AD
+}
+
+.ps-card-course__illustration__wrapper .animation__item:first-child {
+	height: 10px;
+	margin-left: -103px
+}
+
+.ps-card-course__illustration__wrapper .animation__item:nth-child(2) {
+	height: 27px;
+	margin-left: -84px
+}
+
+.ps-card-course__illustration__wrapper .animation__item:nth-child(3) {
+	height: 10px;
+	margin-left: -57px
+}
+
+.ps-card-course__illustration__wrapper .animation__item:nth-child(4) {
+	height: 27px;
+	margin-left: -54px
+}
+
+.ps-card-course__illustration__wrapper .animation__item:nth-child(5) {
+	height: 15px;
+	margin-left: -33px
+}
+
+.ps-card-course__illustration__wrapper .animation__item:nth-child(6) {
+	height: 15px;
+	margin-left: 49px
+}
+
+.ps-card-course__illustration__wrapper .animation__item:nth-child(7) {
+	height: 27px;
+	margin-left: 54px
+}
+
+.ps-card-course__illustration__wrapper .animation__item:nth-child(8) {
+	height: 10px;
+	margin-left: 67px
+}
+
+.ps-card-course__illustration__wrapper .animation__item:nth-child(9) {
+	height: 15px;
+	margin-left: 91px
+}
+
+.ps-card-course__illustration__wrapper .animation__item:nth-child(10) {
+	height: 27px;
+	margin-left: 103px
+}
+
+.ps-card-course__illustration__wrapper .animation__item:nth-child(11) {
+	height: 10px;
+	margin-left: -103px
+}
+
+.ps-card-course__illustration__wrapper .animation__item:nth-child(12) {
+	height: 27px;
+	margin-left: -84px
+}
+
+.ps-card-course__illustration__wrapper .animation__item:nth-child(13) {
+	height: 10px;
+	margin-left: -57px
+}
+
+.ps-card-course__illustration__wrapper .animation__item:nth-child(14) {
+	height: 27px;
+	margin-left: -54px
+}
+
+.ps-card-course__illustration__wrapper .animation__item:nth-child(15) {
+	height: 15px;
+	margin-left: -33px
+}
+
+.ps-card-course__illustration__wrapper .animation__item:nth-child(16) {
+	height: 15px;
+	margin-left: 49px
+}
+
+.ps-card-course__illustration__wrapper .animation__item:nth-child(17) {
+	height: 27px;
+	margin-left: 54px
+}
+
+.ps-card-course__illustration__wrapper .animation__item:nth-child(18) {
+	height: 10px;
+	margin-left: 67px
+}
+
+.ps-card-course__illustration__wrapper .animation__item:nth-child(19) {
+	height: 15px;
+	margin-left: 91px
+}
+
+.ps-card-course__illustration__wrapper .animation__item:last-child {
+	height: 27px;
+	margin-left: 103px
+}
+
+.ps-card-course__title {
+	display: block;
+	margin-top: 1.75rem;
+	-webkit-transition: color .25s;
+	transition: color .25s
+}
+
+.ps-card-course__description {
+	display: block;
+	margin-top: 1.25rem;
+	color: #85859F;
+	-webkit-transition: color .25s;
+	transition: color .25s
+}
+
+.ps-card-course__cta {
+	display: block;
+	margin-top: 1.875rem
+}
+
+.ps-card-course:hover:before {
+	opacity: 1
+}
+
+.ps-card-course:hover .ps-card-course__illustration__wrapper .animation {
+	opacity: 1
+}
+
+.ps-card-course:hover .ps-card-course__title {
+	color: #1CD2AD
+}
+
+.ps-card-course:hover .ps-card-course__description {
+	color: #2D8586
+}
+
+.ps-card-course-small {
+	position: relative;
+	height: 100%;
+	-webkit-transition: background-color .25s, -webkit-box-shadow .25s;
+	transition: background-color .25s, -webkit-box-shadow .25s;
+	transition: background-color .25s, box-shadow .25s;
+	transition: background-color .25s, box-shadow .25s, -webkit-box-shadow .25s
+}
+
+.ps-card-course-small:before {
+	content: "";
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 0;
+	border-radius: .125rem;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#E2F9F4), to(#fff));
+	background-image: linear-gradient(to bottom, #E2F9F4, #fff);
+	-webkit-transition: opacity .25s;
+	transition: opacity .25s
+}
+
+.ps-card-course-small .ps-card__wrapper {
+	position: relative;
+	z-index: 1;
+	padding-top: 35px;
+	padding-right: 47px
+}
+
+.ps-card-course-small__illustration {
+	display: table;
+	margin: 4px 47px
+}
+
+.ps-card-course-small__illustration__wrapper {
+	position: relative;
+	display: table-cell;
+	vertical-align: middle
+}
+
+.ps-card-course-small__illustration__wrapper .animation {
+	opacity: 0;
+	position: absolute;
+	top: -30px;
+	right: 0;
+	bottom: -30px;
+	left: 0;
+	z-index: -1;
+	-webkit-transition: opacity .25s;
+	transition: opacity .25s
+}
+
+.ps-card-course-small__illustration__wrapper .animation__item {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	height: 1.75rem;
+	width: .0625rem;
+	background-color: #1CD2AD
+}
+
+.ps-card-course-small__illustration__wrapper .animation__item:first-child {
+	height: 10px;
+	margin-left: -103px
+}
+
+.ps-card-course-small__illustration__wrapper .animation__item:nth-child(2) {
+	height: 27px;
+	margin-left: -84px
+}
+
+.ps-card-course-small__illustration__wrapper .animation__item:nth-child(3) {
+	height: 10px;
+	margin-left: -57px
+}
+
+.ps-card-course-small__illustration__wrapper .animation__item:nth-child(4) {
+	height: 27px;
+	margin-left: -54px
+}
+
+.ps-card-course-small__illustration__wrapper .animation__item:nth-child(5) {
+	height: 15px;
+	margin-left: -33px
+}
+
+.ps-card-course-small__illustration__wrapper .animation__item:nth-child(6) {
+	height: 15px;
+	margin-left: 49px
+}
+
+.ps-card-course-small__illustration__wrapper .animation__item:nth-child(7) {
+	height: 27px;
+	margin-left: 54px
+}
+
+.ps-card-course-small__illustration__wrapper .animation__item:nth-child(8) {
+	height: 10px;
+	margin-left: 67px
+}
+
+.ps-card-course-small__illustration__wrapper .animation__item:nth-child(9) {
+	height: 15px;
+	margin-left: 91px
+}
+
+.ps-card-course-small__illustration__wrapper .animation__item:nth-child(10) {
+	height: 27px;
+	margin-left: 103px
+}
+
+.ps-card-course-small__illustration__wrapper .animation__item:nth-child(11) {
+	height: 10px;
+	margin-left: -103px
+}
+
+.ps-card-course-small__illustration__wrapper .animation__item:nth-child(12) {
+	height: 27px;
+	margin-left: -84px
+}
+
+.ps-card-course-small__illustration__wrapper .animation__item:nth-child(13) {
+	height: 10px;
+	margin-left: -57px
+}
+
+.ps-card-course-small__illustration__wrapper .animation__item:nth-child(14) {
+	height: 27px;
+	margin-left: -54px
+}
+
+.ps-card-course-small__illustration__wrapper .animation__item:nth-child(15) {
+	height: 15px;
+	margin-left: -33px
+}
+
+.ps-card-course-small__illustration__wrapper .animation__item:nth-child(16) {
+	height: 15px;
+	margin-left: 49px
+}
+
+.ps-card-course-small__illustration__wrapper .animation__item:nth-child(17) {
+	height: 27px;
+	margin-left: 54px
+}
+
+.ps-card-course-small__illustration__wrapper .animation__item:nth-child(18) {
+	height: 10px;
+	margin-left: 67px
+}
+
+.ps-card-course-small__illustration__wrapper .animation__item:nth-child(19) {
+	height: 15px;
+	margin-left: 91px
+}
+
+.ps-card-course-small__illustration__wrapper .animation__item:last-child {
+	height: 27px;
+	margin-left: 103px
+}
+
+@media only screen and (max-width: 768px) {
+	.ps-card-course-small__illustration {
+		padding-top: 22px;
+		padding-top: 0;
+		margin-left: 0
+	}
+}
+
+.ps-card-course-small__title {
+	display: block;
+	-webkit-transition: color .25s;
+	transition: color .25s;
+	font-size: 16px;
+	font-weight: bold
+}
+
+.ps-card-course-small__description {
+	display: block;
+	margin-top: 1.25rem;
+	color: #85859F;
+	-webkit-transition: color .25s;
+	transition: color .25s;
+	font-size: 12px;
+	line-height: 18px
+}
+
+.ps-card-course-small__cta {
+	display: block;
+	margin-top: 1.875rem
+}
+
+.ps-card-course-small__cta .ps-button,
+.ps-card-course-small__cta .ps-play,
+.ps-card-course-small__cta .ps-pagination__item {
+	text-transform: uppercase;
+	background: none;
+	border: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	color: #1CD2AD;
+	text-shadow: none;
+	padding: 0
+}
+
+@media only screen and (max-width: 768px) {
+	.ps-card-course-small__illustration {
+		padding-top: 22px;
+		padding-top: 0;
+		margin-left: 0
+	}
+	.ps-card-course-small__title {
+		font-size: 22px
+	}
+	.ps-card-course-small__description {
+		font-size: 14px;
+		line-height: 26px
+	}
+}
+
+.ps-card-course-small:hover:before {
+	opacity: 1
+}
+
+.ps-card-course-small:hover .ps-card-course-small__illustration__wrapper .animation {
+	opacity: 1
+}
+
+.ps-card-course-small:hover .ps-card-course-small__title {
+	color: #1CD2AD
+}
+
+.ps-card-course-small:hover .ps-card-course-small__description {
+	color: #2D8586
+}
+
+@media only screen and (max-width: 768px) {
+	.ps-card-course-small__icon-wrapper {
+		padding-left: 30px !important;
+		padding-bottom: 0 !important;
+		margin-left: 0 !important;
+		padding-top: 30px
+	}
+	.ps-card-course-small__content-wrapper {
+		padding-left: 30px !important;
+		padding-bottom: 30px;
+		padding-top: 0 !important
+	}
+}
+
+.ps-card-course-large {
+	position: relative;
+	height: 100%;
+	-webkit-transition: background-color .25s, -webkit-box-shadow .25s;
+	transition: background-color .25s, -webkit-box-shadow .25s;
+	transition: background-color .25s, box-shadow .25s;
+	transition: background-color .25s, box-shadow .25s, -webkit-box-shadow .25s;
+	padding: 0 !important
+}
+
+.ps-card-course-large:before {
+	content: "";
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 0;
+	border-radius: .125rem;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#E2F9F4), to(#fff));
+	background-image: linear-gradient(to bottom, #E2F9F4, #fff);
+	-webkit-transition: opacity .25s;
+	transition: opacity .25s
+}
+
+.ps-card-course-large .ps-card,
+.ps-card-course-large .ps-locations-nav__countries {
+	padding: 0 !important
+}
+
+.ps-card-course-large .ps-card__wrapper {
+	position: relative;
+	z-index: 1
+}
+
+.ps-card-course-large .ps-card__wrapper:nth-child(1) {
+	padding: 0
+}
+
+.ps-card-course-large .ps-card__wrapper:nth-child(2) {
+	padding: 50px 30px 30px 40px
+}
+
+@media only screen and (max-width: 992px) {
+	.ps-card-course-large .ps-card__wrapper:nth-child(2) {
+		padding: 20px 20px 20px 30px
+	}
+}
+
+@media only screen and (min-width: 992.01px) {
+	.ps-card-course-large .ps-card__wrapper:nth-child(2) {
+		padding: 30px 30px 30px 40px
+	}
+}
+
+.ps-card-course-large__illustration {
+	display: table;
+	line-height: 0;
+	width: 100%
+}
+
+.ps-card-course-large__illustration__image {
+	width: 100%;
+	max-height: 420px;
+	-o-object-fit: cover;
+	object-fit: cover
+}
+
+.ps-card-course-large__illustration__wrapper {
+	position: relative;
+	display: table-cell;
+	vertical-align: middle
+}
+
+.ps-card-course-large__illustration__wrapper .animation {
+	opacity: 0;
+	position: absolute;
+	top: -30px;
+	right: 0;
+	bottom: -30px;
+	left: 0;
+	z-index: -1;
+	-webkit-transition: opacity .25s;
+	transition: opacity .25s
+}
+
+.ps-card-course-large__illustration__wrapper .animation__item {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	height: 1.75rem;
+	width: .0625rem;
+	background-color: #1CD2AD
+}
+
+.ps-card-course-large__illustration__wrapper .animation__item:first-child {
+	height: 10px;
+	margin-left: -103px
+}
+
+.ps-card-course-large__illustration__wrapper .animation__item:nth-child(2) {
+	height: 27px;
+	margin-left: -84px
+}
+
+.ps-card-course-large__illustration__wrapper .animation__item:nth-child(3) {
+	height: 10px;
+	margin-left: -57px
+}
+
+.ps-card-course-large__illustration__wrapper .animation__item:nth-child(4) {
+	height: 27px;
+	margin-left: -54px
+}
+
+.ps-card-course-large__illustration__wrapper .animation__item:nth-child(5) {
+	height: 15px;
+	margin-left: -33px
+}
+
+.ps-card-course-large__illustration__wrapper .animation__item:nth-child(6) {
+	height: 15px;
+	margin-left: 49px
+}
+
+.ps-card-course-large__illustration__wrapper .animation__item:nth-child(7) {
+	height: 27px;
+	margin-left: 54px
+}
+
+.ps-card-course-large__illustration__wrapper .animation__item:nth-child(8) {
+	height: 10px;
+	margin-left: 67px
+}
+
+.ps-card-course-large__illustration__wrapper .animation__item:nth-child(9) {
+	height: 15px;
+	margin-left: 91px
+}
+
+.ps-card-course-large__illustration__wrapper .animation__item:nth-child(10) {
+	height: 27px;
+	margin-left: 103px
+}
+
+.ps-card-course-large__illustration__wrapper .animation__item:nth-child(11) {
+	height: 10px;
+	margin-left: -103px
+}
+
+.ps-card-course-large__illustration__wrapper .animation__item:nth-child(12) {
+	height: 27px;
+	margin-left: -84px
+}
+
+.ps-card-course-large__illustration__wrapper .animation__item:nth-child(13) {
+	height: 10px;
+	margin-left: -57px
+}
+
+.ps-card-course-large__illustration__wrapper .animation__item:nth-child(14) {
+	height: 27px;
+	margin-left: -54px
+}
+
+.ps-card-course-large__illustration__wrapper .animation__item:nth-child(15) {
+	height: 15px;
+	margin-left: -33px
+}
+
+.ps-card-course-large__illustration__wrapper .animation__item:nth-child(16) {
+	height: 15px;
+	margin-left: 49px
+}
+
+.ps-card-course-large__illustration__wrapper .animation__item:nth-child(17) {
+	height: 27px;
+	margin-left: 54px
+}
+
+.ps-card-course-large__illustration__wrapper .animation__item:nth-child(18) {
+	height: 10px;
+	margin-left: 67px
+}
+
+.ps-card-course-large__illustration__wrapper .animation__item:nth-child(19) {
+	height: 15px;
+	margin-left: 91px
+}
+
+.ps-card-course-large__illustration__wrapper .animation__item:last-child {
+	height: 27px;
+	margin-left: 103px
+}
+
+@media all and (min-width: 768.01px) {
+	.ps-card-course-large__illustration--bg {
+		height: 100%
+	}
+}
+
+@media all and (max-width: 768px) {
+	.ps-card-course-large__illustration--bg {
+		margin-top: 0px !important
+	}
+}
+
+@media all and (max-width: 576px) {
+	.ps-card-course-large__illustration__image {
+		max-height: 340px;
+		-o-object-fit: cover;
+		object-fit: cover;
+		-o-object-position: 0 100%;
+		object-position: 0 100%
+	}
+}
+
+.ps-card-course-large__title {
+	display: block;
+	-webkit-transition: color .25s;
+	transition: color .25s;
+	font-size: 28px;
+	font-weight: bold
+}
+
+.ps-card-course-large__description {
+	display: block;
+	margin-top: 1.25rem;
+	color: #85859F;
+	-webkit-transition: color .25s;
+	transition: color .25s;
+	font-size: 14px;
+	line-height: 22px
+}
+
+.ps-card-course-large__cta {
+	display: block;
+	margin-top: 1.875rem
+}
+
+@media all and (max-width: 576px) {
+	.ps-card-course-large__description {
+		font-size: 14px;
+		line-height: 26px
+	}
+}
+
+.ps-card-course-large:hover:before {
+	opacity: 1
+}
+
+.ps-card-course-large:hover .ps-card-course-large__illustration__wrapper .animation {
+	opacity: 1
+}
+
+.ps-card-course-large:hover .ps-card-course-large__title {
+	color: #1CD2AD
+}
+
+.ps-card-course-large:hover .ps-card-course-large__description {
+	color: #2D8586
+}
+
+@media all and (min-width: 768.01px) {
+	.ps-card-course-large__icon-wrapper {
+		position: absolute !important
+	}
+	.ps-card-course-large__content-wrapper {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		height: 100%;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		padding: 0 !important
+	}
+}
+
+@media all and (max-width: 576px) {
+	.ps-card-course-large__icon-wrapper {
+		padding-bottom: 30px !important;
+		padding-top: 30px !important
+	}
+	.ps-card-course-large__content-wrapper {
+		padding-left: 0 !important
+	}
+}
+
+@media only screen and (min-width: 768.01px) and (max-width: 768px) {
+	.ps-card-course-large__icon-wrapper {
+		padding-bottom: 0 !important;
+		padding-top: 0 !important
+	}
+	.ps-card-course-large__content-wrapper.vc_column_container {
+		margin-top: 0px
+	}
+}
+
+.ps-card-course-upcoming .ps-card__wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	width: 100%;
+	padding: 0;
+	position: relative
+}
+
+.ps-card-course-upcoming__location {
+	font-family: "Merriweather Sans", sans-serif;
+	color: #4C4E72
+}
+
+.ps-card-course-upcoming__location .ps-icon,
+.ps-card-course-upcoming__location div.gform_confirmation_message .button-check,
+div.gform_confirmation_message .ps-card-course-upcoming__location .button-check,
+.ps-card-course-upcoming__location div.salesforce_w2l_lead .success_message:before,
+div.salesforce_w2l_lead .ps-card-course-upcoming__location .success_message:before,
+.ps-card-course-upcoming__location .ps-speech__item__profile__name__rating,
+.ps-card-course-upcoming__location .ps-reviews__item__header__name__rating {
+	margin-right: 1rem;
+	color: #121E48;
+	font-size: 17px
+}
+
+.ps-card-course-upcoming__location .ps-icon--location-map-marker:before {
+	content: '';
+	background: url("build/assets/images/icon--location-pin.svg") center no-repeat;
+	width: 20px;
+	height: 19px;
+	display: inline-block;
+	vertical-align: top
+}
+
+.ps-card-course-upcoming__location .ps-icon--course-type-pmc:before {
+	content: '';
+	background: url("build/assets/images/illustration--badge--PMC_S_1x.svg") center no-repeat;
+	width: 60px;
+	height: 66px;
+	display: inline-block;
+	vertical-align: top
+}
+
+.ps-card-course-upcoming__location .ps-icon--course-type-fpmc:before {
+	content: '';
+	background: url("build/assets/images/illustration--badge--FPMC_S_1x.svg") center no-repeat;
+	width: 60px;
+	height: 66px;
+	display: inline-block;
+	vertical-align: top
+}
+
+.ps-card-course-upcoming__location .ps-icon--course-type-plc:before {
+	content: '';
+	background: url("build/assets/images/illustration--badge--PLC_S_1x.svg") center no-repeat;
+	width: 60px;
+	height: 66px;
+	display: inline-block;
+	vertical-align: top
+}
+
+.ps-card-course-upcoming__location_wrap {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.ps-card-course-upcoming__location_wrap_inside {
+	margin-top: 8px
+}
+
+.ps-card-course-upcoming__content {
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	max-width: 80%;
+	padding: 1.5rem 1.875rem;
+	text-align: left
+}
+
+.ps-card-course-upcoming__content__date {
+	font-size: 1.125rem;
+	line-height: 1.26316;
+	font-family: "Merriweather Sans", sans-serif;
+	color: #4C4E72;
+	padding: 6px 0 6px 0
+}
+
+.ps-card-course-upcoming__content__date__info {
+	color: #85859F
+}
+
+.ps-card-course-upcoming__content__accelerated {
+	background-color: white;
+	font-size: .625rem;
+	text-transform: uppercase;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 15px;
+	padding: 0.41rem 0.68rem;
+	border-radius: 2px
+}
+
+@media all and (max-width: 576px) {
+	.ps-card-course-upcoming__content__accelerated {
+		margin-left: 0;
+		margin-top: 15px
+	}
+}
+
+.ps-card-course-upcoming__content__schedule {
+	font-family: "Merriweather Sans", sans-serif
+}
+
+.ps-card-course-upcoming__content__schedule,
+.ps-card-course-upcoming__content__schedule__days,
+.ps-card-course-upcoming__content__schedule__time {
+	line-height: 20px !important
+}
+
+.ps-card-course-upcoming__content__schedule__days,
+.ps-card-course-upcoming__content__schedule__time,
+.ps-card-course-upcoming__content__schedule__timezone,
+.ps-card-course-upcoming__content__schedule__additional_info {
+	display: inline-block
+}
+
+.ps-card-course-upcoming__content__schedule__days {
+	width: 25%
+}
+
+.ps-card-course-upcoming__content__schedule__days__tooltip {
+	position: relative;
+	margin-right: 18px
+}
+
+.ps-card-course-upcoming__content__schedule__days__tooltip .ps-tooltip {
+	text-decoration: none !important;
+	top: -2px;
+	position: absolute;
+	right: -6px
+}
+
+.ps-card-course-upcoming__content__schedule__days__tooltip .ps-tooltip i {
+	font-size: 0.9rem !important;
+	color: #85859F
+}
+
+.ps-card-course-upcoming__content__schedule__days__tooltip .ps-tooltip .ps-tooltip__box {
+	width: 80rem !important
+}
+
+@media all and (max-width: 576px) {
+	.ps-card-course-upcoming__content__schedule__days__tooltip .ps-tooltip .ps-tooltip__box {
+		-webkit-transform: translate(-75%, 0) scale(0.95);
+		transform: translate(-75%, 0) scale(0.95)
+	}
+}
+
+.ps-card-course-upcoming__content__schedule__days__tooltip .ps-tooltip .ps-tooltip-inner {
+	left: -4px
+}
+
+.ps-card-course-upcoming__content__instructor {
+	font-family: "Merriweather Sans", sans-serif;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: end;
+	-ms-flex-align: end;
+	align-items: flex-end;
+	border-top: 1px solid #E0DFEA
+}
+
+.ps-card-course-upcoming__content__instructor__wrapper {
+	width: 25%
+}
+
+.ps-card-course-upcoming__content__instructor__title {
+	padding-bottom: 4px
+}
+
+.ps-card-course-upcoming__content__instructor__name {
+	display: block
+}
+
+.ps-card-course-upcoming__content__instructor__name a {
+	color: #85859F;
+	font-size: 1rem
+}
+
+.ps-card-course-upcoming__content__instructor__name a:hover {
+	color: #1CD2AD
+}
+
+.ps-card-course-upcoming__content__instructor__title,
+.ps-card-course-upcoming__content__instructor__name {
+	padding-left: 6px
+}
+
+.ps-card-course-upcoming__content__instructor__job {
+	padding-left: 10px
+}
+
+.ps-card-course-upcoming__cta {
+	width: 16.25rem;
+	padding: 1.5rem 2.5rem;
+	text-align: center
+}
+
+.ps-card-course-upcoming__cta__button {
+	margin-bottom: 0.5rem
+}
+
+.ps-card-course-upcoming__cta__spots {
+	margin-top: 1rem;
+	font-family: "Merriweather Sans", sans-serif;
+	color: #4C4E72;
+	text-transform: uppercase
+}
+
+.ps-card-course-upcoming__cta .ps-button,
+.ps-card-course-upcoming__cta .ps-play,
+.ps-card-course-upcoming__cta .ps-pagination__item {
+	width: 10rem
+}
+
+.ps-card-course-upcoming__footer {
+	width: 100%;
+	background-color: #F6F9FD;
+	color: #4C4E72;
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+	padding: 10px 30px
+}
+
+.ps-card-course-upcoming__footer>div {
+	padding: 15px 0;
+	line-height: 1;
+	color: #85859F
+}
+
+.ps-card-course-upcoming__footer .ps-icon,
+.ps-card-course-upcoming__footer div.gform_confirmation_message .button-check,
+div.gform_confirmation_message .ps-card-course-upcoming__footer .button-check,
+.ps-card-course-upcoming__footer div.salesforce_w2l_lead .success_message:before,
+div.salesforce_w2l_lead .ps-card-course-upcoming__footer .success_message:before,
+.ps-card-course-upcoming__footer .ps-speech__item__profile__name__rating,
+.ps-card-course-upcoming__footer .ps-reviews__item__header__name__rating {
+	margin-right: 1rem;
+	color: #121E48;
+	font-size: 17px
+}
+
+.ps-card-course-upcoming__footer .ps-icon--schedule-calendar-time:before {
+	content: '';
+	background: url("build/assets/images/icon--calendar-time.svg") center no-repeat;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: middle
+}
+
+.ps-card-course-upcoming__footer .ps-icon--instructor-user:before {
+	content: '';
+	background: url("build/assets/images/icon--user.svg") center no-repeat;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: middle
+}
+
+.ps-card-course-upcoming--last-spots {
+	color: #E0A600
+}
+
+.ps-card-course-upcoming--type-pmc {
+	background-color: #DBFCF8
+}
+
+.ps-card-course-upcoming--type-fpmc {
+	background-color: #F9F2E0
+}
+
+.ps-card-course-upcoming--type-plc {
+	background-color: #DAEBFF
+}
+
+.ps-card-course-upcoming--footer-type-pmc {
+	background-color: #EFFFFE
+}
+
+.ps-card-course-upcoming--footer-type-fpmc {
+	background-color: #FBF9F2
+}
+
+.ps-card-course-upcoming--footer-type-plc {
+	background-color: #F2F8FF
+}
+
+.ps-card-course-upcoming--sold-out {
+	pointer-events: none;
+	opacity: 0.5;
+	-webkit-transition: opacity .25s;
+	transition: opacity .25s
+}
+
+@media all and (max-width: 768px) {
+	.ps-card-course-upcoming .ps-card__wrapper {
+		display: block
+	}
+	.ps-card-course-upcoming__location {
+		display: inline-block
+	}
+	.ps-card-course-upcoming__content {
+		display: block;
+		padding: 1.25rem 1.5rem;
+		max-width: 100%
+	}
+	.ps-card-course-upcoming__content__date,
+	.ps-card-course-upcoming__content__instructor,
+	.ps-card-course-upcoming__content__schedule {
+		font-size: 16px;
+		line-height: normal !important
+	}
+	.ps-card-course-upcoming__cta {
+		display: block;
+		width: 100%;
+		padding: 1.25rem 1.5rem
+	}
+}
+
+@media all and (max-width: 576px) {
+	.ps-card-course-upcoming__content {
+		padding-bottom: 0
+	}
+	.ps-card-course-upcoming__content__date {
+		padding-left: 0
+	}
+	.ps-card-course-upcoming__content__date__info {
+		padding-left: 0
+	}
+	.ps-card-course-upcoming__content__instructor {
+		-webkit-box-align: start;
+		-ms-flex-align: start;
+		align-items: flex-start;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		border-bottom: 0px
+	}
+	.ps-card-course-upcoming__content__instructor__wrapper {
+		width: 100%;
+		margin-bottom: 10px
+	}
+	.ps-card-course-upcoming__content__instructor__title,
+	.ps-card-course-upcoming__content__instructor__name,
+	.ps-card-course-upcoming__content__instructor__job {
+		padding-left: 0px
+	}
+	.ps-card-course-upcoming__content__schedule__days {
+		width: 100%;
+		padding-bottom: 6px
+	}
+	.ps-card-course-upcoming__cta {
+		text-align: center
+	}
+	.ps-card-course-upcoming__cta .ps-button,
+	.ps-card-course-upcoming__cta .ps-play,
+	.ps-card-course-upcoming__cta .ps-pagination__item {
+		padding-top: 0.9375rem;
+		padding-bottom: 0.9375rem;
+		font-size: 1rem;
+		line-height: 1.25;
+		width: 100%
+	}
+	.ps-card-course-upcoming__location .ps-icon,
+	.ps-card-course-upcoming__location div.gform_confirmation_message .button-check,
+	div.gform_confirmation_message .ps-card-course-upcoming__location .button-check,
+	.ps-card-course-upcoming__location div.salesforce_w2l_lead .success_message:before,
+	div.salesforce_w2l_lead .ps-card-course-upcoming__location .success_message:before,
+	.ps-card-course-upcoming__location .ps-speech__item__profile__name__rating,
+	.ps-card-course-upcoming__location .ps-reviews__item__header__name__rating,
+	.ps-card-course-upcoming__footer .ps-icon,
+	.ps-card-course-upcoming__footer div.gform_confirmation_message .button-check,
+	div.gform_confirmation_message .ps-card-course-upcoming__footer .button-check,
+	.ps-card-course-upcoming__footer div.salesforce_w2l_lead .success_message:before,
+	div.salesforce_w2l_lead .ps-card-course-upcoming__footer .success_message:before,
+	.ps-card-course-upcoming__footer .ps-speech__item__profile__name__rating,
+	.ps-card-course-upcoming__footer .ps-reviews__item__header__name__rating {
+		display: block;
+		margin-bottom: 7px;
+		font-size: 1.375rem
+	}
+}
+
+.js-ps-tab-selector {
+	float: none;
+	max-width: 300px;
+	margin: auto
+}
+
+.ps-card-event {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	height: 100%;
+	width: 100%;
+	padding: 15px
+}
+
+.ps-card-event__wrapper {
+	background-color: #fff;
+	margin: 15px;
+	border-radius: .25rem;
+	min-height: 345px;
+	width: 300px !important;
+	text-align: center
+}
+
+.ps-card-event__wrapper.productcon {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#43bab0), color-stop(54%, #d5e7f0), to(#fff));
+	background-image: linear-gradient(to bottom, #43bab0, #d5e7f0 54%, #fff 100%)
+}
+
+.ps-card-event__wrapper.summit {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f6d0aa), color-stop(54%, #fff6e9), to(#fff));
+	background-image: linear-gradient(to bottom, #f6d0aa, #fff6e9 54%, #fff 100%)
+}
+
+.ps-card-event__thumb img {
+	max-width: 80px
+}
+
+.productcon .ps-card-event__thumb img,
+.summit .ps-card-event__thumb img {
+	max-width: 230px;
+	margin: 29px
+}
+
+.ps-card-event h3 {
+	font-size: 1rem;
+	line-height: 1.25;
+	letter-spacing: -0.6px;
+	margin-top: 20px;
+	height: 60px
+}
+
+.ps-card-event__info {
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-line-pack: justify;
+	align-content: space-between
+}
+
+.ps-card-event__list {
+	width: 100%;
+	list-style: none;
+	padding-left: 0;
+	padding-bottom: 30px
+}
+
+.ps-card-event__list li {
+	padding: 7px 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column
+}
+
+.ps-card-event__list li .li-text {
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	font-size: 12px;
+	font-family: "Merriweather Sans", sans-serif;
+	color: #121E48;
+	padding: 0 15px
+}
+
+.ps-card-event__list li .li-text a {
+	font-size: 12px
+}
+
+.ps-card-event__list .ps-icon,
+.ps-card-event__list div.gform_confirmation_message .button-check,
+div.gform_confirmation_message .ps-card-event__list .button-check,
+.ps-card-event__list div.salesforce_w2l_lead .success_message:before,
+div.salesforce_w2l_lead .ps-card-event__list .success_message:before,
+.ps-card-event__list .ps-speech__item__profile__name__rating,
+.ps-card-event__list .ps-reviews__item__header__name__rating {
+	font-size: 17px;
+	color: #1CD2AD
+}
+
+.ps-card-event__list__item--excerpt {
+	padding: 0 !important;
+	margin-top: -6px
+}
+
+.ps-card-event__list__item--excerpt .li-text {
+	color: #85859F !important
+}
+
+.ps-card-event .ps-button,
+.ps-card-event .ps-play,
+.ps-card-event .ps-pagination__item {
+	-ms-flex-item-align: end;
+	align-self: flex-end
+}
+
+.ps-card-event__with-thumb {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding-bottom: 15px;
+	-webkit-box-shadow: 0 0.6875rem 0.9375rem 0 rgba(18, 30, 72, 0.2);
+	box-shadow: 0 0.6875rem 0.9375rem 0 rgba(18, 30, 72, 0.2)
+}
+
+.ps-card-event__with-thumb h3 {
+	font-weight: bold
+}
+
+.ps-card-event__with-thumb .ps-card-event {
+	padding: 0 30px
+}
+
+.ps-card-event__with-thumb .ps-card-event__list {
+	padding-bottom: 15px;
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1
+}
+
+.ps-card-event__with-thumb .ps-card-event__button {
+	border-top: 1px solid #E0DFEA;
+	width: 100%;
+	padding-top: 15px
+}
+
+.ps-card-event__xs_button {
+	display: none !important
+}
+
+@media only screen and (max-width: 768px) {
+	.owl-carousel .ps-card-event__wrapper {
+		width: auto;
+		margin: 15px
+	}
+	.ps-card-event__xs_button {
+		display: block !important;
+		border-bottom: none !important
+	}
+	.ps-card-event__xs_button a {
+		display: block;
+		margin: 0 auto
+	}
+	.ps-card-event__button a {
+		padding-top: 0.9375rem;
+		padding-bottom: 0.9375rem;
+		font-size: 1rem;
+		line-height: 1.25
+	}
+	.ps-card-event__button a.ps-card-event--outline:before {
+		border-width: 0.125rem
+	}
+	.ps-card-event__button a.ps-card-event--rounded {
+		border-radius: 1.5625rem
+	}
+	.ps-card-event__button a.ps-card-event--rounded:before,
+	.ps-card-event__button a.ps-card-event--rounded:after {
+		border-radius: 1.5625rem
+	}
+}
+
+.ps-card-event__tooltip-icon .ps-tooltip {
+	top: 0.3px !important;
+	right: 8px !important
+}
+
+.ps-card-job {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	height: 100%;
+	width: 100%;
+	padding: 30px
+}
+
+.ps-card-job__wrapper {
+	background-color: #fff;
+	margin: 15px 0;
+	border-radius: .125rem;
+	min-height: 345px
+}
+
+.ps-card-job__thumb {
+	min-height: 137px;
+	min-width: 159px
+}
+
+.ps-card-job__thumb img {
+	margin-left: 30px;
+	width: 137px;
+	height: auto
+}
+
+.ps-card-job__title {
+	color: #4C4E72;
+	margin-bottom: 30px
+}
+
+.ps-card-job__info {
+	width: 100%;
+	height: 70%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap
+}
+
+.ps-card-job__list {
+	width: 100%;
+	list-style: none;
+	padding-left: 0;
+	padding-bottom: 30px
+}
+
+.ps-card-job__list li {
+	padding: 10px 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border-bottom: 1px solid #E0DFEA
+}
+
+.ps-card-job__list li .li-text {
+	padding-left: 15px;
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	font-size: 14px;
+	font-family: "Merriweather Sans", sans-serif;
+	color: #4C4E72
+}
+
+
+.ps-card__wrapper {
+	display: block;
+	padding: 1.875rem
+}
+
+
+.ps-card-bio--l .ps-card__wrapper {
+	padding: 3.125rem 1.25rem
+}
+
+@media only screen and (max-width: 768px) {
+	.ps-card-bio--l .ps-card__wrapper {
+		padding: 1.875rem 0.75rem
+	}
+	.ps-card-bio--l .ps-card-bio__header {
+		display: block;
+		padding-right: 0;
+		padding-left: 0;
+		text-align: center
+	}
+	.ps-card-bio--l .ps-card-bio__header__avatar {
+		display: block;
+		padding-right: 0
+	}
+	.ps-card-bio--l .ps-card-bio__header__content {
+		display: block;
+		margin-top: 20px
+	}
+	.ps-card-bio--l .ps-card-bio__content {
+		display: none
+	}
+}
+
+.ps-card-blog-post {
+	height: 100%;
+	border-radius: 3px;
+	overflow: hidden
+}
+
+.ps-card-blog-post .ps-card__wrapper {
+	padding: 15px 15px 30px
+}
+
+.ps-card-campus__simple .ps-card__wrapper {
+	padding: 20px
+}
+
+.ps-card-course .ps-card__wrapper {
+	position: relative;
+	z-index: 1
+}
+
+.ps-card-course-small .ps-card__wrapper {
+	position: relative;
+	z-index: 1;
+	padding-top: 35px;
+	padding-right: 47px
+}
+
+.ps-card-course-large .ps-card__wrapper {
+	position: relative;
+	z-index: 1
+}
+
+.ps-card-course-large .ps-card__wrapper:nth-child(1) {
+	padding: 0
+}
+
+.ps-card-course-large .ps-card__wrapper:nth-child(2) {
+	padding: 50px 30px 30px 40px
+}
+
+@media only screen and (max-width: 992px) {
+	.ps-card-course-large .ps-card__wrapper:nth-child(2) {
+		padding: 20px 20px 20px 30px
+	}
+}
+
+@media only screen and (min-width: 992.01px) {
+	.ps-card-course-large .ps-card__wrapper:nth-child(2) {
+		padding: 30px 30px 30px 40px
+	}
+}
+
+.ps-card-course-large__illustration {
+	display: table;
+	line-height: 0;
+	width: 100%
+}
+
+.ps-card-course-upcoming .ps-card__wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	width: 100%;
+	padding: 0;
+	position: relative
+}
+
+.ps-card-course-upcoming__content {
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	max-width: 80%;
+	padding: 1.5rem 1.875rem;
+	text-align: left
+}
+
+.ps-card-course-upcoming__content__date {
+	font-size: 1.125rem;
+	line-height: 1.26316;
+	font-family: "Merriweather Sans", sans-serif;
+	color: #4C4E72;
+	padding: 6px 0 6px 0
+}
+
+.ps-card-course-upcoming__content__date__info {
+	color: #85859F
+}
+
+.ps-card-course-upcoming__content__accelerated {
+	background-color: white;
+	font-size: .625rem;
+	text-transform: uppercase;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 15px;
+	padding: 0.41rem 0.68rem;
+	border-radius: 2px
+}
+
+@media all and (max-width: 576px) {
+	.ps-card-course-upcoming__content__accelerated {
+		margin-left: 0;
+		margin-top: 15px
+	}
+}
+
+.ps-card-course-upcoming__content__schedule {
+	font-family: "Merriweather Sans", sans-serif
+}
+
+.ps-card-course-upcoming__content__schedule,
+.ps-card-course-upcoming__content__schedule__days,
+.ps-card-course-upcoming__content__schedule__time {
+	line-height: 20px !important
+}
+
+.ps-card-course-upcoming__content__schedule__days,
+.ps-card-course-upcoming__content__schedule__time,
+.ps-card-course-upcoming__content__schedule__timezone,
+.ps-card-course-upcoming__content__schedule__additional_info {
+	display: inline-block
+}
+
+.ps-card-course-upcoming__content__schedule__days {
+	width: 25%
+}
+
+.ps-card-course-upcoming__content__schedule__days__tooltip {
+	position: relative;
+	margin-right: 18px
+}
+
+.ps-card-course-upcoming__content__schedule__days__tooltip .ps-tooltip {
+	text-decoration: none !important;
+	top: -2px;
+	position: absolute;
+	right: -6px
+}
+
+.ps-card-course-upcoming__content__schedule__days__tooltip .ps-tooltip i {
+	font-size: 0.9rem !important;
+	color: #85859F
+}
+
+.ps-card-course-upcoming__content__schedule__days__tooltip .ps-tooltip .ps-tooltip__box {
+	width: 80rem !important
+}
+
+@media all and (max-width: 576px) {
+	.ps-card-course-upcoming__content__schedule__days__tooltip .ps-tooltip .ps-tooltip__box {
+		-webkit-transform: translate(-75%, 0) scale(0.95);
+		transform: translate(-75%, 0) scale(0.95)
+	}
+}
+
+.ps-card-course-upcoming__content__schedule__days__tooltip .ps-tooltip .ps-tooltip-inner {
+	left: -4px
+}
+
+.ps-card-course-upcoming__content__instructor {
+	font-family: "Merriweather Sans", sans-serif;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: end;
+	-ms-flex-align: end;
+	align-items: flex-end;
+	border-top: 1px solid #E0DFEA
+}
+
+.ps-card-course-upcoming__content__instructor__wrapper {
+	width: 25%
+}
+
+.ps-card-course-upcoming__content__instructor__title {
+	padding-bottom: 4px
+}
+
+.ps-card-course-upcoming__content__instructor__name {
+	display: block
+}
+
+.ps-card-course-upcoming__content__instructor__name a {
+	color: #85859F;
+	font-size: 1rem
+}
+
+.ps-card-course-upcoming__content__instructor__name a:hover {
+	color: #1CD2AD
+}
+
+.ps-card-course-upcoming__content__instructor__title,
+.ps-card-course-upcoming__content__instructor__name {
+	padding-left: 6px
+}
+
+.ps-card-course-upcoming__content__instructor__job {
+	padding-left: 10px
+}
+
+.ps-card-course-upcoming__cta {
+	width: 16.25rem;
+	padding: 1.5rem 2.5rem;
+	text-align: center
+}
+
+.ps-card-course-upcoming__cta__button {
+	margin-bottom: 0.5rem
+}
+
+.ps-card-course-upcoming__cta__spots {
+	margin-top: 1rem;
+	font-family: "Merriweather Sans", sans-serif;
+	color: #4C4E72;
+	text-transform: uppercase
+}
+
+.ps-card-course-upcoming__cta .ps-button,
+.ps-card-course-upcoming__cta .ps-play,
+.ps-card-course-upcoming__cta .ps-pagination__item {
+	width: 10rem
+}
+
+.ps-card-course-upcoming__footer {
+	width: 100%;
+	background-color: #F6F9FD;
+	color: #4C4E72;
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+	padding: 10px 30px
+}
+
+.ps-card-course-upcoming__footer>div {
+	padding: 15px 0;
+	line-height: 1;
+	color: #85859F
+}
+
+.ps-card-course-upcoming__footer .ps-icon,
+.ps-card-course-upcoming__footer div.gform_confirmation_message .button-check,
+div.gform_confirmation_message .ps-card-course-upcoming__footer .button-check,
+.ps-card-course-upcoming__footer div.salesforce_w2l_lead .success_message:before,
+div.salesforce_w2l_lead .ps-card-course-upcoming__footer .success_message:before,
+.ps-card-course-upcoming__footer .ps-speech__item__profile__name__rating,
+.ps-card-course-upcoming__footer .ps-reviews__item__header__name__rating {
+	margin-right: 1rem;
+	color: #121E48;
+	font-size: 17px
+}
+
+.ps-card-course-upcoming__footer .ps-icon--schedule-calendar-time:before {
+	content: '';
+	background: url("build/assets/images/icon--calendar-time.svg") center no-repeat;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: middle
+}
+
+.ps-card-course-upcoming__footer .ps-icon--instructor-user:before {
+	content: '';
+	background: url("build/assets/images/icon--user.svg") center no-repeat;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: middle
+}
+
+.ps-card-course-upcoming--last-spots {
+	color: #E0A600
+}
+
+.ps-card-course-upcoming--type-pmc {
+	background-color: #DBFCF8
+}
+
+.ps-card-course-upcoming--type-fpmc {
+	background-color: #F9F2E0
+}
+
+.ps-card-course-upcoming--type-plc {
+	background-color: #DAEBFF
+}
+
+.ps-card-course-upcoming--footer-type-pmc {
+	background-color: #EFFFFE
+}
+
+.ps-card-course-upcoming--footer-type-fpmc {
+	background-color: #FBF9F2
+}
+
+.ps-card-course-upcoming--footer-type-plc {
+	background-color: #F2F8FF
+}
+
+.ps-card-course-upcoming--sold-out {
+	pointer-events: none;
+	opacity: 0.5;
+	-webkit-transition: opacity .25s;
+	transition: opacity .25s
+}
+
+@media all and (max-width: 768px) {
+	.ps-card-course-upcoming .ps-card__wrapper {
+		display: block
+	}
+	.ps-card-course-upcoming__location {
+		display: inline-block
+	}
+	.ps-card-course-upcoming__content {
+		display: block;
+		padding: 1.25rem 1.5rem;
+		max-width: 100%
+	}
+	.ps-card-course-upcoming__content__date,
+	.ps-card-course-upcoming__content__instructor,
+	.ps-card-course-upcoming__content__schedule {
+		font-size: 16px;
+		line-height: normal !important
+	}
+	.ps-card-course-upcoming__cta {
+		display: block;
+		width: 100%;
+		padding: 1.25rem 1.5rem
+	}
+}
+
+@media all and (max-width: 576px) {
+	.ps-card-course-upcoming__content {
+		padding-bottom: 0
+	}
+	.ps-card-course-upcoming__content__date {
+		padding-left: 0
+	}
+	.ps-card-course-upcoming__content__date__info {
+		padding-left: 0
+	}
+	.ps-card-course-upcoming__content__instructor {
+		-webkit-box-align: start;
+		-ms-flex-align: start;
+		align-items: flex-start;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		border-bottom: 0px
+	}
+	.ps-card-course-upcoming__content__instructor__wrapper {
+		width: 100%;
+		margin-bottom: 10px
+	}
+	.ps-card-course-upcoming__content__instructor__title,
+	.ps-card-course-upcoming__content__instructor__name,
+	.ps-card-course-upcoming__content__instructor__job {
+		padding-left: 0px
+	}
+	.ps-card-course-upcoming__content__schedule__days {
+		width: 100%;
+		padding-bottom: 6px
+	}
+	.ps-card-course-upcoming__cta {
+		text-align: center
+	}
+	.ps-card-course-upcoming__cta .ps-button,
+	.ps-card-course-upcoming__cta .ps-play,
+	.ps-card-course-upcoming__cta .ps-pagination__item {
+		padding-top: 0.9375rem;
+		padding-bottom: 0.9375rem;
+		font-size: 1rem;
+		line-height: 1.25;
+		width: 100%
+	}
+	.ps-card-course-upcoming__location .ps-icon,
+	.ps-card-course-upcoming__location div.gform_confirmation_message .button-check,
+	div.gform_confirmation_message .ps-card-course-upcoming__location .button-check,
+	.ps-card-course-upcoming__location div.salesforce_w2l_lead .success_message:before,
+	div.salesforce_w2l_lead .ps-card-course-upcoming__location .success_message:before,
+	.ps-card-course-upcoming__location .ps-speech__item__profile__name__rating,
+	.ps-card-course-upcoming__location .ps-reviews__item__header__name__rating,
+	.ps-card-course-upcoming__footer .ps-icon,
+	.ps-card-course-upcoming__footer div.gform_confirmation_message .button-check,
+	div.gform_confirmation_message .ps-card-course-upcoming__footer .button-check,
+	.ps-card-course-upcoming__footer div.salesforce_w2l_lead .success_message:before,
+	div.salesforce_w2l_lead .ps-card-course-upcoming__footer .success_message:before,
+	.ps-card-course-upcoming__footer .ps-speech__item__profile__name__rating,
+	.ps-card-course-upcoming__footer .ps-reviews__item__header__name__rating {
+		display: block;
+		margin-bottom: 7px;
+		font-size: 1.375rem
+	}
+}
+
+.ps-card-course-upcoming__location .ps-icon--course-type-pmc:before {
+	content: '';
+	background: url("build/assets/images/illustration--badge--PMC_S_1x.svg") center no-repeat;
+	width: 60px;
+	height: 66px;
+	display: inline-block;
+	vertical-align: top
+}
+
+.ps-card-course-upcoming__location .ps-icon--course-type-fpmc:before {
+	content: '';
+	background: url("build/assets/images/illustration--badge--FPMC_S_1x.svg") center no-repeat;
+	width: 60px;
+	height: 66px;
+	display: inline-block;
+	vertical-align: top
+}
+
+.ps-card-course-upcoming__location .ps-icon--course-type-plc:before {
+	content: '';
+	background: url("build/assets/images/illustration--badge--PLC_S_1x.svg") center no-repeat;
+	width: 60px;
+	height: 66px;
+	display: inline-block;
+	vertical-align: top
+}
+
+.ps-card-course-upcoming__location_wrap {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.ps-card-course-upcoming__location_wrap_inside {
+	margin-top: 8px
+}
+
+@media all and (max-width: 768px) {
+	.ps-card-course-upcoming .ps-card__wrapper {
+		display: block
+	}
+	.ps-card-course-upcoming__location {
+		display: inline-block
+	}
+	.ps-card-course-upcoming__content {
+		display: block;
+		padding: 1.25rem 1.5rem;
+		max-width: 100%
+	}
+	.ps-card-course-upcoming__content__date,
+	.ps-card-course-upcoming__content__instructor,
+	.ps-card-course-upcoming__content__schedule {
+		font-size: 16px;
+		line-height: normal !important
+	}
+	.ps-card-course-upcoming__cta {
+		display: block;
+		width: 100%;
+		padding: 1.25rem 1.5rem
+	}
+}
+
+
+.ps-card-course-upcoming__content {
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	max-width: 80%;
+	padding: 1.5rem 1.875rem;
+	text-align: left
+}
+
+.ps-card-course-upcoming__content__date {
+	font-size: 1.125rem;
+	line-height: 1.26316;
+	font-family: "Merriweather Sans", sans-serif;
+	color: #4C4E72;
+	padding: 6px 0 6px 0
+}
+
+.ps-card-course-upcoming__content__date__info {
+	color: #85859F
+}
+
+.ps-card-course-upcoming__content__accelerated {
+	background-color: white;
+	font-size: .625rem;
+	text-transform: uppercase;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 15px;
+	padding: 0.41rem 0.68rem;
+	border-radius: 2px
+}
+
+@media all and (max-width: 576px) {
+	.ps-card-course-upcoming__content__accelerated {
+		margin-left: 0;
+		margin-top: 15px
+	}
+}
+
+.ps-card-course-upcoming__content__schedule {
+	font-family: "Merriweather Sans", sans-serif
+}
+
+.ps-card-course-upcoming__content__schedule,
+.ps-card-course-upcoming__content__schedule__days,
+.ps-card-course-upcoming__content__schedule__time {
+	line-height: 20px !important
+}
+
+.ps-card-course-upcoming__content__schedule__days,
+.ps-card-course-upcoming__content__schedule__time,
+.ps-card-course-upcoming__content__schedule__timezone,
+.ps-card-course-upcoming__content__schedule__additional_info {
+	display: inline-block
+}
+
+.ps-card-course-upcoming__content__schedule__days {
+	width: 25%
+}
+
+.ps-card-course-upcoming__content__schedule__days__tooltip {
+	position: relative;
+	margin-right: 18px
+}
+
+.ps-card-course-upcoming__content__schedule__days__tooltip .ps-tooltip {
+	text-decoration: none !important;
+	top: -2px;
+	position: absolute;
+	right: -6px
+}
+
+.ps-card-course-upcoming__content__schedule__days__tooltip .ps-tooltip i {
+	font-size: 0.9rem !important;
+	color: #85859F
+}
+
+.ps-card-course-upcoming__content__schedule__days__tooltip .ps-tooltip .ps-tooltip__box {
+	width: 80rem !important
+}
+
+@media all and (max-width: 576px) {
+	.ps-card-course-upcoming__content__schedule__days__tooltip .ps-tooltip .ps-tooltip__box {
+		-webkit-transform: translate(-75%, 0) scale(0.95);
+		transform: translate(-75%, 0) scale(0.95)
+	}
+}
+
+.ps-card-course-upcoming__content__schedule__days__tooltip .ps-tooltip .ps-tooltip-inner {
+	left: -4px
+}
+
+.ps-card-course-upcoming__content__instructor {
+	font-family: "Merriweather Sans", sans-serif;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: end;
+	-ms-flex-align: end;
+	align-items: flex-end;
+	border-top: 1px solid #E0DFEA
+}
+
+.ps-card-course-upcoming__content__instructor__wrapper {
+	width: 25%
+}
+
+.ps-card-course-upcoming__content__instructor__title {
+	padding-bottom: 4px
+}
+
+.ps-card-course-upcoming__content__instructor__name {
+	display: block
+}
+
+.ps-card-course-upcoming__content__instructor__name a {
+	color: #85859F;
+	font-size: 1rem
+}
+
+.ps-card-course-upcoming__content__instructor__name a:hover {
+	color: #1CD2AD
+}
+
+.ps-card-course-upcoming__content__instructor__title,
+.ps-card-course-upcoming__content__instructor__name {
+	padding-left: 6px
+}
+
+.ps-card-course-upcoming__content__instructor__job {
+	padding-left: 10px
+}

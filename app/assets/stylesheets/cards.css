@@ -1,0 +1,69 @@
+.ps-upcoming-courses__content {
+  margin-top: 3.125rem
+}
+
+.ps-upcoming-courses__empty {
+  margin-top: 3.125rem;
+  text-align: center
+}
+
+.ps-upcoming-courses__empty__description {
+  color: #ECC249
+}
+
+.ps-upcoming-courses__empty__cta {
+  margin-top: 2.5rem
+}
+
+.ps-upcoming-courses__empty__footer {
+  margin-top: 3.125rem;
+  font-size: .875rem;
+  line-height: 1.28571;
+  color: #fff
+}
+
+.ps-upcoming-courses .ps-card-course-upcoming+.ps-card-course-upcoming {
+  margin-top: 1.25rem
+}
+
+.ps-upcoming-courses .ps-spinner--xl {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 0;
+  right: 0
+}
+
+.ps-upcoming-courses .no-upcoming-courses {
+  text-align: center;
+  max-width: 560px;
+  margin: 60px auto 0
+}
+
+.ps-upcoming-courses .no-upcoming-courses h3 {
+  color: #ECC249;
+  font-size: 18.6px;
+  line-height: 1.3
+}
+
+.ps-upcoming-courses .no-upcoming-courses button {
+  width: 350px;
+  max-width: 100%
+}
+
+.ps-upcoming-courses .no-upcoming-courses p {
+  font-size: 14px;
+  font-weight: 600
+}
+
+.ps-block--alternative .ps-upcoming-courses .no-upcoming-courses p {
+  color: #fff
+}
+
+@media all and (min-width: 992px) and (max-width: 1116px) {
+  .ps-upcoming-courses .vc_column_container.vc_col-md-10 {
+    margin-left: 3%;
+    width: 94%
+  }
+}
