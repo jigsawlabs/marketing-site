@@ -15,4 +15,8 @@ class PagesController < ApplicationController
 
   end
 
+  def free
+
+  end
+
 end
