@@ -2691,9 +2691,9 @@ a:focus,a:hover{
 
 @media(max-width:767px){
   .Persona__portrait__container--business img {
-    left: 43%;
+    left: 50%;
     width: 55%;
-    top: 13%;
+    top: 20%;
   }
   .Section--third .Persona__second_col {
     right: 5%;
@@ -2706,7 +2706,7 @@ a:focus,a:hover{
 .Persona__portrait__container--justine img{
     height: 64%;
     width: 64%;
-    right: 8%;
+    right: 15%;
 }
 
 
@@ -3011,7 +3011,7 @@ a:focus,a:hover{
     height: 57%;
     width: 88%;
     right: -10%;
-    top: 22%;
+    top: 25%;
   }
 
   .Persona__second_col {
