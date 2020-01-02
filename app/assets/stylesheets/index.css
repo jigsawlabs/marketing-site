@@ -161,7 +161,6 @@ output{
     flex:1;
     padding:0;
     position:relative;
-    min-width: 400px
 }
 @media(min-width:768px){
     .col{
@@ -1886,7 +1885,7 @@ a:focus,a:hover{
 }
 .Persona__mixcard-name-badge-wrapper{
     position:absolute;
-    top:10%;
+    top:2%;
     left:50%;
     transform:translateX(-50%);
     z-index:4
@@ -2690,10 +2689,12 @@ a:focus,a:hover{
 }
 
 @media(max-width:767px){
+
+
   .Persona__portrait__container--business img {
-    left: 50%;
-    width: 55%;
-    top: 20%;
+    left: 57%;
+    width: 45%;
+    top: 28%;
   }
   .Section--third .Persona__second_col {
     right: 5%;
@@ -2766,6 +2767,8 @@ a:focus,a:hover{
     width: 670px;
     left: -13%;
   }
+
+
 }
 .ariel-image {
     height: 67%;
@@ -2776,16 +2779,16 @@ a:focus,a:hover{
 
 .Persona__portrait__container--ariel img{
   height: 420px;
-    width: 40%;
+    width: 35%;
     left: 0%;
 }
 
 @media(min-width:992px){
   .Persona__portrait__container--ariel img{
     height: 63%;
-    width: 48%;
+    width: 50%;
     top: -7%;
-    left: 16%;
+    left: 0%;
   }
 }
 
@@ -2815,13 +2818,6 @@ a:focus,a:hover{
         margin-left:0px;
     }
 }
-@media(max-width:767px){
-  .Persona__portrait__container--math img{
-    height: 460px;
-    width: 670px;
-    left: -13%;
-  }
-}
 
 .Persona__portrait__container--math img{
   height: 242px;
@@ -2829,16 +2825,23 @@ a:focus,a:hover{
   left: 20%;
   top: 20%;
 }
-@media(min-width:992px){
+@media(min-width:767px){
     .Persona__portrait__container--math img{
       height: 48%;
     width: 172%;
     top: 2%;
-    left: -48%;
+    left: -50%;
     }
 }
 
 
+@media(max-width:767px){
+  .Persona__portrait__container--math img{
+    width: 50%;
+    left: 47%;
+    top: 20%;
+  }
+}
 
 
 
@@ -3258,6 +3261,14 @@ a:focus,a:hover{
     .HomeSocial__show-more-btn{
         display:none
     }
+
+}
+
+@media(max-width:400px){
+  .MixCard__attr {
+    font-size: 20px;
+  }
+
 }
 .HomeSocial.show .HomeSocial__show-more-btn{
     display:none
