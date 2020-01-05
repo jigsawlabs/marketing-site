@@ -23,8 +23,9 @@ class PagesController < ApplicationController
     ]
     @intro_titles = ["Introduction", "Variables", "Lists", "Dictionaries", "Coding Tips",
                      "Loops", "Nested Data", "Make it Easy", "Loop Over Data", "Loops to Lists",
-                     "Gathering Live Data", "Functions", "Arguments", "Code to Codebase" ]
+                     "Live Data", "Functions", "Arguments", "Code to Codebase" ]
     @intro_titles_and_links = @intro_titles.zip(@intro_links)
+
 
   end
 
