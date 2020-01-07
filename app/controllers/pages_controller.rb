@@ -28,10 +28,10 @@ class PagesController < ApplicationController
                      "Live Data", "Functions", "Arguments", "Code to Codebase" ]
     @intro_titles_and_links = @intro_titles.zip(@intro_links)
 
-    @intro_labs_base = "https://colab.research.google.com/github/jigsawlabs-student/zero-to-data-viz-workshop/blob/master/"
-    lab_links = ["1-introduction-to-lists-lab.ipynb", "2-employee-dictionaries-lab.ipynb",
-                   "3-nested-data-structures-lab.ipynb", "4-exploring-live-data-lab.ipynb",
-                   "5-for-loops-lab.ipynb", "6-scraping-to-plotting-lab.ipynb" ]
+    @intro_labs_base = "https://colab.research.google.com/github/jigsawlabs-student/zero-to-data-viz-workshop/blob/master/labs/"
+    lab_links = ["1-introduction-to-lists-lab", "2-employee-dictionaries-lab",
+                   "3-nested-data-structures-lab", "4-exploring-live-data-lab",
+                   "5-for-loops-lab", "6-scraping-to-plotting-lab" ]
 
     lab_titles = ["Lists Lab", "Dictionaries Lab", "Nested Data Lab", "Live Data Lab", "For Loops Lab", "Scraping to Plots Lab"]
 
