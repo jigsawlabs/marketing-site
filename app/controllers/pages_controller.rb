@@ -43,7 +43,7 @@ class PagesController < ApplicationController
                      "1-hypothesis-fn-neuron/1-single-neurons/1-intro-to-perceptrons", "1-hypothesis-fn-neuron/1-single-neurons/2-plotting-a-perceptron",
                      "1-hypothesis-fn-neuron/1-single-neurons/3-sigmoid-neuron", "1-hypothesis-fn-neuron/1-single-neurons/4-sigmoid-neuron-lab",
                      "2-layers/0-summations-and-dot-products", "2-layers/1-multiple-neurons", "2-layers/2-building-a-layer","2-layers/6-building-layer-lab", "2-layers/4-building-layers",
-                     "2-layers/5-the-last-layer", "3-training-proc/2-training-conceptually/5-training-a-neuron",
+                     "2-layers/5-the-last-layer", "2-layers/7-mnist-layers-lab", "3-training-proc/2-training-conceptually/5-training-a-neuron",
                      "3-training-proc/2-training-conceptually/6-gradient-descent-single-param",
                      "3-training-proc/3-training-mathematically/1-working-with-derivatives", "3-training-proc/3-training-mathematically/2-derivative-shortcuts",
                      "3-training-proc/3-training-mathematically/3-intro-to-gradient-descent",
@@ -52,7 +52,7 @@ class PagesController < ApplicationController
                      "4-backpropagation/1-chain-rule-to-backprop", "4-backpropagation/2-train-network"]
     neural_titles = ["Introduction", "The Process", "Neural Networks", "Perceptrons", "Plotting Perceptrons",
                       "Sigmoid Neuron", "Sigmoid Neuron Lab", "Dot Products", "Multiple Neurons", "Building a Layer", "Building a Layer Lab", "Building Layers",
-                      "Output Layers", "Training a Neuron", "Gradient Descent", "Derivatives", "Derivative Rules", "The Gradient Multiparameter",
+                      "Output Layers", "MNIST Layers Lab", "Training a Neuron", "Gradient Descent", "Derivatives", "Derivative Rules", "The Gradient Multiparameter",
                       "Partial Derivatives", "Applying Gradient Descent", "Chain Rule", "Back Propagation", "Building a Network"]
 
     @neural_nets_titles_and_links = neural_titles.zip(neural_links)
