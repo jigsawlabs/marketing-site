@@ -49,11 +49,11 @@ class PagesController < ApplicationController
                      "3-training-proc/3-training-mathematically/3-intro-to-gradient-descent",
                      "3-training-proc/3-training-mathematically/4-partial-derivatives",
                      "3-training-proc/3-training-mathematically/5-applying-gradient-descent", "4-backpropagation/0-chain-rule",
-                     "4-backpropagation/1-chain-rule-to-backprop", "4-backpropagation/2-train-network"]
+                     "4-backpropagation/1-chain-rule-to-backprop", "4-backpropagation/2-train-network", "4-backpropagation/3-mnist-train"]
     neural_titles = ["Introduction", "The Process", "Neural Networks", "Perceptrons", "Plotting Perceptrons",
                       "Sigmoid Neuron", "Sigmoid Neuron Lab", "Dot Products", "Multiple Neurons", "Building a Layer", "Building a Layer Lab", "Building Layers",
                       "Output Layers", "MNIST Layers Lab", "Training a Neuron", "Gradient Descent", "Derivatives", "Derivative Rules", "The Gradient Multiparameter",
-                      "Partial Derivatives", "Applying Gradient Descent", "Chain Rule", "Back Propagation", "Building a Network"]
+                      "Partial Derivatives", "Applying Gradient Descent", "Chain Rule", "Back Propagation", "Building a Network", "Predicting with MNIST"]
 
     @neural_nets_titles_and_links = neural_titles.zip(neural_links)
   end
