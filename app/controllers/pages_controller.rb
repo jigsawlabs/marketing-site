@@ -57,7 +57,7 @@ class PagesController < ApplicationController
 
     @neural_nets_titles_and_links = neural_titles.zip(neural_links)
 
-    decision_trees_base = "https://colab.research.google.com/github/jigsawlabs-student/decision-trees-intro/blob/master/"
+    @decision_trees_base = "https://colab.research.google.com/github/jigsawlabs-student/decision-trees-intro/blob/master/"
 
     tree_links = ["1-ml-overview-4/0-ml-problem", "1-ml-overview-4/1-ml-process",
                    "2-decision-trees-4/2-decision-trees-hypothesis", "2-decision-trees-4/3-training-decision-trees",
