@@ -70,6 +70,35 @@
   <div class=" col  Persona__first_col">
     <div class="">
       <div  class="">
+        <%= image_tag 'course_details/diagram.svg', style: "max-height: 500px; padding: 30px;" %>
+      </div>
+    </div>
+  </div>
+  <div id="intro_coding" class="col Persona__second_col flex-centered">
+    <div class="Persona__card" style="width: 97%">
+      <div class=""  style="width: 100%">
+        <h1  style="margin: 0 auto; width: 90%" > Introduction to Machine Learning </h1>
+        <br />
+        <p style="width: 90%; margin: 0 auto;"> We'll learn the fundamentals of machine learning with decision trees.</p>
+        <br />
+        <p style="width: 90%; margin: 0 auto">Click on the interactive lessons below to begin. </p>
+        <br />
+        <ol style="columns: 2; font-size: 16px; margin: 0 auto; width: 100%;" start="1">
+          <% @tree_links_and_titles.each do |title, link| %>
+            <li style="padding-bottom: 3px;"> <a style="color: #706c87;" target="_blank" href=<%= "#{@neural_nets_base}/#{link}.ipynb" %>><%= title %></a> </li>
+          <% end %>
+
+        </ol>
+        <br />
+
+      </div>
+    </div>
+  </div>
+</div>
+<div style="padding-left: 0px;"   class="Persona Section Section--even Section--first">
+  <div class=" col  Persona__first_col">
+    <div class="">
+      <div  class="">
         <%= image_tag 'course_details/geo-process.svg', style: "max-height: 500px; padding: 30px;" %>
       </div>
     </div>

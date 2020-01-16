@@ -56,6 +56,19 @@ class PagesController < ApplicationController
                       "Partial Derivatives", "Applying Gradient Descent", "Chain Rule", "Back Propagation", "Building a Network", "Predicting with MNIST"]
 
     @neural_nets_titles_and_links = neural_titles.zip(neural_links)
+
+    decision_trees_base = "https://colab.research.google.com/github/jigsawlabs-student/decision-trees-intro/blob/master/"
+
+    tree_links = ["1-ml-overview-4/0-ml-problem", "1-ml-overview-4/1-ml-process",
+                   "2-decision-trees-4/2-decision-trees-hypothesis", "2-decision-trees-4/3-training-decision-trees",
+                   "2-decision-trees-4/4-adding-a-cost-function", "2-decision-trees-4/5-reviewing-ml",
+                   "3-practical-ds-4/0-sklearn", "3-practical-ds-4/1-sklearn-lab", "3-practical-ds-4/2-pandas-intro-to-dataframes",
+                   "3-practical-ds-4/3-working-with-columns", "3-practical-ds-4/4-df-rows-and-cols-lab"]
+
+    tree_titles = ["Machine Learning Problem", "The Process", "Hypothesis Function", "Training", "Cost Function", "Reviewing",
+                   "Sklearn", "Sklearn Lab", "Pandas Dataframes", "Pandas Columns", "Pandas Rows and Columns"]
+
+    @tree_links_and_titles = tree_titles.zip(tree_links)
   end
 
 end
