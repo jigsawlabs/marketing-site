@@ -46,19 +46,20 @@ class PagesController < ApplicationController
                      "2-training-proc/3-training-mathematically/1-working-with-derivatives", "2-training-proc/3-training-mathematically/2-derivative-shortcuts",
                      "2-training-proc/3-training-mathematically/3-intro-to-gradient-descent", "2-training-proc/3-training-mathematically/4-partial-derivatives",
                      "2-training-proc/3-training-mathematically/5-applying-gradient-descent",
+                     "2-training-proc/3-training-mathematically/6-gradient-descent-lab",
                      "2-training-proc/3-training-mathematically/7-taking-stock"]
 
     neuron_titles = ["Introduction", "The Process", "Intro to Neurons", "Plotting a Neuron", "Sigmoid Neuron", "Sigmoid Neuron Lab",
                       "Training a Neuron", "Gradient Descent", "Derivatives", "Derivative Rules", "Multiparameter Descent",
-                      "Partial Derivatives", "Applying Gradient Descent", "Taking Stock"]
+                      "Partial Derivatives", "Applying Gradient Descent", "Gradient Descent Lab", "Taking Stock"]
 
 
     @neuron_titles_and_links = neuron_titles.zip(neuron_links)
-    neural_net_links = ["3-layers/1-summations-and-dot-products", "3-layers/2-multiple-neurons", "3-layers/3-building-a-layer",
+    neural_net_links = ["3-layers/0-neurons-to-neural-networks", "3-layers/1-summations-and-dot-products", "3-layers/2-multiple-neurons", "3-layers/3-building-a-layer",
                          "3-layers/4-mnist-layer-lab", "3-layers/5-building-layers", "3-layers/6-the-last-layer", "3-layers/7-mnist-layers-lab",
                      "4-backpropagation/0-chain-rule", "4-backpropagation/1-chain-rule-to-backprop",
                      "4-backpropagation/2-train-network", "4-backpropagation/3-mnist-train"]
-    neural_net_titles = ["Dot Products", "Multiple Neurons", "Building a Layer", "Building a Layer Lab", "Building Layers",
+    neural_net_titles = ["To Neural Networks", "Dot Products", "Multiple Neurons", "Building a Layer", "Building a Layer Lab", "Building Layers",
                       "Output Layers", "MNIST Layers Lab", "Chain Rule", "BackPropagation", "Building a Network", "Predicting with MNIST"]
 
     @neural_net_titles_and_links = neural_net_titles.zip(neural_net_links)
