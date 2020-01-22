@@ -68,15 +68,18 @@ class PagesController < ApplicationController
     tree_links = ["1-ml-overview-4/0-ml-problem", "1-ml-overview-4/1-ml-process",
                    "2-decision-trees-4/2-decision-trees-hypothesis", "2-decision-trees-4/3-training-decision-trees",
                    "2-decision-trees-4/4-adding-a-cost-function", "2-decision-trees-4/5-reviewing-ml",
-                   "3-practical-ds-4/0-sklearn", "3-practical-ds-4/1-sklearn-lab", "3-practical-ds-4/2-pandas-intro-to-dataframes",
-                   "3-practical-ds-4/3-working-with-columns", "3-practical-ds-4/4-selecting-cols-lab", "3-practical-ds-4/5-df-rows-and-cols-lab",
-                   "3-practical-ds-4/6-feature-engineering-intro", "3-practical-ds-4/7-feature-engineering-lab" ]
+                   "3-practical-ds-4/0-sklearn", "3-practical-ds-4/1-sklearn-lab", "4-ds-concepts-4/0-test-train-split", "4-ds-concepts-4/1-bias-variance-tradeoff"]
 
-    tree_titles = ["Machine Learning Problem", "The Process", "Hypothesis Function", "Training", "Cost Function", "Reviewing",
-                   "Sklearn", "Sklearn Lab", "Pandas Dataframes", "Pandas Columns", "Pandas Selecting Columns Lab", "Rows and Columns Lab",
+                  pandas_links = ["3-practical-ds-4/2-pandas-intro-to-dataframes", "3-practical-ds-4/3-working-with-columns", "3-practical-ds-4/4-selecting-cols-lab", "3-practical-ds-4/5-df-rows-and-cols-lab",
+                   "3-practical-ds-4/6-feature-engineering-intro", "3-practical-ds-4/7-feature-engineering-lab" ]
+                   pandas_titles = [ "Pandas Dataframes", "Pandas Columns", "Pandas Columns Lab", "Rows and Columns Lab",
                    "Feature Engineering", "Engineering to Model Lab"]
 
+    tree_titles = ["Machine Learning Problem", "The Process", "Hypothesis Function", "Training", "Cost Function", "Reviewing",
+                   "Sklearn", "Sklearn Lab", "Test Train Split", "Bias Variance Tradeoff"]
+
     @tree_links_and_titles = tree_titles.zip(tree_links)
+    @pandas_links_and_titles = pandas_titles.zip(pandas_links)
   end
 
 end
