@@ -60,10 +60,10 @@ class PagesController < ApplicationController
     @neuron_titles_and_links = neuron_titles.zip(neuron_links)
     neural_net_links = ["3-layers/0-neurons-to-neural-networks", "3-layers/1-summations-and-dot-products", "3-layers/2-multiple-neurons", "3-layers/3-building-a-layer",
                          "3-layers/4-mnist-layer-lab", "3-layers/5-building-layers", "3-layers/6-the-last-layer", "3-layers/7-mnist-layers-lab",
-                     "4-backpropagation/0-chain-rule", "4-backpropagation/1-chain-rule-to-backprop",
+                     "4-backpropagation/1-chain-rule-to-backprop",
                      "4-backpropagation/2-train-network", "4-backpropagation/3-mnist-train"]
     neural_net_titles = ["Onto Neural Networks", "Dot Products", "Multiple Neurons", "Building a Layer", "Building a Layer Lab", "Building Layers",
-                      "Output Layers", "MNIST Layers Lab", "Chain Rule", "BackPropagation", "Building a Network", "Predicting with MNIST"]
+                      "Output Layers", "MNIST Layers Lab", "BackProp Revisited", "Building a Network", "Predicting with MNIST"]
 
     @neural_net_titles_and_links = neural_net_titles.zip(neural_net_links)
     @decision_trees_base = "https://colab.research.google.com/github/jigsawlabs-student/decision-trees-intro/blob/master/"
