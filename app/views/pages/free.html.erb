@@ -84,7 +84,7 @@
         <br />
         <ol style="columns: 2; font-size: 16px; margin: 0 auto; width: 100%;" start="0">
           <% @pandas_titles_and_links.each do |title, link| %>
-            <li style="padding-bottom: 3px;"> <a style="color: #706c87;" target="_blank" href=<%= "#{@intro_base_url}/#{link}.ipynb" %>><%= title %></a> </li>
+            <li style="padding-bottom: 3px;"> <a style="color: #706c87;" target="_blank" href=<%= "#{@pandas_base_url}/#{link}.ipynb" %>><%= title %></a> </li>
           <% end %>
 
         </ol>

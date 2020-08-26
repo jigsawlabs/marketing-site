@@ -37,8 +37,8 @@ class PagesController < ApplicationController
 
     @lab_titles_and_links = lab_titles.zip(lab_links)
 
-    @pandas_base_url = "https://colab.research.google.com/github/jigsawlabs-student/pandas-free-curriculum/"
-    pandas_links = ["0-pandas-intro-to-dataframes.ipynb", "1-working-with-columns.ipynb", "3-selecting-cols-lab.ipynb", "2-selecting-rows.ipynb","4-selecting-rows-lab.ipynb", "5-exploring-data.ipynb", "6-plotting-data.ipynb", "7-exploring-plotting-data-lab.ipynb"]
+    @pandas_base_url = "https://colab.research.google.com/github/jigsawlabs-student/pandas-free-curriculum/blob/master/"
+    pandas_links = ["0-pandas-intro-to-dataframes", "1-working-with-columns", "3-selecting-cols-lab", "2-selecting-rows","4-selecting-rows-lab", "5-exploring-data", "6-plotting-data", "7-exploring-plotting-data-lab"]
     pandas_titles = ["Dataframes", "Selecting Columns", "Selecting Columns Lab", "Selecting Rows", "Selecting Rows Lab", "Exploring Data", "Plotting Data", "Plotting Data Lab"]
     @pandas_titles_and_links = pandas_titles.zip(pandas_links)
 
