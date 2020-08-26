@@ -65,6 +65,35 @@
     </div>
   </div>
 </div>
+<div style="padding-left: 0px;"   class="Persona Section Section--even Section--first">
+  <div class=" col  Persona__first_col">
+    <div class="Persona__attributes" style="padding-top: 100px;">
+      <div  class="">
+        <%= image_tag 'course_details/geo-process.svg', style: "max-height: 450px; padding: 30px; padding-top: 0px;" %>
+      </div>
+    </div>
+  </div>
+  <div id="intro_coding" class="col Persona__second_col flex-centered">
+    <div class="Persona__card" style="width: 97%">
+      <div class=""  style="width: 100%">
+        <h1  style="margin: 0 auto; width: 90%" > Introduction to Pandas </h1>
+        <br />
+        <p style="width: 90%; margin: 0 auto;"> We'll learn how to select, explore and plot data in Pandas.  We'll do so using flood data from the FEMA API, and movie revenue data from 538.</p>
+        <br />
+        <p style="width: 90%; margin: 0 auto">Click on the interactive lessons below to begin. </p>
+        <br />
+        <ol style="columns: 2; font-size: 16px; margin: 0 auto; width: 100%;" start="0">
+          <% @pandas_titles_and_links.each do |title, link| %>
+            <li style="padding-bottom: 3px;"> <a style="color: #706c87;" target="_blank" href=<%= "#{@intro_base_url}/#{link}.ipynb" %>><%= title %></a> </li>
+          <% end %>
+
+        </ol>
+        <br />
+
+      </div>
+    </div>
+  </div>
+</div>
 
 <div style="padding-left: 0px;"   class="Persona Section Section--even Section--first">
   <div class=" col  Persona__first_col">

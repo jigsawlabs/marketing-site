@@ -37,6 +37,11 @@ class PagesController < ApplicationController
 
     @lab_titles_and_links = lab_titles.zip(lab_links)
 
+    @pandas_base_url = "https://colab.research.google.com/github/jigsawlabs-student/pandas-free-curriculum/"
+    pandas_links = ["0-pandas-intro-to-dataframes.ipynb", "1-working-with-columns.ipynb", "3-selecting-cols-lab.ipynb", "2-selecting-rows.ipynb","4-selecting-rows-lab.ipynb", "5-exploring-data.ipynb", "6-plotting-data.ipynb", "7-exploring-plotting-data-lab.ipynb"]
+    pandas_titles = ["Dataframes", "Selecting Columns", "Selecting Columns Lab", "Selecting Rows", "Selecting Rows Lab", "Exploring Data", "Plotting Data", "Plotting Data Lab"]
+    @pandas_titles_and_links = pandas_titles.zip(pandas_links)
+
 
     @neural_nets_base = "https://colab.research.google.com/github/jigsawlabs-student/neural-nets-from-scratch/blob/master/"
     neuron_links = ["0-intro-ml/0-ml-problem", "0-intro-ml/1-ml-process", "1-hypothesis-fn-neuron/1-intro-to-neurons", "1-hypothesis-fn-neuron/2-plotting-a-neuron",
