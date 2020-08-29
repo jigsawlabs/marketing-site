@@ -1,29 +1,33 @@
 <%= render 'layouts/navbar' %>
-  <section class="Intro--new" style="background: #f1f2f7;">
+
+  <section class="Intro--new">
     <div class="row">
       <div class="col Intro__content">
         <div class="Section--even">
-          <h1 class="Intro__title">
-             Free Introductory Courses
+          <h1 class="Intro__title" style="max-width: 500px;">
+            <span class="inline-block"> In the future, decisions</span>
+            <span class="inline-block"> will be made by those </span>
+            <span class="inline-block"> who know </span> <br/>
+             <span class="inline-block typed"> business analytics. </span>
           </h1>
+
           <div class="Intro__body">
             <p>
-            Hands on learning in acquiring and answering questions with data.
+            <span class="inline-block"> Learn data science </span> <span class="inline-block"> in our part-time course, <span/> <br> <span class="inline-block"> and upgrade your skillset. </span>
             </p>
           </div>
           <div class="Intro__cta">
             <div class="Button Button__purple">
-              <a href="#intro_coding">Start Learning </a>
+              <a href="#free"> Start Learning <span> Below </span></a>
             </div>
+            <a class="title-link" href="<%= about_path %>">Career Course Details </a>
           </div>
         </div>
       </div>
-      <div class="col"></div>
     </div>
   </section>
 
-
-<div class="">
+<div class="" id="free">
 
 </div>
 
@@ -43,7 +47,7 @@
         <br />
         <p style="width: 90%; margin: 0 auto;"> We'll learn coding fundamentals with Python. Along the way, we'll pull data from the web, and create interactive graphs of our data.</p>
         <br />
-        <p style="width: 90%; margin: 0 auto">Click on the interactive lessons below to begin. </p>
+        <p style="width: 90%; margin: 0 auto">Click on the free interactive lessons to begin. </p>
         <br />
         <ol style="columns: 2; font-size: 16px; margin: 0 auto; width: 100%;" start="0">
           <% @intro_titles_and_links.each do |title, link| %>
@@ -65,6 +69,14 @@
     </div>
   </div>
 </div>
+
+    <div class="RealStories__title">
+      <h3 style="text-align: center;"> Want some help? Attend a Free Online Workshop.  </h3>
+        <div class="Button " style="background: #706c87; margin: 20px; width: 200px;">
+          <%= link_to 'Upcoming Workshops', events_path %>
+        </div>
+
+    </div>
 <div style="padding-left: 0px;"   class="Persona Section Section--even Section--first">
   <div class=" col  Persona__first_col">
     <div class="Persona__attributes" style="padding-top: 100px;">
@@ -80,7 +92,7 @@
         <br />
         <p style="width: 90%; margin: 0 auto;"> We'll learn how to select, explore and plot data in Pandas.  We'll do so using flood data from the FEMA API, and movie revenue data from 538.</p>
         <br />
-        <p style="width: 90%; margin: 0 auto">Click on the interactive lessons below to begin. </p>
+        <p style="width: 90%; margin: 0 auto">Click on the free interactive lessons to begin. </p>
         <br />
         <ol style="columns: 2; font-size: 16px; margin: 0 auto; width: 100%;" start="0">
           <% @pandas_titles_and_links.each do |title, link| %>

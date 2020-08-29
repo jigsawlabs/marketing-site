@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root to: 'pages#index'
+  root to: 'pages#free'
   get 'about', to: 'pages#about'
   get 'tos', to: 'pages#tos'
   get 'practice', to: 'pages#practice'
