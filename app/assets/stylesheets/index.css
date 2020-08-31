@@ -1441,7 +1441,6 @@ span.hr.purple{
 .logo__hz{
     display:block;
     min-height: 37px;
-    background: url(asset_path("general/jigsaw-labs-hz.svg")) no-repeat;
     height: 200px;
     width: 200px;
     background-size: 200px 130px;

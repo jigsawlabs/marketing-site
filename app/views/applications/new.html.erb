@@ -1,55 +1,47 @@
 <%= render 'layouts/apply_navbar' %>
 <div class="SiteContent" >
-  <section class="Solutions application_form_2 no_opacity" >
-    <div class="row">
-      <div class="col flex-centered">
-        <div class="Section__content" id="application_page_2">
-            <h2> Course Preference & Profile Info</h2>
-            <%= form_with(model: @application, id: 'new_application', url: update_app_path, validate: true) do |f| %>
-              <div class="form-row">
-                <div class="form-group col-md-6">
-
-                  <label for="application_linkedin_profile">Linkedin profile
-                    <span> <small id="emailHelp" class=" text-muted">(optional)</small></span> </label>
-                  <%= f.email_field :linkedin, placeholder: '', class: 'form-control' %>
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="application_Github_profile">Github profile
-                    <span> <small id="emailHelp" class=" text-muted">(optional)</small></span> </label>
-                  <%= f.text_field :github, placeholder: '', class: 'form-control' %>
-                </div>
-              </div>
-              <div class="form-row">
-                <div class="form-group col-md-7">
-                  <%= f.label 'preferred course:' %>
-                  <%= f.select :preferred_course_date, ['Select one', 'Coding for Data Science', 'Data Science Career Course', 'Sunday Workshop']%>
-                </div>
-              </div>
-              <div class="form-row">
-                <div class="form-group col-md-12">
-                  <%= f.label 'most interested in applying data science to:' %>
-                  <%= f.select :interested_field, ['Select one', 'marketing', 'business analysis', 'finance', 'economics/policy', 'social enterprise', 'biology', 'other'] %>
-                </div>
-              </div>
-              <%= hidden_field_tag 'application[number]', '' %>
-              <%=f.submit 'Apply', class: 'Button' %>
-            <% end %>
-        </div>
+  <section class="Solutions application_form_2 no_opacity" id="profile">
+    <div class="row justify-content-center" style="    padding-bottom: 10px;">
+            <h2> Congrats on submitting your Application! </h2>
+    </div>
+    <div class="row justify-content-center" style="margin-top: 0px; padding-bottom: 10px;">
+      <div  class="">
+        <%= image_tag 'general/jigsaw-icon.png', style: "max-height: 200px; padding: 10px;" %>
       </div>
-      <div class="col flex-centered" style="">
+    </div>
+    <div class="row" style="margin-top: 10px;">
+      <div class="col flex-centered" style="padding-top: 10px;">
         <div class="Section__content">
-          <div class="card" style="width: 18rem;">
+          <div class="card" style="">
             <div class="card-body">
               <p class="card-text">
-              This is the first step in the application process.
+              I'll reach out in the next two days to schedule a friendly chat about the upcoming program, or skip the email and schedule a <%= link_to 'chat with me here', 'https://calendly.com/jigsaw-labs/information-chat' %>.  </p>
+              <p class="card-text">
+              There, I can tell you a bit more about the curriculum, and what I hope you'll get out of the class.
               </p>
               <p class="card-text">
-              After submitting your application,  we will contact you about next steps.
+              We'll talk a little bit more about what you're looking for in the program, and whether either the coding or career course is a good fit for you.
+              </p>
+              <p class="card-text">
+              If you're looking to take the career course, I'll also tell you about the technical interview for that program.
+              </p>
+              <p class="card-text">
+               - Jeff
               </p>
             </div>
           </div>
         </div>
       </div>
+      <div class="RealStories__title">
+      <h3 style="text-align: center;"> Stay Hungry, Stay Foolish.  </h3>
+        <div class="Button" style="background: ##332e56; margin: 20px; width: 200px;">
+          <a href="/#free">Free Content</a>
+        </div>
+        <div class="Button Button__purple" style="background: ##332e56; margin: 20px; width: 200px;">
+          <a href="/events">Upcoming Workshops</a>
+        </div>
+
+    </div>
     </div>
   </section>
       <div class="modal fade bd-example-modal-lg" id="application_modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" data-keyboard="false" data-show="true" data-backdrop="static">
@@ -59,20 +51,20 @@
             <p class="modal-p"> Part Time Data Science Classes</p>
             <%= image_tag "women-presenting.svg", alt: 'Data Science Presentation at Jigsaw Labs'%>
 
-            <%= form_for(@application, id: 'new_application', validate: true, remote: true) do |f| %>
+            <%= form_for(@application, id: 'new_application', validate: true, remote: true, url: "https://api.hubapi.com/contacts/v1/contact/?hapikey=demo") do |f| %>
               <div class="form-row">
                 <div class="form-group col-md-6">
-                  <%= f.label :first_name %>
+                  <%= f.label "First_name *" %>
                   <%= f.text_field :first_name, placeholder: 'First Name', validate: {presence: true}, class: 'form-control' %>
                 </div>
                 <div class="form-group col-md-6">
-                  <%= f.label :last_name %>
+                  <%= f.label "last_name " %>
                   <%= f.text_field :last_name, placeholder: 'Last Name', class: 'form-control' %>
                 </div>
               </div>
               <div class="form-row">
                 <div class="form-group col-md-6">
-                  <%= f.label :email %>
+                  <%= f.label "email *" %>
                   <%= f.email_field :email, placeholder: 'Email', class: 'form-control' %>
                 </div>
                 <div class="form-group col-md-6">
@@ -87,7 +79,7 @@
                 </div>
               </div>
 
-              <%=f.submit 'Continue', class: 'Button Button__purple' %>
+              <%=f.submit 'Continue', class: 'disabled Button Button__purple', data: {dismiss: "modal"} %>
             <% end %>
           </div>
         </div>
@@ -107,7 +99,7 @@
               <a class="Button" href="<%= events_path %>" style="
               ">Attend an Event</a>
               </div>
-              <div class="Button Button__purple">
+              <div class="Button disabled">
                 <%= link_to 'Free Course', course_signup_path %>
               </div>
             </div>
@@ -115,6 +107,38 @@
           </div>
         </div>
       </div>
+<style>
+
+.disabled {
+  opacity: .5;
+  cursor: default;
+}
+</style>
+      <script>
+        function validateForm(){
+          var emailLength = $('#application_email').val().length;
+          var firstNameLength = $('#application_first_name').val().length;
+            console.log('disable now')
+          if (emailLength == 0 || firstNameLength == 0) {
+            console.log('disable now')
+            $('input[type=submit]').prop('disabled',true);
+            $('input[type=submit]').addClass('disabled')
+          } else {
+            console.log('remove disable now')
+            $('input[type=submit]').prop('disabled',false);
+            $('input[type=submit]').removeClass('disabled')
+          }
+        }
+        $( document ).on('turbolinks:load', function() {
+          $('input[type=submit]').on('click', function(){
+            $('#profile').removeClass('no_opacity')
+          })
+          $('#application_email, #application_first_name').on('blur input', function() {
+            validateForm()
+          });
+        });
+
+    </script>
   <%= render 'layouts/footer' %>
 
 
