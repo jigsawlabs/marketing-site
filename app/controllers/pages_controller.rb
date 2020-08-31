@@ -44,7 +44,7 @@ class PagesController < ApplicationController
 
 
     @neural_nets_base = "https://colab.research.google.com/github/jigsawlabs-student/neural-nets-from-scratch/blob/master/"
-    neuron_links = ["0-intro-ml/0-ml-problem", "0-intro-ml/1-ml-process", "1-hypothesis-fn-neuron/1-intro-to-neurons", "1-hypothesis-fn-neuron/2-plotting-a-neuron",
+    neuron_links = ["0-intro-ml/0-ml-problem", "0-intro-ml/1-ml-process-1", "1-hypothesis-fn-neuron/1-intro-to-neurons", "1-hypothesis-fn-neuron/2-plotting-a-neuron",
                      "1-hypothesis-fn-neuron/3-sigmoid-neuron", "1-hypothesis-fn-neuron/4-sigmoid-neuron-lab",
                      "2-training-proc/2-training-conceptually/5-training-a-neuron",
                      "2-training-proc/2-training-conceptually/6-gradient-descent-single-param",
@@ -54,12 +54,16 @@ class PagesController < ApplicationController
                      "2-training-proc/3-training-mathematically/6-gradient-descent-lab",
                      "2-training-proc/3-training-mathematically/7-taking-stock",
                      "2-training-proc/3-training-mathematically/8-chain-rule",
-                     "2-training-proc/3-training-mathematically/9-chain-rule-on-neuron"
+                     "2-training-proc/3-training-mathematically/90-chain-rule-lab",
+                     "2-training-proc/3-training-mathematically/92-backpropagation-neuron",
+                     "2-training-proc/3-training-mathematically/9-chain-rule-on-neuron",
+                     "2-training-proc/3-training-mathematically/93-backpropagation-lab"
     ]
 
     neuron_titles = ["Introduction", "The Process", "Intro to Neurons", "Plotting a Neuron", "Sigmoid Neuron", "Sigmoid Neuron Lab",
                       "Training a Neuron", "Gradient Descent", "Derivatives", "Derivative Rules", "Multiparameter Descent",
-                      "Partial Derivatives", "Applying Gradient Descent", "Gradient Descent Lab", "Taking Stock", "Chain Rule", "Chain Rule With Neurons"]
+                      "Partial Derivatives", "Applying Gradient Descent", "Gradient Descent Lab", "Taking Stock", "Chain Rule", "Chain Rule Lab",
+                      "Backpropagation", "Chain Rule With Neurons", "Backpropagation Lab"]
 
 
     @neuron_titles_and_links = neuron_titles.zip(neuron_links)
@@ -67,7 +71,7 @@ class PagesController < ApplicationController
                          "3-layers/4-mnist-layer-lab", "3-layers/5-building-layers", "3-layers/6-the-last-layer", "3-layers/7-mnist-layers-lab",
                      "4-backpropagation/1-chain-rule-to-backprop",
                      "4-backpropagation/2-train-network", "4-backpropagation/3-mnist-train"]
-    neural_net_titles = ["Onto Neural Networks", "Dot Products", "Multiple Neurons", "Building a Layer", "Building a Layer Lab", "Building Layers",
+    neural_net_titles = ["Neural Networks", "Dot Products", "Multiple Neurons", "Building a Layer", "Building a Layer Lab", "Building Layers",
                       "Output Layers", "MNIST Layers Lab", "BackProp Revisited", "Building a Network", "Predicting with MNIST"]
 
     @neural_net_titles_and_links = neural_net_titles.zip(neural_net_links)

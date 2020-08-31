@@ -148,11 +148,11 @@
   </div>
 </div>
 
-<div style="padding-left: 0px;"   class="Persona Section Section--even Section--first">
+<div style="padding-left: 0px;padding-bottom: 80px;"   class="Persona Section Section--even Section--first" >
   <div class=" col  Persona__first_col">
     <div class="">
       <div  class="">
-        <%= image_tag 'course_details/geo-process.svg', style: "max-height: 500px; padding: 30px;" %>
+        <%= image_tag 'course_details/rubix.svg', style: "max-height: 500px; padding: 30px;" %>
       </div>
     </div>
   </div>
@@ -174,7 +174,7 @@
         <br />
         <p style="width: 90%; margin: 0 auto; text-align: center;"> A neural network</p>
         <br />
-        <ol style="columns: 2; font-size: 16px; margin: 0 auto; width: 100%; padding-bottom: 25px;" start="17">
+        <ol style="columns: 2; font-size: 16px; margin: 0 auto; width: 100%; padding-bottom: 25px;" start="20">
           <% @neural_net_titles_and_links.each do |title, link| %>
             <li style="padding-bottom: 3px;"> <a style="color: #706c87;" target="_blank" href=<%= "#{@neural_nets_base}/#{link}.ipynb" %>><%= title %></a> </li>
           <% end %>
