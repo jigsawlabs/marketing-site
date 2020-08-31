@@ -3006,7 +3006,7 @@ a:focus,a:hover{
 
 @media(max-width:768px){
   .Section--first .Persona__mixcard__attrs{
-    left: 9%;
+    left: -7%;
     bottom: 20%;
   }
 
