@@ -47,8 +47,7 @@
       <div class="modal fade bd-example-modal-lg" id="application_modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" data-keyboard="false" data-show="true" data-backdrop="static">
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
-            <div class="logo__hz"> </div>
-            <p class="modal-p"> Part Time Data Science Classes</p>
+            <p class="modal-p" style="padding-top: 10px;"> Part Time Data Science Classes</p>
             <%= image_tag "women-presenting.svg", alt: 'Data Science Presentation at Jigsaw Labs'%>
 
             <%= form_for(@application, id: 'new_application', validate: true, remote: true, url: '/applications') do |f| %>
@@ -74,12 +73,12 @@
               </div>
               <div class="form-row">
                 <div class="form-group col-md-6">
-                  <%= f.label "linkedin profile " %>
-                  <%= f.text_field :linkedin, placeholder: 'LinkedIn (optional)', class: 'form-control' %>
+                  <%= f.label "linkedin profile (optional)" %>
+                  <%= f.text_field :linkedin, placeholder: 'LinkedIn', class: 'form-control' %>
                 </div>
                 <div class="form-group col-md-6">
-                  <%= f.label "github optional"%>
-                  <%= f.text_field :github, placeholder: 'github (optional)', class: 'form-control' %>
+                  <%= f.label "github profile (optional)"%>
+                  <%= f.text_field :github, placeholder: 'Github', class: 'form-control' %>
                 </div>
               </div>
               <div class="form-row">
