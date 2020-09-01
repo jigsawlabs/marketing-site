@@ -51,7 +51,7 @@
             <p class="modal-p"> Part Time Data Science Classes</p>
             <%= image_tag "women-presenting.svg", alt: 'Data Science Presentation at Jigsaw Labs'%>
 
-            <%= form_for(@application, id: 'new_application', validate: true, remote: true, url: "https://api.hubapi.com/contacts/v1/contact/?hapikey=demo") do |f| %>
+            <%= form_for(@application, id: 'new_application', validate: true, remote: true, url: '/applications') do |f| %>
               <div class="form-row">
                 <div class="form-group col-md-6">
                   <%= f.label "First_name *" %>
@@ -79,7 +79,7 @@
                 </div>
               </div>
 
-              <%=f.submit 'Continue', class: 'disabled Button Button__purple', data: {dismiss: "modal"} %>
+              <%=f.submit 'Continue', class: 'disabled Button Button__purple' %>
             <% end %>
           </div>
         </div>
@@ -130,8 +130,10 @@
           }
         }
         $( document ).on('turbolinks:load', function() {
-          $('input[type=submit]').on('click', function(){
+          $('#application_form').on('submit', function(){
             $('#profile').removeClass('no_opacity')
+
+            $('.modal').modal('hide')
           })
           $('#application_email, #application_first_name').on('blur input', function() {
             validateForm()
