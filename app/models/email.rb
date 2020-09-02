@@ -9,11 +9,13 @@ class Email < ApplicationRecord
                     :from => "jeff <jeff@#{DOMAIN_NAME}>",
                     :to => "#{self.to}, #{self.to}",
                     :subject => self.welcome_subject,
-                    :text => self.text)
+                    :engine => 'handlebars',
+                    :"v:first_name" => self.first_name,
+                    :template => "application_response")
   end
 
   def welcome_subject
-    "hello!"
+    "Got your application #{self.first_name} :) Next steps."
   end
 
   def text

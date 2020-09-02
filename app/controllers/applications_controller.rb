@@ -8,6 +8,9 @@ class ApplicationsController < ApplicationController
                                                                        :zipcode, :phone_number, :linkedin, :github,
                                                                        :preferred_course_data, :interested_field))
     @application.save
+    email = Email.new(first_name: @application.first_name, to: @application.email)
+    email.send_simple_message
+    email.save
     render json: {id: @application.id}
   end
 
