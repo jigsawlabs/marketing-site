@@ -11,6 +11,10 @@ class ApplicationsController < ApplicationController
     render json: {id: @application.id}
   end
 
+  def index
+    @applications = Application.last(2)
+  end
+
   def update_app
     number = params.require(:application).permit(:number)[:number]
     @application = Application.find(number)
