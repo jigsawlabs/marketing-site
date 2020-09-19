@@ -2532,7 +2532,7 @@ a:focus,a:hover{
         display:flex;
         -ms-flex-direction:row-reverse;
         flex-direction:row-reverse;
-        height:800px;
+        height:100%;
         margin-top:0
     }
 }
@@ -2542,7 +2542,7 @@ a:focus,a:hover{
         display:flex;
         -ms-flex-direction:row-reverse;
         flex-direction:row-reverse;
-        height:750px;
+        height:100%;
     }
 
     .Section--third .Persona__attributes {
