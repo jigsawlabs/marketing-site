@@ -48,48 +48,11 @@
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <p class="modal-p" style="padding-top: 10px;"> Part Time Data Science Classes</p>
-            <%= image_tag "women-presenting.svg", alt: 'Data Science Presentation at Jigsaw Labs'%>
+            <!-- Start of Meetings Embed Script -->
+    <div class="meetings-iframe-container" data-src="https://meetings.hubspot.com/jeff525/-office-hours?embed=true"></div>
+    <script type="text/javascript" src="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"></script>
+  <!-- End of Meetings Embed Script -->
 
-            <%= form_for(@application, id: 'new_application', validate: true, remote: true, url: '/applications') do |f| %>
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <%= f.label "First_name *" %>
-                  <%= f.text_field :first_name, placeholder: 'First Name', validate: {presence: true}, class: 'form-control' %>
-                </div>
-                <div class="form-group col-md-6">
-                  <%= f.label "last_name " %>
-                  <%= f.text_field :last_name, placeholder: 'Last Name', class: 'form-control' %>
-                </div>
-              </div>
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <%= f.label "email *" %>
-                  <%= f.email_field :email, placeholder: 'Email', class: 'form-control' %>
-                </div>
-                <div class="form-group col-md-6">
-                  <%= f.label :phone_number %>
-                  <%= f.telephone_field :phone_number, placeholder: '111-111-1111', class: 'form-control' %>
-                </div>
-              </div>
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <%= f.label "linkedin profile (optional)" %>
-                  <%= f.text_field :linkedin, placeholder: 'LinkedIn', class: 'form-control' %>
-                </div>
-                <div class="form-group col-md-6">
-                  <%= f.label "github profile (optional)"%>
-                  <%= f.text_field :github, placeholder: 'Github', class: 'form-control' %>
-                </div>
-              </div>
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <%= f.label :zip_code %>
-                  <%= f.text_field :zipcode, placeholder: '11111', class: 'form-control' %>
-                </div>
-              </div>
-
-              <%=f.submit 'Continue', class: 'disabled Button Button__purple' %>
-            <% end %>
           </div>
         </div>
       </div>
