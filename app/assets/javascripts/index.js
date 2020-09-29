@@ -1,5 +1,5 @@
 
-var f = ["machine learning.", "data acquisition.", "statistics.", "business analytics.", "data storytelling.", "probability."];
+var f = ["kubernetes.", "docker.", "big data.", "Python.", "SQL."];
 var v = 0;
 
 setInterval(function() {
