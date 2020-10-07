@@ -1,5 +1,5 @@
 
-var f = ["kubernetes.", "docker.", "big data.", "Python.", "SQL."];
+var f = ["Python.", "SQL.", "Docker.", "Kubernetes.", "PySpark.", "AWS.", "data engineering."];
 var v = 0;
 
 setInterval(function() {
