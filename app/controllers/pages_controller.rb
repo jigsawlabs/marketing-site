@@ -41,6 +41,16 @@ class PagesController < ApplicationController
     pandas_links = ["0-pandas-intro-to-dataframes", "1-working-with-columns", "3-selecting-cols-lab", "2-selecting-rows","4-selecting-rows-lab", "5-exploring-data", "6-plotting-data", "7-exploring-plotting-data-lab"]
     pandas_titles = ["Dataframes", "Select Columns", "Select Columns Lab", "Selecting Rows", "Selecting Rows Lab", "Exploring Data", "Plotting Data", "Plotting Data Lab"]
     @pandas_titles_and_links = pandas_titles.zip(pandas_links)
+    @docker_base_url = "https://colab.research.google.com/github/jigsawlabs-student/docker-intro/blob/master/"
+    docker_links = ["0-docker-intro/0-docker-playground", "0-docker-intro/1-intro-to-docker", "0-docker-intro/2-why-docker", "1-docker-client/1-docker-image-client",
+                     "1-docker-client/2-docker-containers", "1-docker-client/3-docker-images-containers-lab", "1-docker-client/4-altering-container-processes", "1-docker-client/5-bind-mounts",
+                     "1-docker-client/6-volumes", "2-docker-files/1-base-run-cmd", "2-docker-files/2-docker-build-lab", "2-docker-files/3-advanced-build"
+    ]
+
+    docker_titles = ["Docker Playground", "Docker Overview", "Why Docker", "Images", "Containers", "Images and Containers Lab", "Altering Container Processes",
+                     "Bind Mounts", "Volumes", "Dockerfiles", "Dockerfiles lab", "Advanced builds"]
+
+    @docker_titles_and_links = docker_titles.zip(docker_links)
 
 
     @neural_nets_base = "https://colab.research.google.com/github/jigsawlabs-student/neural-nets-from-scratch/blob/master/"
