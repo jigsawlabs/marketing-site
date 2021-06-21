@@ -53,38 +53,28 @@ class PagesController < ApplicationController
     @docker_titles_and_links = docker_titles.zip(docker_links)
 
 
-    @neural_nets_base = "https://colab.research.google.com/github/jigsawlabs-student/neural-nets-from-scratch/blob/master/"
-    neuron_links = ["0-intro-ml/0-ml-problem", "0-intro-ml/1-ml-process-1", "1-hypothesis-fn-neuron/1-intro-to-neurons", "1-hypothesis-fn-neuron/2-plotting-a-neuron",
-                     "1-hypothesis-fn-neuron/3-sigmoid-neuron", "1-hypothesis-fn-neuron/4-sigmoid-neuron-lab",
-                     "2-training-proc/2-training-conceptually/5-training-a-neuron",
-                     "2-training-proc/2-training-conceptually/6-gradient-descent-single-param",
-                     "2-training-proc/3-training-mathematically/1-working-with-derivatives", "2-training-proc/3-training-mathematically/2-derivative-shortcuts",
-                     "2-training-proc/3-training-mathematically/3-intro-to-gradient-descent", "2-training-proc/3-training-mathematically/4-partial-derivatives",
-                     "2-training-proc/3-training-mathematically/5-applying-gradient-descent",
-                     "2-training-proc/3-training-mathematically/6-gradient-descent-lab",
-                     "2-training-proc/3-training-mathematically/7-taking-stock",
-                     "2-training-proc/3-training-mathematically/8-chain-rule",
-                     "2-training-proc/3-training-mathematically/90-chain-rule-lab",
-                     "2-training-proc/3-training-mathematically/92-backpropagation-neuron",
-                     "2-training-proc/3-training-mathematically/9-chain-rule-on-neuron",
-                     "2-training-proc/3-training-mathematically/93-backpropagation-lab"
+    @neural_nets_base = "https://colab.research.google.com/github/jigsawlabs-student/pytorch-intro-curriculum/blob/main/"
+    neuron_links = ["1-prediction-function/1-intro-to-neurons", "1-prediction-function/2-dot-products", "1-prediction-function/3-sigmoid-neuron", "1-prediction-function/4-first-neural-network",
+                    "2-training/5-training-a-neuron", "2-training/6-gradient-descent-single-param", "2-training/7-pytorch-gradient-gradient",
     ]
 
-    neuron_titles = ["Introduction", "The Process", "Intro to Neurons", "Plotting a Neuron", "Sigmoid Neuron", "Sigmoid Neuron Lab",
-                      "Training a Neuron", "Gradient Descent", "Derivatives", "Derivative Rules", "Multiparameter Descent",
-                      "Partial Derivatives", "Applying Gradient Descent", "Gradient Descent Lab", "Taking Stock", "Chain Rule", "Chain Rule Lab",
-                      "Backpropagation", "Chain Rule With Neurons", "Backpropagation Lab"]
+    neuron_titles = ["Intro to Neurons", "Dot Products", "Sigmoid Neurons", "A Neural Network", "Training a Neuron", "Gradient Descent",
+                      "Pytorch Gradient Descent" ]
 
 
     @neuron_titles_and_links = neuron_titles.zip(neuron_links)
-    neural_net_links = ["3-layers/0-neurons-to-neural-networks", "3-layers/1-summations-and-dot-products", "3-layers/2-multiple-neurons", "3-layers/3-building-a-layer",
-                         "3-layers/4-mnist-layer-lab", "3-layers/5-building-layers", "3-layers/6-the-last-layer", "3-layers/7-mnist-layers-lab",
-                     "4-backpropagation/0-hypothesis-function-network",
-                     "4-backpropagation/1-training-a-network", "4-backpropagation/2-forwards-and-backwards", "4-backpropagation/3-mnist-train"]
-    neural_net_titles = ["Neural Networks", "Dot Products", "Multiple Neurons", "Building a Layer", "Building a Layer Lab", "Building Layers",
-                      "Output Layers", "MNIST Layers Lab", "Hypothesis Function", "Backprop Layers", "Training a Network", "Predicting with MNIST"]
+    neural_net_links = ["3-layers/8-neurons-to-neural-networks", "3-layers/9-multiple-neurons",
+                         "3-layers/10-building-layers", "3-layers/11-the-output-layer", "3-layers/12-the-input-layer", "4-neural-nets/13-building-neural-nets"]
+    neural_net_titles = ["Onto Neural Nets", "Multiple Neurons", "Building Layers",
+                      "The Output Layer", "The Input Layer", "Building Neural Nets"]
+
+    training_links = ["5-training-mathematically/14-whats-next", "5-training-mathematically/15-understanding-derivatives",
+                      "5-training-mathematically/16-derivative-shortcuts", "5-training-mathematically/17-chain-rule", "5-training-mathematically/18-multiparameter-gradient-descent",
+                      "5-training-mathematically/19-algebra-gradient-descent", "5-training-mathematically/20-backpropagation-and-gradient-descent", "6-review-neural-nets/21-review-neural-nets"]
+    training_titles = ["What's Next", "Understanding Derivatives", "Derivative Shortcuts", "The Chain Rule", "Multiparameter Gradient Descent", "Algebraic Gradient Descent", "Backpropagation", "Reviewing Neural Nets"]
 
     @neural_net_titles_and_links = neural_net_titles.zip(neural_net_links)
+    @training_titles_and_links = training_titles.zip(training_links)
     @decision_trees_base = "https://colab.research.google.com/github/jigsawlabs-student/decision-trees-intro/blob/master/"
 
     tree_links = ["1-ml-overview-4/0-ml-problem", "1-ml-overview-4/1-ml-process",
