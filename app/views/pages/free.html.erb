@@ -43,6 +43,38 @@
   <div id="intro_coding" class="col Persona__second_col flex-centered">
     <div class="Persona__card" style="width: 97%">
       <div class=""  style="width: 100%">
+        <h1  style="margin: 0 auto; width: 90%" > Introduction to Docker </h1>
+        <br />
+        <p style="width: 90%; margin: 0 auto;">
+        We'll learn about how to use docker to quickly download and install web services.
+        <br />
+        <br />
+        Along the way we'll learn about the docker command line interface, how to work with images and containers, and how to build and run our own custom docker image.
+        </p>
+        <br />
+        <ol style="columns: 2; font-size: 16px; margin: 0 auto; width: 100%;" start="0">
+          <% @docker_titles_and_links.each do |title, link| %>
+            <li style="padding-bottom: 3px;"> <a style="color: #706c87;" target="_blank" href=<%= "#{@docker_base_url}/#{link}.ipynb" %>><%= title %></a> </li>
+          <% end %>
+
+        </ol>
+        <br />
+
+      </div>
+    </div>
+  </div>
+</div>
+<div style="padding-left: 0px;"   class="Persona Section Section--even Section--first">
+  <div class=" col  Persona__first_col">
+    <div class="Persona__attributes">
+      <div  class="">
+        <%= image_tag 'course_details/api.svg', style: "max-height: 500px; padding: 30px;" %>
+      </div>
+    </div>
+  </div>
+  <div id="intro_coding" class="col Persona__second_col flex-centered">
+    <div class="Persona__card" style="width: 97%">
+      <div class=""  style="width: 100%">
         <h1  style="margin: 0 auto; width: 90%" > Introduction to Coding </h1>
         <br />
         <p style="width: 90%; margin: 0 auto;"> We'll learn coding fundamentals with Python. Along the way, we'll pull data from the web, and create interactive graphs of our data.</p>
