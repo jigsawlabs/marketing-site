@@ -52,6 +52,19 @@ class PagesController < ApplicationController
 
     @docker_titles_and_links = docker_titles.zip(docker_links)
 
+    @spark_base_url = "https://colab.research.google.com/github/jigsawlabs-student/"
+    spark_rdds = "pyspark-rdds/blob/main/"
+    spark_titles = ["Spark in Memory", "Spark in Parallel", "Spark Cluster Lab", "Map Reduce",
+                    "Map Reduce Lab", "Lazy RDDs", "Spark Workflow", "Resilient RDDs", "Spark DataFrames",
+                    "Selecting Rows", "Selecting Lab", "Schema in Spark", "Schema in Spark Lab"]
+    spark_links = ["#{spark_rdds}0-spark-in-memory", "#{spark_rdds}1-spark-in-parallel", "pyspark-cluster-lab/blob/main/1-pyspark-cluster-lab",
+                   "#{spark_rdds}2-map-reduce-and-shuffle", "pyspark-rdds/blob/main/2-map-reduce-and-shuffle", "#{spark_rdds}3-lazy-rdds",
+                   "#{spark_rdds}4-spark-workflow", "#{spark_rdds}5-resilient-rdds", "spark-dataframes/blob/main/1-spark-dataframes",
+                   "spark-dataframes/blob/main/2-selecting-rows", "pyspark-dataframes/blob/main/3-selecting-spark-lab", "pyspark-dataframes/blob/main/4-from-sql-to-spark",
+                   "pyspark-dataframes/blob/main/5-sql-to-spark-lab"]
+
+    @spark_titles_and_links = spark_titles.zip(spark_links)
+
 
     @neural_nets_base = "https://colab.research.google.com/github/jigsawlabs-student/pytorch-intro-curriculum/blob/main/"
     neuron_links = ["1-prediction-function/1-intro-to-neurons", "1-prediction-function/2-dot-products", "1-prediction-function/3-sigmoid-neuron", "1-prediction-function/4-first-neural-network",
@@ -65,13 +78,13 @@ class PagesController < ApplicationController
     @neuron_titles_and_links = neuron_titles.zip(neuron_links)
     neural_net_links = ["3-layers/8-neurons-to-neural-networks", "3-layers/9-multiple-neurons",
                          "3-layers/10-building-layers", "3-layers/11-the-output-layer", "3-layers/12-the-input-layer", "4-neural-nets/13-building-neural-nets"]
-    neural_net_titles = ["Onto Neural Nets", "Multiple Neurons", "Building Layers",
+    neural_net_titles = ["Neural Nets", "More Neurons", "Building Layers",
                       "The Output Layer", "The Input Layer", "Building Neural Nets"]
 
     training_links = ["5-training-mathematically/14-whats-next", "5-training-mathematically/15-understanding-derivatives",
                       "5-training-mathematically/16-derivative-shortcuts", "5-training-mathematically/17-chain-rule", "5-training-mathematically/18-multiparameter-gradient-descent",
                       "5-training-mathematically/19-algebra-gradient-descent", "5-training-mathematically/20-backpropagation-and-gradient-descent", "6-review-neural-nets/21-review-neural-nets"]
-    training_titles = ["What's Next", "Understanding Derivatives", "Derivative Shortcuts", "The Chain Rule", "Multiparameter Gradient Descent", "Algebraic Gradient Descent", "Backpropagation", "Reviewing Neural Nets"]
+    training_titles = ["What's Next", "Derivatives", "Derivative Shortcuts", "The Chain Rule", "Multiparameter Descent", "Algebraic Descent", "Backpropagation", "Neural Nets Review"]
 
     @neural_net_titles_and_links = neural_net_titles.zip(neural_net_links)
     @training_titles_and_links = training_titles.zip(training_links)
