@@ -55,11 +55,11 @@ class PagesController < ApplicationController
     @spark_base_url = "https://colab.research.google.com/github/jigsawlabs-student/"
     spark_rdds = "pyspark-rdds/blob/main/"
     spark_titles = ["Spark in Memory", "Spark in Parallel", "Spark Cluster Lab", "Map Reduce",
-                    "Map Reduce Lab", "Lazy RDDs", "Spark Workflow", "Resilient RDDs", "Spark DataFrames",
+                    "Map Reduce Lab", "Lazy RDDs", "Spark Workflow", "RDDs Lab", "Resilient RDDs", "Spark DataFrames",
                     "Selecting Rows", "Selecting Lab", "Schema in Spark", "Schema in Spark Lab"]
     spark_links = ["#{spark_rdds}0-spark-in-memory", "#{spark_rdds}1-spark-in-parallel", "pyspark-cluster-lab/blob/main/1-pyspark-cluster-lab",
                    "#{spark_rdds}2-map-reduce-and-shuffle", "pyspark-map-reduce-lab/blob/main/2-map-reduce-lab", "#{spark_rdds}3-lazy-rdds",
-                   "#{spark_rdds}4-spark-workflow", "#{spark_rdds}5-resilient-rdds", "spark-dataframes/blob/main/1-spark-dataframes",
+                   "#{spark_rdds}4-spark-workflow", "4-spark-rdds-lab/blob/main/index", "#{spark_rdds}5-resilient-rdds", "spark-dataframes/blob/main/1-spark-dataframes",
                    "spark-dataframes/blob/main/2-selecting-rows", "pyspark-dataframes/blob/main/3-selecting-spark-lab", "pyspark-dataframes/blob/main/4-from-sql-to-spark",
                    "pyspark-dataframes/blob/main/5-sql-to-spark-lab"]
 
