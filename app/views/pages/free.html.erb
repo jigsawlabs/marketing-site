@@ -5,8 +5,8 @@
       <div class="col Intro__content">
         <div class="Section--even">
           <h1 class="Intro__title" style="max-width: 500px;">
-            <span class="inline-block"> In the future, decisions</span>
-            <span class="inline-block"> will be made by those </span>
+            <span class="inline-block"> The future</span>
+            <span class="inline-block"> will be built by those </span>
             <span class="inline-block"> who know </span> <br/>
              <span class="inline-block typed"> data engineering. </span>
           </h1>
@@ -31,39 +31,6 @@
 
 </div>
 
-</div>
-<div style="padding-left: 0px;"   class="Persona Section Section--even Section--first">
-  <div class=" col  Persona__first_col">
-    <div class="Persona__attributes">
-      <div  class="">
-        <%= image_tag 'course_details/api.svg', style: "max-height: 500px; padding: 30px;" %>
-      </div>
-    </div>
-  </div>
-  <div id="intro_coding" class="col Persona__second_col flex-centered">
-    <div class="Persona__card" style="width: 97%">
-      <div class=""  style="width: 100%">
-        <h1  style="margin: 0 auto; width: 90%" > Introduction to Pyspark </h1>
-        <br />
-        <p style="width: 90%; margin: 0 auto;">
-        We'll see how Pyspark allows us to work with and query large amounts of data quickly.
-        <br />
-        <br />
-
-        We'll use Pyspark to retrieve and query data from AWS, and walk through the spark dashboard to understand what's going on under the hood.
-        </p>
-        <br />
-        <ol style="columns: 2; font-size: 16px; margin: 0 auto; width: 100%;" start="1">
-          <% @spark_titles_and_links.each do |title, link| %>
-            <li style="padding-bottom: 3px;"> <a style="color: #706c87;" target="_blank" href=<%= "#{@spark_base_url}/#{link}.ipynb" %>><%= title %></a> </li>
-          <% end %>
-
-        </ol>
-        <br />
-
-      </div>
-    </div>
-  </div>
 </div>
 <div style="padding-left: 0px;"   class="Persona Section Section--even Section--first">
   <div class=" col  Persona__first_col">
