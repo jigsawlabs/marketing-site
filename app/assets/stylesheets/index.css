@@ -1474,11 +1474,6 @@ span.hr.purple{
         transform:none
     }
 }
-@media(min-width:992px){
-    .Nav__pullout{
-        margin-left:20px
-    }
-}
 .NavOpen .Nav__pullout{
     opacity:1;
     transform:translate(0);
@@ -2138,7 +2133,6 @@ a:focus,a:hover{
     }
 }
 .Intro--new{
-    background-color:#bcd2f4;
     background-repeat:no-repeat;
     background-position:50%;
     height:735px;
@@ -2150,7 +2144,6 @@ a:focus,a:hover{
 @media(-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){
     .Intro--new{
         background-size:550px;
-        background: #bcd2f4;
     }
 }
 @media(min-width:576px){
