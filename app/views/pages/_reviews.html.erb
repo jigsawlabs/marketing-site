@@ -1,21 +1,36 @@
 
 <div class="RealStories__title">
-  <h3 style="text-align: center;"> Our students * really * like Jigsaw Labs.  </h3>
+  <div class="row">
+    <div class="col">
+      <%= image_tag('general/five-stars.svg', class: 'svg-color') %>
+      <p>5.0 out of 5.0 average on course report.</p>
+    </div>
+  </div>
 
   <p style="width: 80%; margin: 0 auto;"> "Hands down the best curriculum and instructor to introduce you to data engineering and cloud deployment.</p>
   <p style="width: 80%; margin: 0 auto;"> If you're looking for a fast, highly technical, and relevant course, Jigsaw Labs is the school for you."</p>
   <cite class="big-quote__source">
     <%= link_to '#', :style=> 'color:#222; font-size: 40%' do %>
-      <%= image_tag('general/jigsaw-icon.png', height: '50', width: '50') %> Luis Vera
+      <%= image_tag('profiles/luis-vera.jpeg', height: '50', width: '50', class: 'rounded-circle') %> Luis Vera
+    <% end %>
+  </cite >
+  <p> </p>
+
+
+  <p style="width: 80%; margin: 0 auto;"> "A few months after completing the course, I landed my first data science job, so I would highly recommend</p>
+  <p style="width: 80%; margin: 0 auto;"> applying to Jigsaw Labs for anyone looking to transition into a data science or data engineering career!"</p>
+
+  <cite class="big-quote__source">
+    <%= link_to '#', :style=> 'color:#222; font-size: 40%' do %>
+      <%= image_tag('profiles/michele.jpeg', height: '50', width: '50', class: 'rounded-circle') %> Michele Waters
     <% end %>
   </cite>
-  <p> </p>
 
   <p style="width: 80%; margin: 0 auto;"> "The curriculum builds a really solid understanding of the fundamentals and then grows this by covering a lot of topics at a quick pace.</p>
   <p style="width: 80%; margin: 0 auto;"> When I tell my software/data engineering friends what we're learning, they're impressed by how much the curriculum covers."</p>
   <cite class="big-quote__source">
     <%= link_to '#', :style=> 'color:#222; font-size: 40%' do %>
-      <%= image_tag('general/jigsaw-icon.png', height: '50', width: '50') %> Chris Waskom
+      <%= image_tag('profiles/waskom.jpeg', height: '50', width: '50', class: 'rounded-circle') %> Chris Waskom
     <% end %>
   </cite>
   <p> </p>
@@ -24,7 +39,7 @@
   <p style="width: 80%; margin: 0 auto"> He's a fantastic advocate. I got several interviews through him, and one of them turned into a job."</p>
   <cite class="big-quote__source">
     <%= link_to '#', :style=> 'color:#222; font-size: 40%' do %>
-      <%= image_tag('general/jigsaw-icon.png', height: '50', width: '50') %> Eric Ford
+      <%= image_tag('profiles/eric-ford.jpeg', height: '50', width: '50', class: 'rounded-circle') %> Eric Ford
     <% end %>
   </cite>
   <p> </p>

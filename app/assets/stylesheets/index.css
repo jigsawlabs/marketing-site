@@ -144,7 +144,6 @@ output{
     flex-wrap:wrap;
     margin:0 auto;
     max-width:1240px;
-    padding: 10px 0px 12% 0px;
 }
 @media(min-width:768px){
     .row,.row-reverse{
@@ -693,9 +692,6 @@ input::-webkit-calendar-picker-indicator,input::-webkit-clear-button,input::-web
 .Section--centered{
     margin:0 auto;
     max-width:1240px
-}
-.Section--even{
-    padding:53px 33px
 }
 .Section--inverted{
     background:#332e56
@@ -2556,7 +2552,7 @@ a:focus,a:hover{
 }
 .RealStories__title{
     text-align:center;
-    padding-top: 5%;
+    padding-top: 2%;
 }
 
 .RealStories__title h2 {
@@ -7357,5 +7353,13 @@ footer p a {
 }
 
 
+.svg-color {
+  filter: brightness(0) saturate(100%) invert(12%) sepia(8%) saturate(5662%) hue-rotate(212deg) brightness(90%) contrast(93%);
+}
 
-
+.p-text {
+  font-family: larsiet;
+  color: #524D6E;
+  margin-bottom: 5px;
+  font-size: 1.1em;
+}
