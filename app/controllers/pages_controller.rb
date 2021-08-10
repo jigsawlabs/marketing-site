@@ -77,7 +77,7 @@ class PagesController < ApplicationController
 
     @neuron_titles_and_links = neuron_titles.zip(neuron_links)
     neural_net_links = ["3-layers/8-neurons-to-neural-networks", "3-layers/9-multiple-neurons",
-                         "3-layers/10-building-layers", "3-layers/11-the-output-layer", "3-layers/12-the-input-layer", "4-neural-nets/13-building-neural-nets"]
+                         "3-layers/10-building-layers", "3-layers/11-output-layer", "3-layers/12-the-input-data", "4-neural-nets/13-building-neural-nets"]
     neural_net_titles = ["Neural Nets", "More Neurons", "Building Layers",
                       "The Output Layer", "The Input Layer", "Building Neural Nets"]
 
