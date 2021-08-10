@@ -1388,7 +1388,6 @@ span.hr.purple{
 .Nav__wrapper{
     height: 10%;
     min-height: 65px;
-    position:fixed;
     transition:background .3s,box-shadow .3s;
     width:100%;
     z-index:1000;
