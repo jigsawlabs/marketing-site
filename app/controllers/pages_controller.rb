@@ -15,7 +15,7 @@ class PagesController < ApplicationController
 
   end
 
-  def free
+  def curriculum
     @intro_base_url = "https://colab.research.google.com/github/jigsawlabs-student/code-intro/blob/master/"
 
 

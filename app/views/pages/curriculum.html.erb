@@ -1,48 +1,80 @@
 <%= render 'layouts/navbar' %>
 
-  <section >
-    <div class="row" style="padding: 5%;">
-      <div class="col align-self-center">
+  <section class="Intro--new">
+    <div class="row">
+      <div class="col Intro__content">
         <div class="Section--even">
-          <h1 class="Intro__title" style="max-width: 550px;">
-            <span class="inline-block"> Finally, </span>
-            <span class="inline-block"> a coding bootcamp </span>
-            <span class="inline-block"> that offers more for less.</span>
+          <h1 class="Intro__title" style="max-width: 500px;">
+            <span class="inline-block"> The future</span>
+            <span class="inline-block"> will be built by those </span>
+            <span class="inline-block"> who know </span> <br/>
+             <span class="inline-block typed"> data engineering. </span>
           </h1>
 
-          <div class="">
-            <p style="font-family: larsiet; color: #524D6E; margin-bottom: 5px; font-size: 1.1em;">
-            Learn <b> fullstack engineering, cloud computing,</b> and <b>data engineering </b>
-            <br />
-            in our live online course
-            <b><i>without </i></b> quitting your job.
+          <div class="Intro__body">
+            <p>
+            <span class="inline-block"> Learn data engineering </span> <span class="inline-block"> in our part-time course, <span/> <br> <span class="inline-block"> and upgrade your skillset. </span>
             </p>
-            <p style="font-family: larsiet; color: #524D6E; font-size: 1.1em;">
-            Then get a new job, <b> guaranteed. </b>
-            </p>
-
           </div>
           <div class="Intro__cta">
             <div class="Button Button__purple">
-              <a href="#free"> Career Course <span> Details </span></a>
+              <a href="#free"> Start Learning <span> Below </span></a>
             </div>
-            <a class="title-link" href="#free"> Free Curriculum </a>
+            <a class="title-link" href="<%= course_details_path %>">Career Course Details </a>
           </div>
         </div>
-      </div>
-      <div class="col d-none d-sm-block">
-        <%= image_tag 'general/jigsaw-touched.svg' %>
       </div>
     </div>
   </section>
 
-  <%= render 'quality' %>
-  <%= render 'reviews' %>
+<div class="" id="free">
 
-  <%= render 'cost' %>
-  <%= render 'how_it_works' %>
+</div>
 
+</div>
+<div style="padding-left: 0px;"   class="Persona Section Section--even Section--first">
+  <div class=" col  Persona__first_col">
+    <div class="Persona__attributes">
+      <div  class="">
+        <%= image_tag 'course_details/api.svg', style: "max-height: 500px; padding: 30px;" %>
+      </div>
+    </div>
+  </div>
+  <div id="intro_coding" class="col Persona__second_col flex-centered">
+    <div class="Persona__card" style="width: 97%">
+      <div class=""  style="width: 100%">
+        <h1  style="margin: 0 auto; width: 90%" > Introduction to Coding </h1>
+        <br />
+        <p style="width: 90%; margin: 0 auto;"> We'll learn coding fundamentals with Python. Along the way, we'll pull data from the web, and create interactive graphs of our data.</p>
+        <br />
+        <p style="width: 90%; margin: 0 auto">Click on the free interactive lessons to begin.  And check out the <a href="https://www.youtube.com/playlist?list=PLCG6Te769p1gkVJizwSmo6GoEI9oHoAPA"> companion videos</a> to learn to code with a special guest.</p>
+        <br />
+        <ol style="columns: 2; font-size: 16px; margin: 0 auto; width: 100%;" start="0">
+          <% @intro_titles_and_links.each do |title, link| %>
+            <li style="padding-bottom: 3px;"> <a style="color: #706c87;" target="_blank" href=<%= "#{@intro_base_url}/#{link}.ipynb" %>><%= title %></a> </li>
+          <% end %>
 
+        </ol>
+        <br />
+
+        <p style="width: 90%; margin: 0 auto;">Want More Practice? </p>
+        <br />
+        <ol style="columns: 2; font-size: 16px; margin: 0 auto; width: 100%;" start="1">
+          <% @lab_titles_and_links.each do |title, link| %>
+            <li style="padding-bottom: 3px;"> <a style="color: #706c87;" target="_blank" href=<%= "#{@intro_labs_base}/#{link}.ipynb" %>><%= title %></a> </li>
+          <% end %>
+
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="RealStories__title">
+      <h3 style="text-align: center;"> Want some help? Attend a Free Online Workshop.  </h3>
+        <div class="Button Button__purple" style="background: ##332e56; margin: 20px; width: 200px;">
+          <%= link_to 'Upcoming Workshops', events_path %>
+        </div>
 
     </div>
 <div style="padding-left: 0px;"   class="Persona Section Section--even Section--first">
@@ -189,3 +221,4 @@
 
     html { scroll-behavior: smooth; }
   </style>
+
