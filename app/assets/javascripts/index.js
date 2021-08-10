@@ -1,5 +1,5 @@
 
-var f = ["career services.", "tuition plan.", "post-work program.", "curriculum."];
+var f = ["Pandas.", "machine learning.", "neural networks.", "Python."];
 var v = 0;
 
 setInterval(function() {
