@@ -1,11 +1,11 @@
 Rails.application.routes.draw do
-  root to: 'pages#free'
+  root to: 'pages#index'
   get 'about', to: 'pages#about'
   get 'tos', to: 'pages#tos'
   get 'practice', to: 'pages#practice'
   get 'login', to: 'pages#login'
   get 'course_details', to: 'pages#course_details'
-  get 'free', to: 'pages#free', as: :course_signup
+  get 'free', to: 'pages#curriculum', as: :course_signup
 
   post 'update_application', to: 'applications#update_app', as: 'update_app'
   resources :events

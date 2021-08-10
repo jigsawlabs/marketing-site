@@ -1,95 +1,72 @@
 <%= render 'layouts/navbar' %>
-<div class="SiteContent">
-  <section class="Intro--new">
-    <div class="row">
-      <div class="col Intro__content">
+
+  <section >
+    <div class="row" style="padding: 5%;">
+      <div class="col align-self-center">
         <div class="Section--even">
-          <h1 class="Intro__title" style="max-width: 500px;">
-            <span class="inline-block"> In the future, decisions</span>
-            <span class="inline-block"> will be made by those </span>
-            <span class="inline-block"> who know </span> <br/>
-             <span class="inline-block typed"> data acquisition. </span>
+          <h1 class="Intro__title" style="max-width: 550px;">
+            <span class="inline-block"> Finally, </span>
+            <span class="inline-block"> a coding bootcamp </span>
+            <span class="inline-block"> that offers more for less.</span>
           </h1>
 
-          <div class="Intro__body">
-            <p>
-            <span class="inline-block"> Learn data science </span> <span class="inline-block"> in our part-time course, <span/> <br> <span class="inline-block"> and upgrade your skillset. </span>
+          <div class="">
+            <p style="font-family: larsiet; color: #524D6E; margin-bottom: 5px; font-size: 1.1em;">
+            Learn <b> fullstack engineering, cloud computing,</b> and <b>data engineering </b>
+            <br />
+            in our live online course
+            <b><i>without </i></b> quitting your job.
             </p>
+            <p style="font-family: larsiet; color: #524D6E; font-size: 1.1em;">
+            Then get a new job, <b> guaranteed. </b>
+            </p>
+
           </div>
           <div class="Intro__cta">
             <div class="Button Button__purple">
-              <a href=<%= course_signup_path %> >Start Learning <span> Below Free </span></a>
+              <a href="#free"> Career Course <span> Details </span></a>
             </div>
-            <a class="title-link" href="<%= about_path %>">Why Data Science </a>
+            <a class="title-link" href="#free"> Free Curriculum </a>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section class="Solutions">
-    <div class="row">
-      <div class="col-md-6 flex-centered" style="">
-        <div class="Section__content">
-          <%= image_tag "venn.png", alt: 'Jigsaw Labs Data Science Venn Diagram' %>
-        </div>
-      </div>
-      <div class="col-md-6 flex-centered">
-        <div class="Section__content">
-          <h2>A comprehensive approach to data science</h2>
-          <p>Data science blends coding, business analysis, and statistics to diagnose problems and recommend action.</p>
-          <p>You'll join a community of learners, bringing their perspective and passions to exploring these subjects.</p>
-        </div>
+      <div class="col d-none d-sm-block">
+        <%= image_tag 'general/jigsaw-touched.svg' %>
       </div>
     </div>
   </section>
-  <section class="Solutions">
-    <div class="row">
-      <div class="col-md-6 flex-centered" style="">
-        <div class="Section__content">
-          <%= image_tag "women-presenting.svg", alt: 'Data Science Presentation at Jigsaw Labs'%>
-        </div>
-      </div>
-      <div class="col-md-6 flex-centered">
-        <div class="Section__content">
-          <h2>A student driven community</h2>
-          <p>Data scientists are expected to be core members of their organization -- drawing insights, and facilitating discussions.</p>
-          <p>Members of our community do the same.  Group projects, blogs, and code exchanges ask individuals to bring their own backgrounds and ideas to explore data science. </p>
-        </div>
-      </div>
+
+  <%= render 'quality' %>
+  <%= render 'reviews' %>
+
+  <%= render 'cost' %>
+  <%= render 'how_it_works' %>
+
+
+
     </div>
   </section>
-  <section class="Solutions">
-    <div class="row">
-      <div class="col-md-6 flex-centered" style="">
-        <div class="Section__content">
-          <%= image_tag "man-thinking.svg", alt: 'Dreaming Machine Learning at Jigsaw Labs' %>
-        </div>
-      </div>
-      <div class="col-md-6 flex-centered">
-        <div class="Section__content">
-          <h2>Own an immediate skillset</h2>
-          <p>Whether coding, statistics, or analysis, each topic we cover brings new tools to solve problems.</p>
-          <p>With labs and projects, you'll own each skill.  And we focus on the fundamentals to give you a solid foundation.</p>
-        </div>
-      </div>
-    </div>
+
   </section>
+
   <section class="HomeEfficacy Section--inverted">
-    <div class="HomeEfficacy__otc"></div>
-    <div class="HomeEfficacy__text Section__content">
-      <h2>Possibility and passion in your new career.</h2>
-      <p> Welcome to a student-driven classroom that explores rich topics, <br/> whether in coding, statistics, or business analysis. </p>
-      <div class="cta-wrapper cta-spacing-top cta-spacing-bottom">
-        <div class="cta-divider "></div>
-        <div class="Button ">
-          <a class="js--signup-modal-trigger" href=<%= course_signup_path %>>Start free course</a>
-        </div>
-      </div>
+    <div class="HomeEfficacy__text">
+      <h2 style="padding: 60px 10px;">Possibility and passion in your new career.</h2>
+    <%= render partial: 'data_science_card' %>
+      <br>
+      <p style="padding-top: 40px;"> <a href="/course_details" style="text-decoration:none" onmouseover="style='text-decoration:underline'" onmouseout="style='text-decoration:none'">View Course Syllabus</a></p>
     </div>
   </section>
-  <script>
-    window.__LANDING_VARIANT__ = 'default';
-  </script>
+
   <%= render 'layouts/footer' %>
+  <style type="text/css" media="all">
+      li {
+        font-size: 19px;
+      }
+      .list-group-item {
+        padding-left: 0px;
+        padding-right: 0px;
+      }
 
-
+    html { scroll-behavior: smooth; }
+  </style>

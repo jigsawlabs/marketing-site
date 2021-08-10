@@ -15,7 +15,7 @@ class PagesController < ApplicationController
 
   end
 
-  def free
+  def curriculum
     @intro_base_url = "https://colab.research.google.com/github/jigsawlabs-student/code-intro/blob/master/"
 
 
@@ -67,7 +67,7 @@ class PagesController < ApplicationController
 
 
     @neural_nets_base = "https://colab.research.google.com/github/jigsawlabs-student/pytorch-intro-curriculum/blob/main/"
-    neuron_links = ["1-prediction-function/1-intro-to-neurons", "1-prediction-function/2-dot-products", "1-prediction-function/3-sigmoid-neuron", "1-prediction-function/4-first-neural-network",
+    neuron_links = ["1-prediction-function/1-intro-to-neurons", "1-prediction-function/2-dot-products-and-pytorch", "1-prediction-function/3-sigmoid-neuron", "1-prediction-function/4-first-neural-network",
                     "2-training/5-training-a-neuron", "2-training/6-gradient-descent-single-param", "2-training/7-pytorch-gradient-descent",
     ]
 

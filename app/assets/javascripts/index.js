@@ -1,5 +1,5 @@
 
-var f = ["Python.", "SQL.", "Docker.", "Kubernetes.", "PySpark.", "AWS.", "data engineering."];
+var f = ["Pandas.", "machine learning.", "neural networks.", "Python."];
 var v = 0;
 
 setInterval(function() {
@@ -8,7 +8,7 @@ setInterval(function() {
     document.querySelector("span.typed").innerHTML = "".concat(f[v]);
     v === f.length - 1 ? v = 0 : v++
   }
-}, 1e3);
+}, 1500);
 
 
 

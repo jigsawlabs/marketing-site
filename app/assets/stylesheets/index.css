@@ -144,7 +144,6 @@ output{
     flex-wrap:wrap;
     margin:0 auto;
     max-width:1240px;
-    padding: 10px 0px 12% 0px;
 }
 @media(min-width:768px){
     .row,.row-reverse{
@@ -693,9 +692,6 @@ input::-webkit-calendar-picker-indicator,input::-webkit-clear-button,input::-web
 .Section--centered{
     margin:0 auto;
     max-width:1240px
-}
-.Section--even{
-    padding:53px 33px
 }
 .Section--inverted{
     background:#332e56
@@ -1392,7 +1388,6 @@ span.hr.purple{
 .Nav__wrapper{
     height: 10%;
     min-height: 65px;
-    position:fixed;
     transition:background .3s,box-shadow .3s;
     width:100%;
     z-index:1000;
@@ -1472,11 +1467,6 @@ span.hr.purple{
         padding:0;
         position:static;
         transform:none
-    }
-}
-@media(min-width:992px){
-    .Nav__pullout{
-        margin-left:20px
     }
 }
 .NavOpen .Nav__pullout{
@@ -1840,7 +1830,10 @@ a:focus,a:hover{
 
 .title-link {
     padding-left: 17px;
-    color: #706c87;
+    font-family: avant garde;
+    font-weight: 600;
+    font-size: 18px;
+    color: #332e56;
 }
 
 @media(max-width:550px){
@@ -2135,7 +2128,6 @@ a:focus,a:hover{
     }
 }
 .Intro--new{
-    background-color:#bcd2f4;
     background-repeat:no-repeat;
     background-position:50%;
     height:735px;
@@ -2147,7 +2139,6 @@ a:focus,a:hover{
 @media(-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){
     .Intro--new{
         background-size:550px;
-        background: #bcd2f4;
     }
 }
 @media(min-width:576px){
@@ -2216,7 +2207,7 @@ a:focus,a:hover{
 }
 @media(min-width:1200px){
     .Intro--new .Intro__body{
-        max-width:380px
+        max-width:600px
     }
 }
 .Intro--new .Intro__cta-disclaimer{
@@ -2346,6 +2337,7 @@ a:focus,a:hover{
 .Intro__cta{
     display: flex;
     align-items: center;
+    padding-top: 5%;
 }
 .Intro__cta-disclaimer{
     text-align:center;
@@ -2559,7 +2551,7 @@ a:focus,a:hover{
 }
 .RealStories__title{
     text-align:center;
-    padding-top: 5%;
+    padding-top: 2%;
 }
 
 .RealStories__title h2 {
@@ -7360,5 +7352,25 @@ footer p a {
 }
 
 
+.svg-color {
+  filter: brightness(0) saturate(100%) invert(12%) sepia(8%) saturate(5662%) hue-rotate(212deg) brightness(90%) contrast(93%);
+}
 
+.p-text {
+  font-family: larsiet;
+  color: #524D6E;
+  margin-bottom: 5px;
+  font-size: 1.1em;
+}
+.p-med {
+  font-family: larsiet;
+  color: #524D6E;
+  margin-bottom: 5px;
+  font-size: .5em;
+}
+
+.table > thead > tr > th {
+    border: no
+    e;
+}
 
