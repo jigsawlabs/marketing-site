@@ -161,11 +161,6 @@ output{
     padding:0;
     position:relative;
 }
-@media(min-width:768px){
-    .col{
-        padding:70px 10px
-    }
-}
 .col-size-2{
     -ms-flex:2;
     flex:2
