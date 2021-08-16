@@ -7424,6 +7424,7 @@ footer p a {
   font-family: larseit;
   text-align: left;
   font-style: italic;
+  font-size: calc(1.1rem + 1.1vw);
 }
 
 .timeline div {
