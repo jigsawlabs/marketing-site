@@ -7416,8 +7416,6 @@ footer p a {
 }
 
 .module-row {
-  padding-left: 2%;
-  padding-right: 2%;
   text-align: center;
 }
 
@@ -7426,6 +7424,9 @@ footer p a {
   font-family: larseit;
   text-align: left;
   font-style: italic;
+}
+
+.timeline div {
 }
 .arrow {
   width: 100%;
