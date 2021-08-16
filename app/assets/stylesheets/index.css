@@ -7361,11 +7361,39 @@ footer p a {
   font-family: larsiet;
   color: #524D6E;
   margin-bottom: 5px;
-  font-size: .5em;
+  font-size: calc(1.2rem + .3vw);
 }
 
 .table > thead > tr > th {
-    border: no
-    e;
+    border: none;
 }
+
+.review-p {
+  width: 80%;
+  margin: 0 auto;
+  padding: 3% 0;
+}
+
+.review-photo {
+  color:#222;
+  font-size: 80%;
+  text-align: center;
+}
+
+.review-img {
+  width: 150px;
+}
+
+.profile-text {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  padding-left: 5%;
+}
+
+.review-row {
+  padding-bottom: 2%;
+}
+
 
