@@ -7356,6 +7356,7 @@ footer p a {
   color: #524D6E;
   margin-bottom: 5px;
   font-size: 1.1em;
+  text-align: left;
 }
 .p-med {
   font-family: larsiet;
@@ -7396,4 +7397,53 @@ footer p a {
   padding-bottom: 2%;
 }
 
+.card-style {
+  font-size: calc(.5rem + .7vw);
+}
 
+.card-style .card-header {
+  text-align: left;
+}
+
+.card-style thead tr th {
+  font-weight: 600;
+  font-family: larseit;
+}
+
+.card-style tbody tr {
+  font-weight: 100;
+  font-family: larseit;
+}
+
+.module-row {
+  padding-left: 2%;
+  padding-right: 2%;
+  text-align: center;
+}
+
+.timeline {
+  padding-top: 5%;
+  font-family: larseit;
+  text-align: left;
+  font-style: italic;
+}
+.arrow {
+  width: 100%;
+}
+
+.line {
+  margin-top: 14px;
+  width: 95%;
+  background: blue;
+  height: 10px;
+  float: left;
+}
+
+.point {
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 30px solid blue;
+  float: right;
+}
