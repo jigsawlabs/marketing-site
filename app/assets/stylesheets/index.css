@@ -7355,7 +7355,7 @@ footer p a {
   font-family: larsiet;
   color: #524D6E;
   margin-bottom: 5px;
-  font-size: 1.1em;
+  font-size: 1.0em;
   text-align: left;
 }
 .p-med {
@@ -7398,7 +7398,7 @@ footer p a {
 }
 
 .card-style {
-  font-size: calc(.5rem + .7vw);
+  font-size: calc(.9rem + .2vw);
 }
 
 .card-style .card-header {
@@ -7413,6 +7413,7 @@ footer p a {
 .card-style tbody tr {
   font-weight: 100;
   font-family: larseit;
+  text-align: left;
 }
 
 .module-row {
@@ -7452,6 +7453,7 @@ footer p a {
 .module-title {
   margin: 0px;
   color: rgb(51, 46, 85);
+  font-weight: 600;
 }
 
 .module-weeks {
