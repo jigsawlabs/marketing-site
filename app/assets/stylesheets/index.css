@@ -7449,3 +7449,13 @@ footer p a {
   border-left: 30px solid blue;
   float: right;
 }
+.module-title {
+  margin: 0px;
+  color: rgb(51, 46, 85);
+}
+
+.module-weeks {
+  font-size: calc(1.1rem + 1.1vw);
+  margin: 0px;
+  color: rgb(51, 46, 85);
+}
