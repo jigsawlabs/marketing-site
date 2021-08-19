@@ -7461,3 +7461,26 @@ footer p a {
   margin: 0px;
   color: rgb(51, 46, 85);
 }
+
+.curriculum {
+  font-family: larseit;
+  font-size: 1.1em;
+  color: #332e56 !important;
+}
+.lessons {
+  font-weight: 500;
+  color: #332e56 !important;
+}
+
+
+ #intro_coding a, #intro_coding ol, #intro_coding li, #intro_pandas a, #intro_pandas ol, #intro_pandas li, #neural_nets ol, #neural_nets li, #neural_nets a, #intro_ml ol, #intro_ml li, #intro_ml a {
+ color: #332e56 !important;
+ font-family: larseit;
+}
+
+
+
+#intro_ml p, #intro_coding p, #intro_pandas p, #neural_nets p {
+    color: #332e56 !important;
+    font-family: larseit;
+}
