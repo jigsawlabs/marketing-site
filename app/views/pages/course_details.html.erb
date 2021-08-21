@@ -1,27 +1,35 @@
 <%= render 'layouts/navbar' %>
-  <section class="Intro--new" style="background: #f1f2f7;">
-    <div class="row">
-      <div class="col Intro__content">
+  <section style="background-color: #F8F8FA;"  >
+    <div class="row" style="padding: 5%; padding-bottom: 12%;">
+      <div class="col align-self-center">
         <div class="Section--even">
-          <h1 class="Intro__title">
-             Become data driven.
+          <h1 class="Intro__title" style="max-width: 600px; padding-bottom: 5%;">
+            <span class="inline-block">
+              <br />
+               The details matter.
+            </span>
           </h1>
-          <div class="Intro__body">
-            <p>
-            Hands on learning in acquiring and answering questions with data.
-            </p>
+
+          <div class="">
+            <p style="font-family: larsiet; color: #524D6E; padding-bottom: 3%; font-size: 1.2em;">
+            Here's the why behind our
+            <br />
+            course curriculum, structure, and pricing.
           </div>
           <div class="Intro__cta">
             <div class="Button Button__purple">
-              <a href=<%="#syllabus" %> style="line-height: 15px; text-align: center;">Course Details</a>
+              <a href="/course_details"> Career Course <span> Details </span></a>
             </div>
-            <a class="title-link" href="<%= new_application_path %>">Start Your Application</a>
+            <a class="title-link" href="/free"> Free Curriculum </a>
           </div>
         </div>
       </div>
-      <div class="col"></div>
+      <div class="col d-none d-sm-block">
+        <%= image_tag 'course_details/api.svg', style: "max-height: 500px; padding: 30px;" %>
+      </div>
     </div>
   </section>
+  <%= render 'why_curriculum' %>
 
   <section class="RealStories Section--centered">
     <div class="RealStories__title">
