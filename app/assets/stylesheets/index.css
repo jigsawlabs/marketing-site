@@ -7484,3 +7484,10 @@ footer p a {
     color: #332e56 !important;
     font-family: larseit;
 }
+
+.vertical-align-text {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}

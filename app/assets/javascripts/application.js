@@ -18,4 +18,7 @@
 //= require index
 //= require rails.validations
 //= require application_form
+//= require typeahead
+//= require Chart.min
+//= require skills_chart
 // can change bootstrap-sprockets to bootstrap for faster compilation
