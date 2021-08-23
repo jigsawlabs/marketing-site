@@ -6,15 +6,13 @@
           <h1 class="Intro__title" style="max-width: 600px; padding-bottom: 5%;">
             <span class="inline-block">
               <br />
-               The details matter.
+              Teaching you the skills for today, and going forward.
             </span>
           </h1>
 
           <div class="">
             <p style="font-family: larsiet; color: #524D6E; padding-bottom: 3%; font-size: 1.2em;">
-            Here's the why behind our
-            <br />
-            course curriculum, structure, and pricing.
+            Here's the why behind our course curriculum.
           </div>
           <div class="Intro__cta">
             <div class="Button Button__purple">
@@ -24,7 +22,7 @@
           </div>
         </div>
       </div>
-      <div class="col d-none d-sm-block">
+      <div class="col">
         <%= image_tag 'course_details/api.svg', style: "max-height: 500px; padding: 30px;" %>
       </div>
     </div>
@@ -33,32 +31,12 @@
 
   <section class="RealStories Section--centered">
     <div class="RealStories__title">
-      <h3 style="text-align: center;"> Learn data engineering part-time in 24 weeks.</h3>
+      <h3 style="text-align: center;"> Learn full stack and data engineering in 24 weeks.</h3>
     </div>
+  </section>
 
     <%= render partial: 'data_science_card' %>
 
-  <h3 style="text-align: center;"> Job guaranteed within 6 months of graduation.</h3>
-  <br />
-  <h3 style="text-align: center;"> Or upgrade your skillset in 10 weeks.</h3>
-    <%= render partial: 'coding_card' %>
-  </section>
-<br>
-<section class="RealStories Section--centered" style="width: 90%" id="syllabus">
-  <h3 style="text-align: center;"> Check out our syllabus below. </h3>
-  <%= render partial: 'syllabus' %>
-</section>
-
-
-  <section class="HomeEfficacy Section--inverted" style="padding-bottom: 100px;">
-    <div class="HomeEfficacy__text" style="">
-      <h2 style="padding: 50px;">Possibility and passion in your new career.</h2>
-      <%= render partial: 'data_science_card' %>
-
-    </div>
-    <br />
-    <%= render partial: 'coding_card' %>
-  </section>
 
   <%= render 'layouts/footer' %>
 
