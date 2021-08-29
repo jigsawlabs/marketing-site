@@ -11,16 +11,6 @@ $(document).on("turbolinks:load", () => {
   })
 });
 
-$(document).on("ready", () => {
-  console.log('on ready')
-  let selectedTechs = ['SQL', 'Python', 'JavaScript', 'AWS', 'Docker'];
-  ctx = document.getElementById('myChart').getContext('2d');
-  data = fetchSkills().then(skills => {
-    let dates = skills['python']['dates']
-    let chart = buildChart(dates)
-    selectedTechs.forEach(tech => addData(chart, skills, tech));
-  })
-});
 // Init vars for state.
 async function fetchSkills() {
   let data = {}
