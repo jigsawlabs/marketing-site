@@ -7371,6 +7371,12 @@ footer p a {
   color: #524D6E;
 }
 
+.p-title p {
+  font-size: calc(.9rem + .3vw);
+  font-family: larsiet;
+  color: #524D6E;
+}
+
 .table > thead > tr > th {
     border: none;
 }

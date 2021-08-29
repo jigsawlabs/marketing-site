@@ -1,31 +1,55 @@
 <%= render 'layouts/navbar' %>
 
   <section >
-    <div class="row" style="padding: 5%; padding-bottom: 12%;">
+    <div class="d-block d-md-none" style="padding-top: 5%">
+    </div>
+    <div class="row" style="padding: 5%; padding-bottom: 12%; padding-top: 1%;">
       <div class="col align-self-center">
         <div class="Section--even">
-          <h1 class="Intro__title" style="max-width: 600px; padding-bottom: 5%;">
+          <h1 class="Intro__title" style="max-width: 600px;">
             <span class="inline-block"> Finally, </span>
             <span class="inline-block"> a coding bootcamp </span>
             <span class="inline-block"> that offers more for less.</span>
           </h1>
-          <div class="col d-sm-none" style="margin: auto; max-width: 60%; padding-bottom: 5%;">
+          <div class="d-none d-sm-block" style="padding-bottom: 5%;">
+
+          </div>
+          <div class="col d-sm-none" style="margin: auto; max-width: 60%; width: 110%;">
             <%= image_tag 'general/jigsaw-touched.svg' %>
           </div>
 
-          <div class="">
-            <p style="font-family: larsiet; color: #524D6E; padding-bottom: 3%; font-size: 1.2em;">
+          <div class="p-title d-none d-sm-block" style="">
+            <p style="font-family: larsiet; color: #524D6E; padding-bottom: 3%; ">
             Learn <b> fullstack engineering </b> <i>and </i> <b>data engineering </b>
             <br />
             in our live online course
             <b><i>without </i></b> quitting your job.
             </p>
-            <p style="font-family: larsiet; color: #524D6E; font-size: 1.2em;">
+            <p style="font-family: larsiet; color: #524D6E; ;">
             Then get a new job, <b> guaranteed. </b>
             </p>
 
           </div>
-          <div class="Intro__cta">
+          <div class="p-title d-sm-none" style="text-align: center;">
+            <p style="font-family: larsiet; color: #524D6E; padding-bottom: 3%; ">
+            Learn <b> fullstack engineering </b> <i>and </i> <b>data engineering </b>
+            <br />
+            in our live online course
+            <b><i>without </i></b> quitting your job.
+            </p>
+            <p style="font-family: larsiet; color: #524D6E; ;">
+            Then get a new job, <b> guaranteed. </b>
+            </p>
+
+          </div>
+          <div class="Intro__cta d-none d-sm-block">
+            <div class="Button Button__purple">
+              <a href="/course_details"> Career Course <span> Details </span></a>
+            </div>
+            <a class="title-link" href="/free"> Free Curriculum </a>
+          </div>
+
+          <div class="Intro__cta d-sm-none d-flex justify-content-center">
             <div class="Button Button__purple">
               <a href="/course_details"> Career Course <span> Details </span></a>
             </div>
