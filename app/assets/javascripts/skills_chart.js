@@ -1,7 +1,18 @@
 // Context for rendering chart.
 let ctx = ''
 $(document).on("turbolinks:load", () => {
-  console.log('loaded')
+  console.log('turbolinks load')
+  let selectedTechs = ['SQL', 'Python', 'JavaScript', 'AWS', 'Docker'];
+  ctx = document.getElementById('myChart').getContext('2d');
+  data = fetchSkills().then(skills => {
+    let dates = skills['python']['dates']
+    let chart = buildChart(dates)
+    selectedTechs.forEach(tech => addData(chart, skills, tech));
+  })
+});
+
+$(document).on("ready", () => {
+  console.log('on ready')
   let selectedTechs = ['SQL', 'Python', 'JavaScript', 'AWS', 'Docker'];
   ctx = document.getElementById('myChart').getContext('2d');
   data = fetchSkills().then(skills => {
