@@ -1,6 +1,7 @@
 // Context for rendering chart.
 let ctx = ''
-document.addEventListener("turbolinks:load", () => {
+$(document).on("turbolinks:load", () => {
+  console.log('loaded')
   let selectedTechs = ['SQL', 'Python', 'JavaScript', 'AWS', 'Docker'];
   ctx = document.getElementById('myChart').getContext('2d');
   data = fetchSkills().then(skills => {
