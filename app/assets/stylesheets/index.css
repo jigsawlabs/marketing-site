@@ -7541,4 +7541,5 @@ blockquote.twitter-tweet a:focus {
 
 .curriculum li:first-child {
   font-weight: 600;
+  text-decoration: underline;
 }
