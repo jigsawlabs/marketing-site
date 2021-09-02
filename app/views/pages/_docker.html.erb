@@ -17,8 +17,9 @@
         <br />
         Along the way we'll learn about the docker command line interface, how to work with images and containers, and how to build and run our own custom docker image.
         </p>
+        <p style="width: 90%; margin: 0 auto"><b> Click on </b> the <b> free interactive lessons </b> to begin. </p>
         <br />
-        <ol style="columns: 2; font-size: 16px; margin: 0 auto; width: 100%;" start="0">
+        <ol class="curriculum" style="columns: 2; font-size: 16px; margin: 0 auto; width: 100%;" start="0">
           <% @docker_titles_and_links.each do |title, link| %>
             <li style="padding-bottom: 3px;"> <a style="color: #706c87;" target="_blank" href=<%= "#{@docker_base_url}/#{link}.ipynb" %>><%= title %></a> </li>
           <% end %>

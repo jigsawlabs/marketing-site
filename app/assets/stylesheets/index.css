@@ -7538,3 +7538,7 @@ blockquote.twitter-tweet a:focus {
   text-decoration: underline;
 }
 
+
+.curriculum li:first-child {
+  font-weight: 600;
+}

@@ -23,7 +23,7 @@
 
 
 </div>
-<div style=""   id="free" class="Persona Section Section--even Section--first">
+<div style=""   class="Persona Section Section--even Section--first">
   <div class=" col  Persona__first_col">
     <div class="Persona__attributes">
       <div  class="" style="text-align: center;">
@@ -34,13 +34,13 @@
   <div id="intro_coding" class="col Persona__second_col flex-centered">
     <div class="Persona__card" style="width: 97%">
       <div class=""  style="width: 100%">
-        <h1  style="margin: 0 auto; width: 90%" > Introduction to Coding </h1>
+        <h1  id="free" style="margin: 0 auto; width: 90%" > Introduction to Coding </h1>
         <br />
         <p style="width: 90%; margin: 0 auto;"> We'll learn coding fundamentals with Python. Along the way, we'll pull data from the web, and create interactive graphs of our data.</p>
         <br />
-        <p style="width: 90%; margin: 0 auto">Click on the free interactive lessons to begin.  And check out the <a href="https://www.youtube.com/playlist?list=PLCG6Te769p1gkVJizwSmo6GoEI9oHoAPA"> companion videos</a> to learn to code with a special guest.</p>
+        <p style="width: 90%; margin: 0 auto"><b> Click on </b> the <b> free interactive lessons </b> to begin.  And check out the <a href="https://www.youtube.com/playlist?list=PLCG6Te769p1gkVJizwSmo6GoEI9oHoAPA"> companion videos</a> to learn to code with a special guest.</p>
         <br />
-        <ol style="columns: 2; font-size: 16px; margin: 0 auto; width: 100%;" start="0">
+        <ol class="curriculum" style="columns: 2; font-size: 16px; margin: 0 auto; width: 100%;" start="0">
           <% @intro_titles_and_links.each do |title, link| %>
             <li style="padding-bottom: 3px;"> <a style="color: #706c87;" target="_blank" href=<%= "#{@intro_base_url}/#{link}.ipynb" %>><%= title %></a> </li>
           <% end %>
@@ -83,9 +83,9 @@
         <br />
         <p style="width: 90%; margin: 0 auto;"> We'll learn how to select, explore and plot data in Pandas.  We'll do so using flood data from the FEMA API, and movie revenue data from 538.</p>
         <br />
-        <p style="width: 90%; margin: 0 auto">Click on the free interactive lessons to begin. </p>
+        <p style="width: 90%; margin: 0 auto"><b> Click on </b> the <b> free interactive lessons </b> to begin. </p>
         <br />
-        <ol style="columns: 2; font-size: 16px; margin: 0 auto; width: 100%;" start="1">
+        <ol class="curriculum" style="columns: 2; font-size: 16px; margin: 0 auto; width: 100%;" start="1">
           <% @pandas_titles_and_links.each do |title, link| %>
             <li style="padding-bottom: 3px;"> <a style="color: #706c87;" target="_blank" href=<%= "#{@pandas_base_url}/#{link}.ipynb" %>><%= title %></a> </li>
           <% end %>
@@ -115,9 +115,11 @@
         This includes learning about the common components of all machine learning algorithms, training a model in sklearn,
         and the test-train split.  We'll also learn how to work with the pandas library to collect, explore, and modify our data.</p>
         <br />
+        <p style="width: 90%; margin: 0 auto"><b> Click on </b> the <b> free interactive lessons </b> to begin. </p>
+        <br />
         <p style="width: 90%; margin: 0 auto; text-align: center;"> Training Decision Trees </p>
         <br />
-        <ol style="columns: 2; font-size: 16px; margin: 0 auto; width: 100%;" start="1">
+        <ol class="curriculum" style="columns: 2; font-size: 16px; margin: 0 auto; width: 100%;" start="1">
           <% @tree_links_and_titles.each do |title, link| %>
             <li style="padding-bottom: 3px;"> <a style="color: #706c87;" target="_blank" href=<%= "#{@decision_trees_base}/#{link}.ipynb" %>><%= title %></a> </li>
           <% end %>
@@ -154,9 +156,11 @@
         <br />
         <p style="width: 90%; margin: 0 auto;"> We'll build a neural network from scratch. Along the way, we'll learn the calculus and matrix algebra fundamentals for understanding machine learning algorithms.</p>
         <br />
+        <p style="width: 90%; margin: 0 auto"><b> Click on </b> the <b> free interactive lessons </b> to begin. </p>
+        <br />
         <p style="width: 90%; margin: 0 auto; text-align: center;"> A single neuron</p>
         <br />
-        <ol style="columns: 2; font-size: 16px; margin: 0 auto; width: 100%;" start="1">
+        <ol class="curriculum" style="columns: 2; font-size: 16px; margin: 0 auto; width: 100%;" start="1">
           <% @neuron_titles_and_links.each do |title, link| %>
             <li style="padding-bottom: 3px;"> <a style="color: #706c87;" target="_blank" href=<%= "#{@neural_nets_base}/#{link}.ipynb" %>><%= title %></a> </li>
           <% end %>
