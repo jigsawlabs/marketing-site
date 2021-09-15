@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Jigsaw Labs - Data Engineering Classes Part-Time via Zoom.  </title>
+    <title>Jigsaw Labs - Fullstack & Data Engineering Classes Part-Time via Zoom.  </title>
     <meta name="theme-color" content="#caccf1" />
     <meta charset="utf-8" />
     <meta property="og:url" content="https://jigsawlabs.co/" />
@@ -30,16 +30,16 @@
     <div class="Nav__wrapper   Nav__wrapper--opaque ">
       <nav class="Nav">
         <%= link_to root_path, class: 'Nav__logo' do %>
-          <%= image_tag('logo-shadowed.png') %>
+          <%= image_tag('general/jigsaw-text.svg', class: "svg-color") %>
         <% end %>
         </a>
         <div class="Nav__pullout">
           <ul class="Nav__links" style="left: 55%;">
             <li class="Nav__item">
-              <%= link_to 'Free Curriculum', "/#intro_coding", class: 'Nav__link Nav__log' %>
+              <%= link_to 'Free Curriculum', "/free", class: 'Nav__link Nav__log' %>
             </li>
             <li class="Nav__item">
-              <%= link_to 'Course Details', course_details_path, class: 'Nav__link' %>
+              <%= link_to 'Course Details', "/course_details", class: 'Nav__link Nav__log' %>
             </li>
             <li class="Nav__item">
               <%= link_to 'Upcoming Workshops', events_path, class: 'Nav__link' %>

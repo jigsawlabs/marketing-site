@@ -1,41 +1,32 @@
-<%= render 'layouts/navbar' %>
-
-  <section class="Intro--new">
-    <div class="row">
-      <div class="col Intro__content">
+<%= render 'layouts/navbar_gray' %>
+    <div class="row" style="padding: 10%; max-width: none; text-align: center; background: #f1f2f7;">
+      <div class="col-12">
         <div class="Section--even">
-          <h1 class="Intro__title" style="max-width: 500px;">
-            <span class="inline-block"> In the future, decisions</span>
-            <span class="inline-block"> will be made by those </span>
-            <span class="inline-block"> who know </span> <br/>
-             <span class="inline-block typed"> data engineering. </span>
+          <h1 class="Intro__title" style="padding-bottom: 5%;">
+            <span class="inline-block"> Start your journey</span>
+            <span class="inline-block"> with our free </span>
+            <span class="inline-block"> courses on </span>
+            <br/>
+            <br />
+            <span class="inline-block typed"> Python. </span>
           </h1>
 
-          <div class="Intro__body">
-            <p>
-            <span class="inline-block"> Learn data engineering </span> <span class="inline-block"> in our part-time course, <span/> <br> <span class="inline-block"> and upgrade your skillset. </span>
-            </p>
-          </div>
-          <div class="Intro__cta">
+          <div class="Intro__cta d-flex justify-content-center">
             <div class="Button Button__purple">
-              <a href="#free"> Start Learning <span> Below </span></a>
+              <a href="/free#free"> Free Curriculum Below </span></a>
             </div>
-            <a class="title-link" href="<%= course_details_path %>">Career Course Details </a>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-<div class="" id="free">
 
 </div>
-
-</div>
-<div style="padding-left: 0px;"   class="Persona Section Section--even Section--first">
+<div style=""   class="Persona Section Section--even Section--first">
   <div class=" col  Persona__first_col">
     <div class="Persona__attributes">
-      <div  class="">
+      <div  class="" style="text-align: center;">
         <%= image_tag 'course_details/api.svg', style: "max-height: 500px; padding: 30px;" %>
       </div>
     </div>
@@ -43,46 +34,13 @@
   <div id="intro_coding" class="col Persona__second_col flex-centered">
     <div class="Persona__card" style="width: 97%">
       <div class=""  style="width: 100%">
-        <h1  style="margin: 0 auto; width: 90%" > Introduction to Pyspark </h1>
+        <h1  id="free" style="margin: 0 auto; width: 90%" > Zero to Data Visualization  </h1>
         <br />
-        <p style="width: 90%; margin: 0 auto;">
-        We'll see how Pyspark allows us to work with and query large amounts of data quickly.
+        <p style="width: 90%; margin: 0 auto;"> You'll learn coding fundamentals with Python. Along the way, you'll pull data from the web, and create interactive graphs of your data.</p>
         <br />
+        <p style="width: 90%; margin: 0 auto"><b> Click on </b> the <b> free interactive lessons </b> to begin.  And check out the <a href="https://www.youtube.com/playlist?list=PLCG6Te769p1gkVJizwSmo6GoEI9oHoAPA"> companion videos</a> to learn to code with a special guest.</p>
         <br />
-
-        We'll use Pyspark to retrieve and query data from AWS, and walk through the spark dashboard to understand what's going on under the hood.
-        </p>
-        <br />
-        <ol style="columns: 2; font-size: 16px; margin: 0 auto; width: 100%;" start="1">
-          <% @spark_titles_and_links.each do |title, link| %>
-            <li style="padding-bottom: 3px;"> <a style="color: #706c87;" target="_blank" href=<%= "#{@spark_base_url}/#{link}.ipynb" %>><%= title %></a> </li>
-          <% end %>
-
-        </ol>
-        <br />
-
-      </div>
-    </div>
-  </div>
-</div>
-<div style="padding-left: 0px;"   class="Persona Section Section--even Section--first">
-  <div class=" col  Persona__first_col">
-    <div class="Persona__attributes">
-      <div  class="">
-        <%= image_tag 'course_details/api.svg', style: "max-height: 500px; padding: 30px;" %>
-      </div>
-    </div>
-  </div>
-  <div id="intro_coding" class="col Persona__second_col flex-centered">
-    <div class="Persona__card" style="width: 97%">
-      <div class=""  style="width: 100%">
-        <h1  style="margin: 0 auto; width: 90%" > Introduction to Coding </h1>
-        <br />
-        <p style="width: 90%; margin: 0 auto;"> We'll learn coding fundamentals with Python. Along the way, we'll pull data from the web, and create interactive graphs of our data.</p>
-        <br />
-        <p style="width: 90%; margin: 0 auto">Click on the free interactive lessons to begin.  And check out the <a href="https://www.youtube.com/playlist?list=PLCG6Te769p1gkVJizwSmo6GoEI9oHoAPA"> companion videos</a> to learn to code with a special guest.</p>
-        <br />
-        <ol style="columns: 2; font-size: 16px; margin: 0 auto; width: 100%;" start="0">
+        <ol class="curriculum" style="columns: 2; font-size: 16px; margin: 0 auto; width: 100%;" start="0">
           <% @intro_titles_and_links.each do |title, link| %>
             <li style="padding-bottom: 3px;"> <a style="color: #706c87;" target="_blank" href=<%= "#{@intro_base_url}/#{link}.ipynb" %>><%= title %></a> </li>
           <% end %>
@@ -102,7 +60,6 @@
     </div>
   </div>
 </div>
-
     <div class="RealStories__title">
       <h3 style="text-align: center;"> Want some help? Attend a Free Online Workshop.  </h3>
         <div class="Button Button__purple" style="background: ##332e56; margin: 20px; width: 200px;">
@@ -110,9 +67,9 @@
         </div>
 
     </div>
-<div style="padding-left: 0px;"   class="Persona Section Section--even Section--first">
+<div style=""   class="Persona Section Section--even Section--first">
   <div class=" col  Persona__first_col">
-    <div class="Persona__attributes" style="padding-top: 100px;">
+    <div class="Persona__attributes" style="padding-top: 100px; text-align: center;">
       <div  class="">
         <%= image_tag 'course_details/geo-process.svg', style: "max-height: 450px; padding: 30px; padding-top: 0px;" %>
       </div>
@@ -123,11 +80,11 @@
       <div class=""  style="width: 100%">
         <h1  style="margin: 0 auto; width: 90%" > Introduction to Pandas </h1>
         <br />
-        <p style="width: 90%; margin: 0 auto;"> We'll learn how to select, explore and plot data in Pandas.  We'll do so using flood data from the FEMA API, and movie revenue data from 538.</p>
+        <p style="width: 90%; margin: 0 auto;"> You'll learn how to select, explore and plot data in Pandas.  You'll do so using flood data from the FEMA API, and movie revenue data from 538.</p>
         <br />
-        <p style="width: 90%; margin: 0 auto">Click on the free interactive lessons to begin. </p>
+        <p style="width: 90%; margin: 0 auto"><b> Click on </b> the <b> free interactive lessons </b> to begin. </p>
         <br />
-        <ol style="columns: 2; font-size: 16px; margin: 0 auto; width: 100%;" start="1">
+        <ol class="curriculum" style="columns: 2; font-size: 16px; margin: 0 auto; width: 100%;" start="1">
           <% @pandas_titles_and_links.each do |title, link| %>
             <li style="padding-bottom: 3px;"> <a style="color: #706c87;" target="_blank" href=<%= "#{@pandas_base_url}/#{link}.ipynb" %>><%= title %></a> </li>
           <% end %>
@@ -140,10 +97,10 @@
   </div>
 </div>
 
-<div style="padding-left: 0px;"   class="Persona Section Section--even Section--first">
+<div style=""   class="Persona Section Section--even Section--first">
   <div class=" col  Persona__first_col">
-    <div class="">
-      <div  class="">
+    <div class="text-align: center;">
+      <div  class="" style="">
         <%= image_tag 'course_details/diagram.svg', style: "max-height: 500px; padding: 30px;" %>
       </div>
     </div>
@@ -153,13 +110,15 @@
       <div class=""  style="width: 100%">
         <h1  style="margin: 0 auto; width: 90%" > Introduction to Machine Learning </h1>
         <br />
-        <p style="width: 90%; margin: 0 auto;"> We'll learn the fundamentals of machine learning with decision trees.
+        <p style="width: 90%; margin: 0 auto;"> You'll learn the fundamentals of machine learning with decision trees.
         This includes learning about the common components of all machine learning algorithms, training a model in sklearn,
-        and the test-train split.  We'll also learn how to work with the pandas library to collect, explore, and modify our data.</p>
+        and the test-train split.  You'll also learn how to work with the pandas library to collect, explore, and modify our data.</p>
+        <br />
+        <p style="width: 90%; margin: 0 auto"><b> Click on </b> the <b> free interactive lessons </b> to begin. </p>
         <br />
         <p style="width: 90%; margin: 0 auto; text-align: center;"> Training Decision Trees </p>
         <br />
-        <ol style="columns: 2; font-size: 16px; margin: 0 auto; width: 100%;" start="1">
+        <ol class="curriculum" style="columns: 2; font-size: 16px; margin: 0 auto; width: 100%;" start="1">
           <% @tree_links_and_titles.each do |title, link| %>
             <li style="padding-bottom: 3px;"> <a style="color: #706c87;" target="_blank" href=<%= "#{@decision_trees_base}/#{link}.ipynb" %>><%= title %></a> </li>
           <% end %>
@@ -181,10 +140,10 @@
   </div>
 </div>
 
-<div style="padding-left: 0px;padding-bottom: 80px;"   class="Persona Section Section--even Section--first" >
+<div style="padding-bottom: 80px;"   class="Persona Section Section--even Section--first" >
   <div class=" col  Persona__first_col">
     <div class="">
-      <div  class="">
+      <div  class="" style="text-align: center;">
         <%= image_tag 'course_details/rubix.svg', style: "max-height: 500px; padding: 30px;" %>
       </div>
     </div>
@@ -192,14 +151,17 @@
   <div id="neural_nets" class="col Persona__second_col flex-centered">
     <div class="Persona__card" style="width: 97%">
       <div class=""  style="width: 100%; padding-bottom: 25px;">
-        <h1  style="margin: 0 auto; width: 90%" > Build a Neural Network </h1>
+        <h1  style="margin: 0 auto; width: 90%" > Neural Networks with Pytorch </h1>
         <br />
-        <p style="width: 90%; margin: 0 auto;"> We'll build a neural network from scratch. Along the way, we'll learn the calculus and matrix algebra fundamentals for understanding machine learning algorithms.</p>
-        <p style="width: 90%; margin: 0 auto">Click on the free interactive lessons to begin.  And check out the <a href="https://www.youtube.com/playlist?list=PLCG6Te769p1gkVJizwSmo6GoEI9oHoAPA"> companion videos</a>.</p>
+        <p style="width: 90%; margin: 0 auto;"> You'll build a neural network from scratch. Along the way, you'll learn the calculus and matrix algebra fundamentals for understanding machine learning algorithms.</p>
+        <p style="width: 90%; margin: 0 auto">Click on the free interactive lessons to begin.  And check out the <a href="https://www.youtube.com/playlist?list=PLCG6Te769p1gkVJizwSmo6GoEI9oHoAPA"> companion videos.</a></p>
+        <br />
+        
+
         <br />
         <p style="width: 90%; margin: 0 auto; text-align: center;"> A single neuron</p>
         <br />
-        <ol style="columns: 2; font-size: 16px; margin: 0 auto; width: 100%;" start="1">
+        <ol class="curriculum" style="columns: 2; font-size: 16px; margin: 0 auto; width: 100%;" start="1">
           <% @neuron_titles_and_links.each do |title, link| %>
             <li style="padding-bottom: 3px;"> <a style="color: #706c87;" target="_blank" href=<%= "#{@neural_nets_base}/#{link}.ipynb" %>><%= title %></a> </li>
           <% end %>
@@ -232,7 +194,7 @@
 
   </section>
 
-  </section>
+<%= render 'docker' %>
 
   <section class="HomeEfficacy Section--inverted">
     <div class="HomeEfficacy__text">
@@ -255,3 +217,4 @@
 
     html { scroll-behavior: smooth; }
   </style>
+

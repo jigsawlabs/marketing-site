@@ -1,56 +1,41 @@
 <%= render 'layouts/navbar' %>
-  <section class="Intro--new" style="background: #f1f2f7;">
-    <div class="row">
-      <div class="col Intro__content">
+  <section style="background-color: #F8F8FA;"  >
+    <div class="row" style="padding: 5%; padding-bottom: 12%;">
+      <div class="col align-self-center">
         <div class="Section--even">
-          <h1 class="Intro__title">
-             Become data driven.
+          <h1 class="Intro__title" style="max-width: 600px; padding-bottom: 5%;">
+            <span class="inline-block">
+              A foundational skillset.
+            </span>
           </h1>
-          <div class="Intro__body">
-            <p>
-            Hands on learning in acquiring and answering questions with data.
+
+          <div class="">
+            <p style="font-family: larsiet; color: #524D6E; padding-bottom: 3%; font-size: 1.2em;">
+            We designed a curriculum to prepare you for your new career, now and going forward.
+            <br />
+            <br />
+            Here's how we did it.
             </p>
-          </div>
-          <div class="Intro__cta">
-            <div class="Button Button__purple">
-              <a href=<%="#syllabus" %> style="line-height: 15px; text-align: center;">Course Details</a>
-            </div>
-            <a class="title-link" href="<%= new_application_path %>">Start Your Application</a>
           </div>
         </div>
       </div>
-      <div class="col"></div>
+      <div class="col">
+        <%= image_tag 'course_details/api.svg', style: "max-height: 500px; padding: 30px;" %>
+      </div>
     </div>
   </section>
+  <div id="why">
+  <%= render 'why_curriculum' %>
+  </div>
 
   <section class="RealStories Section--centered">
     <div class="RealStories__title">
-      <h3 style="text-align: center;"> Learn data engineering part-time in 24 weeks.</h3>
+      <h3 style="text-align: center;"> Learn full stack and data engineering in 24 weeks.</h3>
     </div>
+  </section>
 
     <%= render partial: 'data_science_card' %>
 
-  <h3 style="text-align: center;"> Job guaranteed within 6 months of graduation.</h3>
-  <br />
-  <h3 style="text-align: center;"> Or upgrade your skillset in 10 weeks.</h3>
-    <%= render partial: 'coding_card' %>
-  </section>
-<br>
-<section class="RealStories Section--centered" style="width: 90%" id="syllabus">
-  <h3 style="text-align: center;"> Check out our syllabus below. </h3>
-  <%= render partial: 'syllabus' %>
-</section>
-
-
-  <section class="HomeEfficacy Section--inverted" style="padding-bottom: 100px;">
-    <div class="HomeEfficacy__text" style="">
-      <h2 style="padding: 50px;">Possibility and passion in your new career.</h2>
-      <%= render partial: 'data_science_card' %>
-
-    </div>
-    <br />
-    <%= render partial: 'coding_card' %>
-  </section>
 
   <%= render 'layouts/footer' %>
 

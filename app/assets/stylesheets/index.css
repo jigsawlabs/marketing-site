@@ -144,7 +144,6 @@ output{
     flex-wrap:wrap;
     margin:0 auto;
     max-width:1240px;
-    padding: 10px 0px 12% 0px;
 }
 @media(min-width:768px){
     .row,.row-reverse{
@@ -161,11 +160,6 @@ output{
     flex:1;
     padding:0;
     position:relative;
-}
-@media(min-width:768px){
-    .col{
-        padding:70px 10px
-    }
 }
 .col-size-2{
     -ms-flex:2;
@@ -693,9 +687,6 @@ input::-webkit-calendar-picker-indicator,input::-webkit-clear-button,input::-web
 .Section--centered{
     margin:0 auto;
     max-width:1240px
-}
-.Section--even{
-    padding:53px 33px
 }
 .Section--inverted{
     background:#332e56
@@ -1392,7 +1383,6 @@ span.hr.purple{
 .Nav__wrapper{
     height: 10%;
     min-height: 65px;
-    position:fixed;
     transition:background .3s,box-shadow .3s;
     width:100%;
     z-index:1000;
@@ -1472,11 +1462,6 @@ span.hr.purple{
         padding:0;
         position:static;
         transform:none
-    }
-}
-@media(min-width:992px){
-    .Nav__pullout{
-        margin-left:20px
     }
 }
 .NavOpen .Nav__pullout{
@@ -1840,7 +1825,10 @@ a:focus,a:hover{
 
 .title-link {
     padding-left: 17px;
-    color: #706c87;
+    font-family: avant garde;
+    font-weight: 600;
+    font-size: 18px;
+    color: #332e56;
 }
 
 @media(max-width:550px){
@@ -2135,7 +2123,6 @@ a:focus,a:hover{
     }
 }
 .Intro--new{
-    background-color:#bcd2f4;
     background-repeat:no-repeat;
     background-position:50%;
     height:735px;
@@ -2147,7 +2134,6 @@ a:focus,a:hover{
 @media(-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){
     .Intro--new{
         background-size:550px;
-        background: #bcd2f4;
     }
 }
 @media(min-width:576px){
@@ -2216,7 +2202,7 @@ a:focus,a:hover{
 }
 @media(min-width:1200px){
     .Intro--new .Intro__body{
-        max-width:380px
+        max-width:600px
     }
 }
 .Intro--new .Intro__cta-disclaimer{
@@ -2346,6 +2332,7 @@ a:focus,a:hover{
 .Intro__cta{
     display: flex;
     align-items: center;
+    padding-top: 5%;
 }
 .Intro__cta-disclaimer{
     text-align:center;
@@ -2559,7 +2546,7 @@ a:focus,a:hover{
 }
 .RealStories__title{
     text-align:center;
-    padding-top: 5%;
+    padding-top: 2%;
 }
 
 .RealStories__title h2 {
@@ -7360,5 +7347,199 @@ footer p a {
 }
 
 
+.svg-color {
+  filter: brightness(0) saturate(100%) invert(12%) sepia(8%) saturate(5662%) hue-rotate(212deg) brightness(90%) contrast(93%);
+}
+
+.p-text {
+  font-family: larsiet;
+  color: #524D6E;
+  margin-bottom: 5px;
+  font-size: 1.0em;
+  text-align: left;
+}
+.p-med {
+  font-family: larsiet;
+  color: #524D6E;
+  margin-bottom: 5px;
+  font-size: calc(1.2rem + .3vw);
+}
+
+.p-content p {
+  font-size: calc(.8rem + .3vw);
+  font-family: larsiet;
+  color: #524D6E;
+}
+
+.p-title p {
+  font-size: calc(.9rem + .3vw);
+  font-family: larsiet;
+  color: #524D6E;
+}
+
+.table > thead > tr > th {
+    border: none;
+}
+
+.review-p {
+  width: 80%;
+  margin: 0 auto;
+  padding: 3% 0;
+}
+
+.review-photo {
+  color:#222;
+  font-size: 80%;
+  text-align: center;
+}
+
+.review-img {
+  width: 150px;
+}
+
+.profile-text {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  padding-left: 5%;
+}
+
+.review-row {
+  padding-bottom: 2%;
+}
+
+.card-style {
+  font-size: calc(.9rem + .2vw);
+}
+
+.card-style .card-header {
+  text-align: left;
+}
+
+.card-style thead tr th {
+  font-weight: 600;
+  font-family: larseit;
+}
+
+.card-style tbody tr {
+  font-weight: 100;
+  font-family: larseit;
+  text-align: left;
+}
+
+.module-row {
+  text-align: center;
+}
+
+.timeline {
+  padding-top: 5%;
+  font-family: larseit;
+  text-align: left;
+  font-style: italic;
+  font-size: calc(1.1rem + 1.1vw);
+}
+
+.timeline div {
+}
+.arrow {
+  width: 100%;
+}
+
+.line {
+  margin-top: 14px;
+  width: 95%;
+  background: blue;
+  height: 10px;
+  float: left;
+}
+
+.point {
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 30px solid blue;
+  float: right;
+}
+.module-title {
+  margin: 0px;
+  color: rgb(51, 46, 85);
+  font-weight: 600;
+}
+
+.module-weeks {
+  font-size: calc(1.1rem + 1.1vw);
+  margin: 0px;
+  color: rgb(51, 46, 85);
+}
+
+.curriculum {
+  font-family: larseit;
+  font-size: 1.1em;
+  color: #332e56 !important;
+}
+.lessons {
+  font-weight: 500;
+  color: #332e56 !important;
+}
 
 
+ #intro_coding a, #intro_coding ol, #intro_coding li, #intro_pandas a, #intro_pandas ol, #intro_pandas li, #neural_nets ol, #neural_nets li, #neural_nets a, #intro_ml ol, #intro_ml li, #intro_ml a {
+ color: #332e56 !important;
+ font-family: larseit;
+}
+
+
+
+#intro_ml p, #intro_coding p, #intro_pandas p, #neural_nets p {
+    color: #332e56 !important;
+    font-family: larseit;
+}
+
+.vertical-align-text {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+blockquote.twitter-tweet {
+  display: inline-block;
+  font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 16px;
+  border-color: #eee #ddd #bbb;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  margin: 10px 5px;
+  padding: 0 16px 16px 16px;
+  max-width: 468px;
+}
+
+blockquote.twitter-tweet p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 20px;
+}
+
+blockquote.twitter-tweet a {
+  color: inherit;
+  font-weight: normal;
+  text-decoration: none;
+  outline: 0 none;
+}
+
+blockquote.twitter-tweet a:hover,
+blockquote.twitter-tweet a:focus {
+  text-decoration: underline;
+}
+
+
+.curriculum li:first-child {
+  font-weight: 600;
+  text-decoration: underline;
+}

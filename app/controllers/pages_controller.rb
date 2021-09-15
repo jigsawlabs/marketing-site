@@ -15,7 +15,7 @@ class PagesController < ApplicationController
 
   end
 
-  def free
+  def curriculum
     @intro_base_url = "https://colab.research.google.com/github/jigsawlabs-student/code-intro/blob/master/"
 
 
@@ -67,8 +67,8 @@ class PagesController < ApplicationController
 
 
     @neural_nets_base = "https://colab.research.google.com/github/jigsawlabs-student/pytorch-intro-curriculum/blob/main/"
-    neuron_links = ["1-prediction-function/1-intro-to-neurons", "1-prediction-function/2-dot-products", "1-prediction-function/3-sigmoid-neuron", "1-prediction-function/4-first-neural-network",
-                    "2-training/5-training-a-neuron", "2-training/6-gradient-descent-single-param", "2-training/7-pytorch-gradient-gradient",
+    neuron_links = ["1-prediction-function/1-intro-to-neurons", "1-prediction-function/2-dot-products-and-pytorch", "1-prediction-function/3-sigmoid-neuron", "1-prediction-function/4-first-neural-network",
+                    "2-training/5-training-a-neuron", "2-training/6-gradient-descent-single-param", "2-training/7-pytorch-gradient-descent",
     ]
 
     neuron_titles = ["Intro to Neurons", "Dot Products", "Sigmoid Neurons", "A Neural Network", "Training a Neuron", "Gradient Descent",
@@ -77,7 +77,7 @@ class PagesController < ApplicationController
 
     @neuron_titles_and_links = neuron_titles.zip(neuron_links)
     neural_net_links = ["3-layers/8-neurons-to-neural-networks", "3-layers/9-multiple-neurons",
-                         "3-layers/10-building-layers", "3-layers/11-the-output-layer", "3-layers/12-the-input-layer", "4-neural-nets/13-building-neural-nets"]
+                         "3-layers/10-building-layers", "3-layers/11-output-layer", "3-layers/12-the-input-data", "4-neural-nets/13-building-neural-nets"]
     neural_net_titles = ["Neural Nets", "More Neurons", "Building Layers",
                       "The Output Layer", "The Input Layer", "Building Neural Nets"]
 

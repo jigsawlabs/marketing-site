@@ -1,0 +1,39 @@
+<div class="" id="free">
+
+<div style="padding-left: 0px;"   class="Persona Section Section--even Section--first">
+  <div class=" col  Persona__first_col">
+    <div class="Persona__attributes">
+      <div  class="">
+        <%= image_tag 'course_details/api.svg', style: "max-height: 500px; padding: 30px;" %>
+      </div>
+    </div>
+  </div>
+  <div id="intro_coding" class="col Persona__second_col flex-centered">
+    <div class="Persona__card" style="width: 97%">
+      <div class=""  style="width: 100%">
+        <h1  style="margin: 0 auto; width: 90%" > Introduction to Coding </h1>
+        <br />
+        <p style="width: 90%; margin: 0 auto;"> We'll learn coding fundamentals with Python. Along the way, we'll pull data from the web, and create interactive graphs of our data.</p>
+        <br />
+        <p style="width: 90%; margin: 0 auto">Click on the free interactive lessons to begin.  And check out the <a href="https://www.youtube.com/playlist?list=PLCG6Te769p1gkVJizwSmo6GoEI9oHoAPA"> companion videos</a> to learn to code with a special guest.</p>
+        <br />
+        <ol style="columns: 2; font-size: 16px; margin: 0 auto; width: 100%;" start="0">
+          <% @intro_titles_and_links.each do |title, link| %>
+            <li style="padding-bottom: 3px;"> <a style="color: #706c87;" target="_blank" href=<%= "#{@intro_base_url}/#{link}.ipynb" %>><%= title %></a> </li>
+          <% end %>
+
+        </ol>
+        <br />
+
+        <p style="width: 90%; margin: 0 auto;">Want More Practice? </p>
+        <br />
+        <ol style="columns: 2; font-size: 16px; margin: 0 auto; width: 100%;" start="1">
+          <% @lab_titles_and_links.each do |title, link| %>
+            <li style="padding-bottom: 3px;"> <a style="color: #706c87;" target="_blank" href=<%= "#{@intro_labs_base}/#{link}.ipynb" %>><%= title %></a> </li>
+          <% end %>
+
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
