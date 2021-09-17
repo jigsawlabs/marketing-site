@@ -14,6 +14,9 @@ $(document).on("turbolinks:load", () => {
   let button = document.querySelector('.gtag_target')
   button.addEventListener('click', event => {
     gtag_report_conversion()
+    ga('send', 'event', 'button', 'click', 'apply', {
+      nonInteraction: true
+    });
   });
 });
 
