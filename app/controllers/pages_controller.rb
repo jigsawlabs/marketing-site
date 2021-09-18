@@ -47,7 +47,7 @@ class PagesController < ApplicationController
                      "1-docker-client/6-volumes", "2-docker-files/1-base-run-cmd", "2-docker-files/2-docker-build-lab", "2-docker-files/3-advanced-build"
     ]
 
-    docker_titles = ["Docker Playground", "Docker Overview", "Why Docker", "Images", "Containers", "Images and Containers Lab", "Altering Container Processes",
+    docker_titles = ["Docker Playground", "Docker Overview", "Origins of Docker", "Images", "Containers", "Images and Containers Lab", "Altering Container Processes",
                      "Bind Mounts", "Volumes", "Dockerfiles", "Dockerfiles lab", "Advanced builds"]
 
     @docker_titles_and_links = docker_titles.zip(docker_links)
