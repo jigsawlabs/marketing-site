@@ -18,6 +18,8 @@ gem 'uglifier', '>= 1.3.0'
  gem 'mini_racer', platforms: :ruby
  gem 'mailgun-ruby'
  gem 'typeahead-rails'
+ gem "rack-reverse-proxy", require: "rack/reverse_proxy"
+
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'

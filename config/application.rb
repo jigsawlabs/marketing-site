@@ -12,6 +12,10 @@ module Jigsaw
     config.load_defaults 5.2
     config.assets.paths << Rails.root.join("app", "assets", "fonts")
     config.time_zone = 'Eastern Time (US & Canada)'
+    config.middleware.insert(0, Rack::ReverseProxy) do
+      reverse_proxy_options preserve_host: true
+      reverse_proxy '/blog', 'https://jigsawblog.jigsawlabs.io/blog/'
+    end
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration can go into files in config/initializers
