@@ -34,7 +34,7 @@
   <div id="intro_coding" class="col Persona__second_col flex-centered">
     <div class="Persona__card" style="width: 97%">
       <div class=""  style="width: 100%">
-        <h1  id="free" style="margin: 0 auto; width: 90%" > Zero to Data Visualization  </h1>
+        <h1  id="python" style="margin: 0 auto; width: 90%" > Zero to Data Visualization  </h1>
         <br />
         <p style="width: 90%; margin: 0 auto;"> You'll learn coding fundamentals with Python. Along the way, you'll pull data from the web, and create interactive graphs of your data.</p>
         <br />
@@ -78,11 +78,11 @@
   <div id="intro_pandas" class="col Persona__second_col flex-centered">
     <div class="Persona__card" style="width: 97%">
       <div class=""  style="width: 100%">
-        <h1  style="margin: 0 auto; width: 90%" > Introduction to Pandas </h1>
+        <h1  style="margin: 0 auto; width: 90%" id="pandas" > Introduction to Pandas </h1>
         <br />
         <p style="width: 90%; margin: 0 auto;"> You'll learn how to select, explore and plot data in Pandas.  You'll do so using flood data from the FEMA API, and movie revenue data from 538.</p>
         <br />
-        <p style="width: 90%; margin: 0 auto"><b> Click on </b> the <b> free interactive lessons </b> to begin. </p>
+        <p style="width: 90%; margin: 0 auto"><b> Click on </b> the <b> free interactive lessons </b> to begin.  And check out the <a href="https://www.youtube.com/playlist?list=PLCG6Te769p1ha0WnJH-fRz_hD7jwQZCm6" target="_blank"> companion videos</a>.</p>
         <br />
         <ol class="curriculum" style="columns: 2; font-size: 16px; margin: 0 auto; width: 100%;" start="1">
           <% @pandas_titles_and_links.each do |title, link| %>
@@ -97,6 +97,10 @@
   </div>
 </div>
 
+<%= render 'docker' %>
+
+<%= render 'pyspark' %>
+
 <div style=""   class="Persona Section Section--even Section--first">
   <div class=" col  Persona__first_col">
     <div class="text-align: center;">
@@ -108,7 +112,7 @@
   <div id="intro_ml" class="col Persona__second_col flex-centered">
     <div class="Persona__card" style="width: 97%">
       <div class=""  style="width: 100%">
-        <h1  style="margin: 0 auto; width: 90%" > Introduction to Machine Learning </h1>
+        <h1  style="margin: 0 auto; width: 90%" id="ml"> Introduction to Machine Learning </h1>
         <br />
         <p style="width: 90%; margin: 0 auto;"> You'll learn the fundamentals of machine learning with decision trees.
         This includes learning about the common components of all machine learning algorithms, training a model in sklearn,
@@ -151,7 +155,7 @@
   <div id="neural_nets" class="col Persona__second_col flex-centered">
     <div class="Persona__card" style="width: 97%">
       <div class=""  style="width: 100%; padding-bottom: 25px;">
-        <h1  style="margin: 0 auto; width: 90%" > Neural Networks with Pytorch </h1>
+        <h1  style="margin: 0 auto; width: 90%" id="nets"> Neural Networks with Pytorch </h1>
         <br />
         <p style="width: 90%; margin: 0 auto;"> You'll build a neural network from scratch. Along the way, you'll learn the calculus and matrix algebra fundamentals for understanding machine learning algorithms.</p>
         <p style="width: 90%; margin: 0 auto">Click on the free interactive lessons to begin.  </p>
@@ -197,9 +201,6 @@
 
   </section>
 
-<%= render 'docker' %>
-
-<%= render 'pyspark' %>
   <section class="HomeEfficacy Section--inverted">
     <div class="HomeEfficacy__text">
       <h2 style="padding: 60px 10px;">Possibility and passion in your new career.</h2>
