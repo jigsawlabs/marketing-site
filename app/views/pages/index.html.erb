@@ -5,6 +5,7 @@
 <script charset="utf-8">
 
 jQuery( document ).on('turbolinks:load', function() {
+      mixpanel.track('Visited Homepage')
   enterView({
     selector: '#quality',
     enter: function(el) {
