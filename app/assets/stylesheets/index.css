@@ -429,6 +429,7 @@ input::-webkit-calendar-picker-indicator,input::-webkit-clear-button,input::-web
 }
 .Button{
     background-color:#fc7b65;
+    border-radius: 5px;
     color:#fff;
     cursor:pointer;
     display:inline-block;
@@ -1627,12 +1628,11 @@ span.hr.purple{
     }
 }
 .Nav__start-trial{
-    background:#fc7b65;
-    border:2px solid #fc7b65;
+    border-radius: 5px;
     color:#fff;
     display:block;
-    font-size:14px;
-    font-weight:700;
+    font-size:18px;
+    font-weight:bold;
     padding:18px;
     text-transform:uppercase;
     transition:.35s
