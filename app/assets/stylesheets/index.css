@@ -428,12 +428,10 @@ input::-webkit-calendar-picker-indicator,input::-webkit-clear-button,input::-web
     top:0
 }
 .Button{
-    background-color:#fc7b65;
     border-radius: 5px;
-    color:#fff;
     cursor:pointer;
     display:inline-block;
-    font-size:12px;
+    font-size:14px;
     font-weight:700;
     letter-spacing:1px;
     line-height:1;
@@ -445,14 +443,57 @@ input::-webkit-calendar-picker-indicator,input::-webkit-clear-button,input::-web
     transition:opacity .35s
 }
 .Button:hover{
-    opacity:.8
+    opacity: 0.9;
 }
 .Button.Button__purple{
-    background-color:#332e56
+    background-color:#332e56;
+    color:#ffffff;
+}
+.Button.Button__white{
+    background-color: #ffffff;
+    color:#332e56;
+    width:200px;
+    /* padding-left: 30px; */
 }
 .Button__subtext{
     color:#a8a6b3;
     margin:15px
+}
+.Effect {
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px 0px;
+    width: 150px;
+    overflow: hidden;
+  }  
+.Effect.Effect-1 {
+    transition: all 0.2s linear 0s;
+
+    &:before {
+        content: "\f178";
+        font-family: FontAwesome;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        right: 0;
+        top: 0;
+        opacity: 0;
+        height: 100%;
+        width: 40px;
+        transition: all 0.2s linear 0s;
+    }
+
+    &:hover {
+        text-indent: -20px;
+        
+        &:before {
+        opacity: 1;
+        text-indent: 0px;
+        }
+    }
 }
 .EndCTA{
     overflow:hidden;
