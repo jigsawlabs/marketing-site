@@ -1,5 +1,40 @@
 <%= render 'layouts/navbar' %>
+<script src="https://unpkg.com/enter-view"></script>
 
+
+<script charset="utf-8">
+
+jQuery( document ).on('turbolinks:load', function() {
+      mixpanel.track('Visited Homepage')
+  enterView({
+    selector: '#quality',
+    enter: function(el) {
+      mixpanel.track('viewed quality')
+    }
+  })
+  enterView({
+    selector: '#reviews',
+    enter: function(el) {
+      mixpanel.track('viewed how it works')
+    }
+  })
+  enterView({
+    selector: '#bio',
+    enter: function(el) {
+      mixpanel.track('viewed bio')
+    }
+  })
+  enterView({
+    selector: '#how_it_works',
+    enter: function(el) {
+      mixpanel.track('viewed how it works')
+    }
+  })
+})
+
+
+
+</script>
   <section >
     <div class="d-block d-md-none" style="padding-top: 5%">
     </div>
