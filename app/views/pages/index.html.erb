@@ -19,6 +19,12 @@ jQuery( document ).on('turbolinks:load', function() {
     }
   })
   enterView({
+    selector: '#free_curriculum',
+    enter: function(el) {
+      mixpanel.track('viewed free_curriculum_homepage')
+    }
+  })
+  enterView({
     selector: '#bio',
     enter: function(el) {
       mixpanel.track('viewed bio')
@@ -55,26 +61,26 @@ jQuery( document ).on('turbolinks:load', function() {
 
           </div>
 
-          <div class="p-title d-none d-sm-block" style="">
-            <p style="font-family: larsiet; color: #524D6E; padding-bottom: 3%;font-size: 1.2em; ">
+          <div class="p-content d-none d-sm-block" style="">
+            <p style="color: #524D6E; padding-bottom: 3%;font-size: 1.2em; ">
             Learn <b style="color: #332e56"> data engineering </b> and <b style="color: #332e56">backend engineering </b>
             <br />
             in our live online course
             <b style="color: #332e56">without </b> quitting your job.
             </p>
-            <p style="font-family: larsiet; color: #524D6E; font-size: 1.2em;">
+            <p style="color: #524D6E; font-size: 1.2em;">
             Then get a new job,<b style="color: #332e56"> guaranteed. </b>
             </p>
 
           </div>
-          <div class="p-title d-sm-none" style="text-align: center;">
-            <p style="font-family: larsiet; color: #524D6E; padding-bottom: 3%; ">
+          <div class="p-content d-sm-none" style="text-align: center;">
+            <p style="color: #524D6E; padding-bottom: 3%; ">
             Learn <b> backend engineering </b> <i>and </i> <b>data engineering </b>
             <br />
             in our live online course
             <b><i>without </i></b> quitting your job.
             </p>
-            <p style="font-family: larsiet; color: #524D6E; ;">
+            <p style="color: #524D6E; ;">
             Then get a new job, <b> guaranteed. </b>
             </p>
           </div>
@@ -83,7 +89,8 @@ jQuery( document ).on('turbolinks:load', function() {
             <div class="Button Button__purple">
             <%= link_to 'Apply Now', new_application_path, class: 'Effect Effect-1' %>
             </div>     
-            <a class="Button Button__white Effect" href="/free"> Free Curriculum </a>
+            &nbsp;
+            <a class="Button Button__white Effect hvr-grow" href="/free"> Free Curriculum </a>
           </div>
 
           <div class="Intro__cta d-sm-none d-flex justify-content-center" style="padding-bottom: 10%; padding-top: 10%;">
@@ -102,7 +109,7 @@ jQuery( document ).on('turbolinks:load', function() {
 
   <%= render 'quality' %>
   <%= render 'reviews' %>
-
+  <%= render 'free_curriculum' %>
   <%= render 'cost' %>
   <%= render 'how_it_works' %>
   <%= render 'bio' %>

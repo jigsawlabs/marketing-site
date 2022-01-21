@@ -20,9 +20,13 @@ body{
 [tabindex="-1"]:focus{
     outline:none!important
 }
-h1,h2,h3,h4,h5,h6{
+h1{
     margin-top:0;
     margin-bottom:.5rem
+}
+h2,h3,h4,h5,h6{
+    margin-top:0;
+    margin-bottom:.2rem
 }
 p{
     margin-top:0;
@@ -55,8 +59,8 @@ blockquote{
     margin:0 0 1rem
 }
 a{
-    color:#fc7b65;
-    text-decoration:none
+    color:#332e56;
+    text-decoration:none;
 }
 a:not([href]):not([tabindex]),a:not([href]):not([tabindex]):focus,a:not([href]):not([tabindex]):hover{
     color:inherit;
@@ -139,6 +143,24 @@ output{
 [hidden]{
     display:none!important
 }
+.img-overlay-wrap {
+    position: relative;
+    display: inline-block; /* <= shrinks container to image size */
+    transition: transform 150ms ease-in-out;
+  }
+  
+  .img-overlay-wrap svg { /* <= optional, for responsiveness */
+     display: block;
+     max-width: 100%;
+     height: auto;
+  }
+  
+  .img-overlay-wrap img {
+    position: absolute;
+    top: 0;
+    left: 5%;
+  }
+  
 .row,.row-reverse{
     -ms-flex-wrap:wrap;
     flex-wrap:wrap;
@@ -192,37 +214,21 @@ output{
     overflow:hidden
 }
 @font-face{
-    font-family:larssiet;
-    src: url('larsseit-medium.otf') format("truetype");
-}
-
-/* actor-regular - latin */
-@font-face {
-  font-family: 'Actor';
-  font-style: normal;
-  font-weight: 400;
-  src: url('actor-v8-latin-regular.eot'); /* IE9 Compat Modes */
-  src: local('Actor Regular'), local('Actor-Regular'),
-       url('actor-v8-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('actor-v8-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('actor-v8-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('actor-v8-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('actor-v8-latin-regular.svg#Actor') format('svg'); /* Legacy iOS */
+    font-family:Roboto,Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,Verdana,sans-serif;
 }
 
 .Button,.Intro__title .typed{
-    font-family:larssiet,Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,Verdana,sans-serif
+    font-family:Roboto,Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,Verdana,sans-serif;
 }
 h1,h2,h3,h4,h5,h6{
     color:#332e56;
-    font-family:larssiet,Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,Verdana,sans-serif;
-    font-weight:400;
+    font-family:Roboto, Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,Verdana,sans-serif;
+    font-weight:600;
     line-height:1.2;
-    margin-bottom:15px
 }
 .heading-lg,h1{
     color:#332e56;
-    font-family: Georgia,TimesNewRoman,Times New Roman,Times,Baskerville,serif;
+    font-family: Roboto,Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,Verdana,sans-serif;
     font-size:40px;
     line-height:1.2
 }
@@ -232,11 +238,11 @@ h1,h2,h3,h4,h5,h6{
 }
 .callout,.callout-sm,.heading,h2{
     color:#332e56;
-    font-family:larssiet,Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,Verdana,sans-serif;
+    font-family:Roboto,Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,Verdana,sans-serif;
     line-height:1.2
 }
 .heading,h2{
-    font-size:22px
+    font-size:20px
 }
 .heading-xs,.TeamCard__certification,.TeamCard__credential-content,.TeamCard__name,h4,li,p{
     color:#706c87;
@@ -251,7 +257,7 @@ h1,h2,h3,h4,h5,h6{
 .heading-xl{
     font-size:50px
 }
-.heading,.heading-lg,h1,h2{
+.heading,.heading-lg,h1{
     margin-bottom:21px
 }
 @media(min-width:768px){
@@ -301,10 +307,10 @@ ul{
 }
 p a{
     color:#a8a6b3;
-    text-decoration:underline
 }
 p a:focus,p a:hover{
-    color:#c2c0cc
+    color:#c2c0cc;
+    text-decoration: none;
 }
 p a:visited{
     color:#a8a6b3
@@ -432,7 +438,7 @@ input::-webkit-calendar-picker-indicator,input::-webkit-clear-button,input::-web
     cursor:pointer;
     display:inline-block;
     font-size:14px;
-    font-weight:700;
+    font-weight:800;
     letter-spacing:1px;
     line-height:1;
     opacity:1;
@@ -452,8 +458,19 @@ input::-webkit-calendar-picker-indicator,input::-webkit-clear-button,input::-web
 .Button.Button__white{
     background-color: #ffffff;
     color:#332e56;
-    width:200px;
-    /* padding-left: 30px; */
+    padding: 20px 20px;
+    white-space: nowrap;
+    width: fit-content;
+}
+.Button.Button__gray{
+    background-color: #e5e8eb;
+    color:#332e56;
+    padding: 20px 20px;
+    white-space: nowrap;
+    width: fit-content;
+    &:hover {
+        background: darken(#e7edf8,5%);
+    }
 }
 .Button__subtext{
     color:#a8a6b3;
@@ -495,6 +512,20 @@ input::-webkit-calendar-picker-indicator,input::-webkit-clear-button,input::-web
         }
     }
 }
+.hvr-grow {
+    display: inline-block;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.25s;
+    transition: transform 250ms;
+    -webkit-transition-property: transform 0.25s;
+    transition-property: transform 0.25s;
+  }
+  .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
 .EndCTA{
     overflow:hidden;
     padding:53px 0;
@@ -1559,8 +1590,8 @@ span.hr.purple{
 @media(min-width:768px){
     .Nav__link{
         color:#332e56;
-        font-size:12px;
-        font-weight:700;
+        font-size:14px;
+        font-weight:800;
         letter-spacing:1px;
         text-transform:uppercase
     }
@@ -1843,7 +1874,6 @@ span.hr.purple{
 }
 a:focus,a:hover{
     color:#000;
-    text-decoration:underline
 }
 .Button a{
     color:#fff;
@@ -2342,7 +2372,7 @@ a:focus,a:hover{
 }
 @media(min-width:330px){
     .Intro__title{
-        font-size:29px
+        font-size:28px
     }
 }
 @media(min-width:992px){
@@ -5204,7 +5234,7 @@ a:focus,a:hover{
     text-transform:uppercase
 }
 .CustomizedCard__name{
-    font-family: Georgia,TimesNewRoman,Times New Roman,Times,Baskerville,serif;
+    font-family: Roboto,Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,Verdana,sans-serif;
     font-size:17px
 }
 .CustomizedCard__icon{
@@ -5780,7 +5810,7 @@ a:focus,a:hover{
     margin-top:50px
 }
 .GuideSection__header{
-    font-family:larssiet,Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,Verdana,sans-serif;
+    font-family:Roboto,Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,Verdana,sans-serif;
     font-size:24px
 }
 .GuideSection__header,.GuideSection__subheader{
@@ -6004,7 +6034,7 @@ ul.GuideSection__list li:before{
     }
 }
 .birth-control-guide-header-title{
-    font-family: Georgia,TimesNewRoman,Times New Roman,Times,Baskerville,serif;
+    font-family: Roboto,Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,Verdana,sans-serif;
     font-size:45px;
     margin-bottom:2.5rem;
     text-transform:none
@@ -6625,7 +6655,7 @@ ul.GuideSection__list li:before{
     margin-bottom:5px
 }
 .bar-graph-item-info-bar-fill{
-    font-family: Georgia,TimesNewRoman,Times New Roman,Times,Baskerville,serif;
+    font-family: Roboto,Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,Verdana,sans-serif;
     -ms-flex-align:center;
     align-items:center;
     background:#ccc;
@@ -6653,7 +6683,7 @@ ul.GuideSection__list li:before{
     flex-direction:column
 }
 .bc-guide-faq-container h2{
-    font-family: Georgia,TimesNewRoman,Times New Roman,Times,Baskerville,serif;
+    font-family: Roboto,Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,Verdana,sans-serif;
     width:100%
 }
 .bc-guide-faq-item{
@@ -6763,7 +6793,7 @@ ul.GuideSection__list li:before{
     margin:0 auto 20px
 }
 .mc-guide-modal-effects-number{
-    font-family: Georgia,TimesNewRoman,Times New Roman,Times,Baskerville,serif;
+    font-family: Roboto,Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,Verdana,sans-serif;
     color:#706c87;
     font-size:14px;
     margin-bottom:0
@@ -7288,7 +7318,7 @@ ul.GuideSection__list li:before{
  color: #4A4A4A;
  font-size: 18px;
  line-height: 1.5;
- font-family: larssiet;
+ font-family: Roboto;
  margin-top: 23px;
 }
 
@@ -7393,28 +7423,32 @@ footer p a {
 }
 
 .p-text {
-  font-family: larsiet;
+  font-family: Roboto,Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,Verdana,sans-serif;
   color: #524D6E;
-  margin-bottom: 5px;
   font-size: 1.0em;
   text-align: left;
 }
 .p-med {
-  font-family: larsiet;
+  font-family: Roboto,Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,Verdana,sans-serif;
   color: #524D6E;
   margin-bottom: 5px;
   font-size: calc(1.2rem + .3vw);
 }
-
+.p-small {
+    font-family: Roboto,Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,Verdana,sans-serif;
+    color: #524D6E;
+    margin-bottom: 5px;
+    font-size: calc(0.7rem + .2vw);
+  }
 .p-content p {
   font-size: calc(.8rem + .3vw);
-  font-family: larsiet;
+  font-family: Roboto,Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,Verdana,sans-serif;
   color: #524D6E;
 }
 
 .p-title p {
   font-size: calc(.9rem + .3vw);
-  font-family: larsiet;
+  font-family: Roboto,Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,Verdana,sans-serif;
   color: #524D6E;
 }
 
@@ -7460,12 +7494,12 @@ footer p a {
 
 .card-style thead tr th {
   font-weight: 600;
-  font-family: larseit;
+  font-family: Roboto,Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,Verdana,sans-serif;
 }
 
 .card-style tbody tr {
   font-weight: 100;
-  font-family: larseit;
+  font-family: Roboto,Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,Verdana,sans-serif;
   text-align: left;
 }
 
@@ -7475,7 +7509,7 @@ footer p a {
 
 .timeline {
   padding-top: 5%;
-  font-family: larseit;
+  font-family: Roboto,Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,Verdana,sans-serif;
   text-align: left;
   font-style: italic;
   font-size: calc(1.1rem + 1.1vw);
@@ -7516,7 +7550,7 @@ footer p a {
 }
 
 .curriculum {
-  font-family: larseit;
+  font-family: Roboto,Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,Verdana,sans-serif;
   font-size: 1.1em;
   color: #332e56 !important;
 }
@@ -7528,14 +7562,14 @@ footer p a {
 
  #intro_coding a, #intro_coding ol, #intro_coding li, #intro_pandas a, #intro_pandas ol, #intro_pandas li, #neural_nets ol, #neural_nets li, #neural_nets a, #intro_ml ol, #intro_ml li, #intro_ml a {
  color: #332e56 !important;
- font-family: larseit;
+ font-family: Roboto,Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,Verdana,sans-serif;
 }
 
 
 
 #intro_ml p, #intro_coding p, #intro_pandas p, #neural_nets p {
     color: #332e56 !important;
-    font-family: larseit;
+    font-family: Roboto,Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,Verdana,sans-serif;
 }
 
 .vertical-align-text {
@@ -7572,11 +7606,6 @@ blockquote.twitter-tweet a {
   font-weight: normal;
   text-decoration: none;
   outline: 0 none;
-}
-
-blockquote.twitter-tweet a:hover,
-blockquote.twitter-tweet a:focus {
-  text-decoration: underline;
 }
 
 
