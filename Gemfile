@@ -18,6 +18,7 @@ gem 'uglifier', '>= 1.3.0'
  gem 'mini_racer', platforms: :ruby
  gem 'mailgun-ruby'
  gem 'typeahead-rails'
+ gem 'webpacker'
  gem "rack-reverse-proxy", require: "rack/reverse_proxy"
 
 
