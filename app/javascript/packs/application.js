@@ -16,5 +16,5 @@
 // const imagePath = (name) => images(name, true)
 import Chart from 'chart.js/auto'
 
-import '../src/skills_chart.js'
+
 console.log('Hello World from Webpacker')
