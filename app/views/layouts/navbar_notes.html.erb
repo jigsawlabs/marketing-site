@@ -1,0 +1,28 @@
+<nav class="Nav__wrapper--opaque navbar-fixed-top" style="position: fixed">
+      <%= link_to root_path, class: 'Nav__logo' do %>
+        <%= image_tag('general/jigsaw-text.svg', class: "svg-color") %>
+      <% end %>
+      </a>
+      <div class="">
+        <ul class="Nav__links" style="">
+          <li class="Nav__item">
+            <%= link_to 'Free Curriculum', "/free", class: 'Nav__link Nav__log' %>
+          </li>
+          <li class="Nav__item">
+            <%= link_to 'Why Data Engineering', "/course_details", class: 'Nav__link Nav__log' %>
+          </li>
+          <li class="Nav__item">
+            <%= link_to 'Upcoming Workshops', events_path, class: 'Nav__link' %>
+          </li>
+          <li class="Nav__item">
+            <%= link_to 'Blog', "/blog", class: 'Nav__link Nav__log' %>
+          </li>
+        </ul>
+        <ul class="Nav__app-links">
+          <li class="Nav__item Nav__trial-wrapper">
+            <%= link_to 'Apply Now', new_application_path, class: 'gtag_target js--signup-modal-trigger Button Button__purple Effect Effect-1' %>
+          </li>
+        </ul>
+      </div>
+      
+    </nav>
