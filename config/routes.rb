@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   get 'login', to: 'pages#login'
   get 'course_details', to: 'pages#course_details'
   get 'free', to: 'pages#curriculum', as: :course_signup
-
+  get '/sitemap.xml', to: redirect("https://jigsaw-labs-student.s3.amazonaws.com/sitemap.xml")
   post 'update_application', to: 'applications#update_app', as: 'update_app'
   resources :events
   get '/events_path' => redirect("https://www.meetup.com/Data-Workshops/events/"), :as => :events_path
