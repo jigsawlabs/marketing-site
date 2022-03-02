@@ -15,6 +15,7 @@ module Jigsaw
     config.middleware.insert(0, Rack::ReverseProxy) do
       reverse_proxy_options preserve_host: true
       reverse_proxy '/blog', 'https://jigsawblog.jigsawlabs.io/blog/'
+      reverse_proxy '/wiki', 'https://www.wikipedia.org/'
     end
 
     # Settings in config/environments/* take precedence over those specified here.
