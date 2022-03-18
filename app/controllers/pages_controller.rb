@@ -44,7 +44,7 @@ class PagesController < ApplicationController
     @docker_base_url = "https://colab.research.google.com/github/jigsawlabs-student/docker-intro/blob/master/"
     docker_links = ["0-docker-intro/0-docker-playground", "0-docker-intro/1-intro-to-docker", "0-docker-intro/2-why-docker", "1-docker-client/1-docker-image-client",
                      "1-docker-client/2-docker-containers", "1-docker-client/3-docker-images-containers-lab", "1-docker-client/4-altering-container-processes", "1-docker-client/5-bind-mounts",
-                     "1-docker-client/6-volumes", "2-docker-files/1-base-run-cmd", "2-docker-files/2-docker-build-lab", "2-docker-files/3-advanced-build"
+                     "1-docker-client/6-volumes", "2-docker-files/1-base-run-cmd", "2-docker-files/3-docker-build-lab", "2-docker-files/4-advanced-build"
     ]
 
     docker_titles = ["Docker Playground", "Docker Overview", "Origins of Docker", "Images", "Containers", "Images and Containers Lab", "Altering Container Processes",
