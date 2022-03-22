@@ -5,35 +5,35 @@
 <script charset="utf-8">
 
 jQuery( document ).on('turbolinks:load', function() {
-      mixpanel.track('Visited Homepage')
+      analytics.track('Visited Homepage')
   enterView({
     selector: '#quality',
     enter: function(el) {
-      mixpanel.track('viewed quality')
+      analytics.track('viewed quality')
     }
   })
   enterView({
     selector: '#reviews',
     enter: function(el) {
-      mixpanel.track('viewed how it works')
+      analytics.track('viewed how it works')
     }
   })
   enterView({
     selector: '#free_curriculum',
     enter: function(el) {
-      mixpanel.track('viewed free_curriculum_homepage')
+      analytics.track('viewed free_curriculum_homepage')
     }
   })
   enterView({
     selector: '#bio',
     enter: function(el) {
-      mixpanel.track('viewed bio')
+      analytics.track('viewed bio')
     }
   })
   enterView({
     selector: '#how_it_works',
     enter: function(el) {
-      mixpanel.track('viewed how it works')
+      analytics.track('viewed how it works')
     }
   })
 })

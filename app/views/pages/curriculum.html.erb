@@ -1,11 +1,11 @@
 <%= render 'layouts/navbar_gray' %>
 <script charset="utf-8">
-  mixpanel.track('Free Curriculum');
+  analytics.track('Free Curriculum');
 
 jQuery( document ).on('turbolinks:load', function() {
   $('ol a').on('click', function(){
     let lesson = $(this);
-    mixpanel.track('clicked ' + lesson.text());
+    analytics.track('clicked ' + lesson.text());
 
   })
 })
