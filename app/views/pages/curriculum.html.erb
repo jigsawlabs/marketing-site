@@ -1,56 +1,26 @@
-<%= render 'layouts/navbar_gray' %>
+
 <script charset="utf-8">
   mixpanel.track('Free Curriculum');
-  analytics.track('Free Curriculum');
+  
 
 jQuery( document ).on('turbolinks:load', function() {
   $('ol a').on('click', function(){
     let lesson = $(this);
-    mixpanel.track('Free Curriculum');
-    analytics.track('clicked ' + lesson.text());
-
+    mixpanel.track('clicked ' + lesson.text());
   })
 })
 
 </script>
-    <div class="row" style="padding: 10%; max-width: none; text-align: center; background: #f1f2f7;">
-      <div class="col-12">
-        <div class="Section--even">
-          <h1 class="Intro__title" style="padding-bottom: 5%;">
-            <span class="inline-block"> Start your journey</span>
-            <span class="inline-block"> with our free </span>
-            <span class="inline-block"> courses on </span>
-            <br/>
-            <br />
-            <span class="inline-block typed"> Python. </span>
-          </h1>
+<%= render 'layouts/navbar' %>
 
-          <div class="Intro__cta d-flex justify-content-center">
-            <div class="Button Button__purple">
-              <a href="/free#free"> Free Curriculum Below </span></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-</div>
-<div style=""   class="Persona Section Section--even Section--first">
-  <div class=" col  Persona__first_col">
-    <div class="Persona__attributes">
-      <div  class="" style="text-align: center;">
-        <%= image_tag 'course_details/api.svg', style: "max-height: 500px; padding: 30px;" %>
-      </div>
-    </div>
-  </div>
-  <div id="intro_coding" class="col Persona__second_col flex-centered">
+<div style="padding-top: 15%"   class="row">
+  
+  <div id="intro_coding" class="col-md flex-centered">
     <div class="Persona__card" style="width: 97%">
       <div class=""  style="width: 100%">
-        <h1  id="python" style="margin: 0 auto; width: 90%" > Zero to Data Visualization  </h1>
+        <h1  id="python" style="margin: 0 auto; width: 90%" >  Python For Data </h1>
         <br />
-        <p style="width: 90%; margin: 0 auto;"> You'll learn coding fundamentals with Python. Along the way, you'll pull data from the web, and create interactive graphs of your data.</p>
+        <p style="width: 90%; margin: 0 auto;"> Learn coding fundamentals by pulling data from the web, and creating interactive graphs of your data.</p>
         <br />
         <p style="width: 90%; margin: 0 auto"><b> Click on </b> the <b> free interactive lessons </b> to begin.  And check out the <a href="https://www.youtube.com/playlist?list=PLCG6Te769p1gkVJizwSmo6GoEI9oHoAPA" target="_blank" style="text-decoration: underline;"> companion videos</a> to learn to code with a special guest.</p>
         <br />
@@ -73,6 +43,15 @@ jQuery( document ).on('turbolinks:load', function() {
       </div>
     </div>
   </div>
+
+  <div class=" col-md  ">
+    <div class="Persona__attributes">
+      <div  class="" style="text-align: center;">
+        <%= image_tag 'course_details/api.svg', style: "max-height: 500px; padding: 30px;" %>
+      </div>
+    </div>
+  </div>
+
 </div>
     <div class="RealStories__title">
       <h3 style="text-align: center;"> Want some help? Attend a Free Online Workshop.  </h3>
