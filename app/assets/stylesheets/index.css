@@ -315,14 +315,7 @@ p a:focus,p a:hover{
 p a:visited{
     color:#a8a6b3
 }
-iframe{
-    float:left;
-    font-size:0!important;
-    height:0!important;
-    line-height:0!important;
-    margin-top:-13px;
-    width:0!important
-}
+
 .bc-effects-graphic-section,.bc-guide-faq,.bc-stats-graph-section,.page-section{
     padding:7.8125rem 0
 }
