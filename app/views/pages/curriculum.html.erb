@@ -22,7 +22,7 @@ jQuery( document ).on('turbolinks:load', function() {
         <br />
         <p style="width: 90%; margin: 0 auto;"> Learn coding fundamentals by pulling data from the web, and creating interactive graphs of your data.</p>
         <br />
-        <p style="width: 90%; margin: 0 auto"><b> Click on </b> the <b> free interactive lessons </b> to begin.  And check out the <a href="https://www.youtube.com/playlist?list=PLCG6Te769p1gkVJizwSmo6GoEI9oHoAPA" target="_blank" style="text-decoration: underline;"> companion videos</a> to learn to code with Jeff's mom.</p>
+        
         <br />
         <ol class="curriculum" style="columns: 2; font-size: 16px; margin: 0 auto; width: 100%;" start="0">
           <% @intro_titles_and_links.each do |title, link| %>
@@ -52,8 +52,12 @@ jQuery( document ).on('turbolinks:load', function() {
 
           <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLCG6Te769p1gkVJizwSmo6GoEI9oHoAPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
           </iframe>
-        </div>
 
+          
+
+
+        </div>
+      <p style="width: 90%; margin: 0 auto; color: #332e56 !important; padding-top: 10px;">Check out the playlist to code along with Jeff's mom.</p>
 
         
 
@@ -70,22 +74,30 @@ jQuery( document ).on('turbolinks:load', function() {
         </div>
 
     </div>
-<div style=""   class="Persona Section Section--even Section--first">
-  <div class=" col  Persona__first_col">
+<div style=""   class="">
+  <div class=" col  ">
     <div class="Persona__attributes" style="padding-top: 100px; text-align: center;">
-      <div  class="">
-        <%= image_tag 'course_details/geo-process.svg', style: "max-height: 450px; padding: 30px; padding-top: 0px;" %>
-      </div>
+        <div class="embed-responsive embed-responsive-16by9">
+
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLCG6Te769p1ha0WnJH-fRz_hD7jwQZCm6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+
+          
+
+
+        </div>
+      <p style="width: 90%; margin: 0 auto; color: #332e56 !important; padding-top: 10px;">Or followalong with the playlist.</p>
+
     </div>
   </div>
-  <div id="intro_pandas" class="col Persona__second_col flex-centered">
+  <div id="intro_pandas" class="col flex-centered">
     <div class="Persona__card" style="width: 97%">
       <div class=""  style="width: 100%">
         <h1  style="margin: 0 auto; width: 90%" id="pandas" > Introduction to Pandas </h1>
         <br />
         <p style="width: 90%; margin: 0 auto;"> You'll learn how to select, explore and plot data in Pandas.  You'll do so using flood data from the FEMA API, and movie revenue data from 538.</p>
         <br />
-        <p style="width: 90%; margin: 0 auto"><b> Click on </b> the <b> free interactive lessons </b> to begin.  And check out the <a href="https://www.youtube.com/playlist?list=PLCG6Te769p1ha0WnJH-fRz_hD7jwQZCm6" target="_blank" style="text-decoration: underline;"> companion videos</a>.</p>
+        <p style="width: 90%; margin: 0 auto"><b> Click on </b> the <b> free interactive lessons </b> to begin.  </p>
         <br />
         <ol class="curriculum" style="columns: 2; font-size: 16px; margin: 0 auto; width: 100%;" start="1">
           <% @pandas_titles_and_links.each do |title, link| %>
